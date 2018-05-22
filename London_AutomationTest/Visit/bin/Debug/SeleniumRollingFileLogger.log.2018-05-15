@@ -1,0 +1,34 @@
+15-May-2018-16:43:10 [Visit.BaseClasses.BaseClass] [INFO] [GetFirefoxptions] -  Using Firefox Profile 
+15-May-2018-16:49:20 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+15-May-2018-16:49:57 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+15-May-2018-16:49:58 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-May-2018-16:50:01 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+15-May-2018-16:51:54 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+15-May-2018-16:52:16 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+15-May-2018-16:52:17 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-May-2018-16:52:21 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+15-May-2018-16:54:10 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+15-May-2018-16:54:18 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+15-May-2018-16:54:19 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-May-2018-16:54:21 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+15-May-2018-16:56:12 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+15-May-2018-16:56:25 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+15-May-2018-16:56:26 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-May-2018-16:56:32 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+15-May-2018-16:58:55 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+15-May-2018-16:59:04 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+15-May-2018-16:59:05 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-May-2018-16:59:11 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+15-May-2018-17:04:29 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+15-May-2018-17:04:46 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+15-May-2018-17:05:26 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-May-2018-17:06:38 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+15-May-2018-17:12:12 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+15-May-2018-17:12:38 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+15-May-2018-17:12:39 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-May-2018-17:12:43 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+15-May-2018-17:24:26 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+15-May-2018-17:24:37 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+15-May-2018-17:24:38 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-May-2018-17:25:35 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://visitlondon.com/things-to-do/place/401315-planet-hollywood
+15-May-2018-17:25:43 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  

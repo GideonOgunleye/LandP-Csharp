@@ -1,0 +1,10 @@
+16-May-2018-12:31:26 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+16-May-2018-14:39:59 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+16-May-2018-14:40:05 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+16-May-2018-14:40:07 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-May-2018-14:40:59 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://visitlondon.com/things-to-do/place/401315-planet-hollywood
+16-May-2018-14:41:07 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+16-May-2018-17:19:32 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+16-May-2018-17:19:43 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+16-May-2018-17:19:44 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-May-2018-17:19:47 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
