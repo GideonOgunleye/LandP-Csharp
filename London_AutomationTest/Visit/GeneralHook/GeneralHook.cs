@@ -21,6 +21,7 @@ namespace Visit.GeneralHook
         //}
 
         [BeforeScenario()]
+
         public void Initialise()
         {
             Console.WriteLine("Result :{0}", "Before Scenario................");
