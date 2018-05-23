@@ -94,8 +94,6 @@ this.ScenarioSetup(scenarioInfo);
 #line 8
  testRunner.Given("I visit the Homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.And("I don\'t see an error code", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 10
  testRunner.Then("I should be shown the main title \'OFFICIAL VISITOR GUIDE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

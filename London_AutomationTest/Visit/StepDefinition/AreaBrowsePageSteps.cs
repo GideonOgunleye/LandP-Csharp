@@ -33,7 +33,7 @@ namespace Visit.StepDefinition
             catch (Exception e)
             {
                 Logger.Error("Exception: " + e);
-                throw;
+                //throw;
             }
         }
 

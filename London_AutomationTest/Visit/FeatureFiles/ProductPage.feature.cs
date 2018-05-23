@@ -95,8 +95,6 @@ this.ScenarioSetup(scenarioInfo);
 #line 13
  testRunner.Given("I navigate to the product page \'/things-to-do/place/403052-radisson-blu-edwardian" +
                     "-grafton-hotel\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 14
- testRunner.And("I don\'t see an error code", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 15
  testRunner.Then("I should be shown the Main Image", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

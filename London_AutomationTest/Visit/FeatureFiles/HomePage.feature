@@ -6,5 +6,4 @@
 #@mytag
 Scenario: Home page is up
 	Given I visit the Homepage
-	And I don't see an error code
 	Then I should be shown the main title 'OFFICIAL VISITOR GUIDE'

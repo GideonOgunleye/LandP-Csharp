@@ -22,7 +22,7 @@ namespace Visit.PageObject
         [FindsBy(How = How.ClassName, Using = "tagline")]
         private IWebElement _title;
 
-        public string title()
+        public string HTitle()
         {
             //new WebDriverExtensions(_driver).WaitForPresence(_title);
             GenericHelper.WaitForWebElement(By.ClassName("tagline"), TimeSpan.FromMilliseconds(500));

@@ -18,14 +18,14 @@ namespace Visit.FeatureFiles
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class TagBrowserPageFeature
+    public partial class ThingsToDoPageFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "TagBrowserPage.feature"
+#line 1 "ThingsToDoPage.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,8 +44,9 @@ namespace Visit.FeatureFiles
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "TagBrowserPage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the an tag browser pa" +
-                    "ge is up and running:", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ThingsToDoPage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the Things To Do Hub " +
+                    "page is up and running:\r\n\t\t- Home page\r\n\t\t- Product page\r\n\t\t- Event calendar\r\n\t\t" +
+                    "- Things to do\r\n\t\t- London tube", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -60,9 +61,9 @@ namespace Visit.FeatureFiles
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "TagBrowserPage")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "ThingsToDoPage")))
             {
-                global::Visit.FeatureFiles.TagBrowserPageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles.ThingsToDoPageFeature.FeatureSetup(null);
             }
         }
         
@@ -84,17 +85,19 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Tag Browse page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "TagBrowserPage")]
-        public virtual void TagBrowsePageIsUp()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Things to do hub is up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ThingsToDoPage")]
+        public virtual void ThingsToDoHubIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Tag Browse page is up", ((string[])(null)));
-#line 7
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Things to do hub is up", ((string[])(null)));
+#line 12
 this.ScenarioSetup(scenarioInfo);
-#line 8
- testRunner.Given("I navigate to the Tag Browser page \'/tag/christmas-lights\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 10
- testRunner.Then("I should be shown the tag browse search grid", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 13
+ testRunner.Given("I navigate to the thing to do hub page \'/things-to-do\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 15
+ testRunner.Then("I should be shown the title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 16
+ testRunner.Then("I should be shown the intro copy", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

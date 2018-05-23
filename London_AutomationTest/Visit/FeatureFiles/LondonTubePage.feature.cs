@@ -84,20 +84,18 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("London tube is up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Add two numbers")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "LondonTubePage")]
-        public virtual void LondonTubeIsUp()
+        public virtual void AddTwoNumbers()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("London tube is up", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", ((string[])(null)));
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I navigate to the London tube page \'/traveller-information/getting-around-london/" +
-                    "london-tube\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
- testRunner.And("I don\'t see an error code", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("I navigate to the London tube page  \'/traveller-information/getting-around-london" +
+                    "/london-tube\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
- testRunner.Then("I should be shown the \'London Underground\' Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I should be shown the  \'London Underground\' Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

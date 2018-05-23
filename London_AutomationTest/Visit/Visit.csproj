@@ -130,10 +130,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TagBrowserPage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\ThingsToDoHubPage.feature.cs">
+    <Compile Include="FeatureFiles\ThingsToDoPage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ThingsToDoHubPage.feature</DependentUpon>
+      <DependentUpon>ThingsToDoPage.feature</DependentUpon>
     </Compile>
     <Compile Include="GeneralHook\GeneralHook.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
@@ -149,6 +149,11 @@
     <Compile Include="Settings\ObjectRepository.cs" />
     <Compile Include="StepDefinition\AreaBrowsePageSteps.cs" />
     <Compile Include="StepDefinition\EventCalenderPageSteps.cs" />
+    <Compile Include="StepDefinition\HomePageSteps.cs" />
+    <Compile Include="StepDefinition\LondonTubePageSteps.cs" />
+    <Compile Include="StepDefinition\ProductPageSteps.cs" />
+    <Compile Include="StepDefinition\TagBrowsePageSteps.cs" />
+    <Compile Include="StepDefinition\ThingsToDoPageSteps.cs" />
     <Compile Include="TestScript\Log4Net\TestLogger.cs" />
     <Compile Include="TestScript\TestNav.cs" />
     <Compile Include="UnitTest1.cs" />
@@ -180,9 +185,9 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>TagBrowserPage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\ThingsToDoHubPage.feature">
+    <None Include="FeatureFiles\ThingsToDoPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>ThingsToDoHubPage.feature.cs</LastGenOutput>
+      <LastGenOutput>ThingsToDoPage.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
