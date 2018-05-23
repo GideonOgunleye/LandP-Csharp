@@ -3,7 +3,7 @@
 	As a visitor
 	I want to check the an area browser page is up and running:
 
-#@Tag1
+@Smoke
 Scenario: Area Browse page is up
 	#Given I navigate to the Area Browser page '/area/london-bridge'
 	Given I navigate to the Area Browser page '/area/london-bridge'
