@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Visit.ComponentHelper;
 using Visit.Configuration;
@@ -32,7 +33,9 @@ namespace Visit.BaseClasses
         private static ChromeOptions GetChromeOptions()
         {
             ChromeOptions option = new ChromeOptions();
+            option.AddArgument("no-sandbox");
             option.AddArgument("start-maximized");
+            
             //option.AddExtension(@"C:\Users\rahul.rathore\Desktop\Cucumber\extension_3_0_12.crx");
             Logger.Info(" Using Chrome Options ");
             return option;
@@ -57,7 +60,9 @@ namespace Visit.BaseClasses
 
         private static ChromeDriver GetChromeDriver()
         {
-            ChromeDriver driver = new ChromeDriver(GetChromeOptions());
+            string chromeDriverDirectory = "./London_AutomationTest/Tools/chromedriver.exe";
+            ChromeDriver driver = new ChromeDriver(chromeDriverDirectory, GetChromeOptions(),TimeSpan.FromMinutes(3));
+            
             return driver;
         }
 
@@ -97,6 +102,8 @@ namespace Visit.BaseClasses
         //[BeforeFeature()]
         public static void InitWebdriver(TestContext tc)
         {
+            //Thread.Sleep(5000);
+
             ObjectRepository.Config = new AppConfigReader();
 
             switch (ObjectRepository.Config.GetBrowser())
