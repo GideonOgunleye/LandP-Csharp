@@ -87,6 +87,7 @@ namespace Visit.FeatureFiles
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "7")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.Priority(1)]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Product page is up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ProductPage")]
         public virtual void ProductPageIsUp()
