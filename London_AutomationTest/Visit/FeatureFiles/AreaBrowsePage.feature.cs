@@ -85,7 +85,7 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "5")]
+        //[Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "5")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Area Browse page is up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "AreaBrowsePage")]
         public virtual void AreaBrowsePageIsUp()

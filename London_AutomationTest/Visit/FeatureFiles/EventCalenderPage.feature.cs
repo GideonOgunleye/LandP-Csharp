@@ -85,7 +85,7 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "4")]
+        //[Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "4")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Event calendar page is up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "EventCalendarPage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Event")]

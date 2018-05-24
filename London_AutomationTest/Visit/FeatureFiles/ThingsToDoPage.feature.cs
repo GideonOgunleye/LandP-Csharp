@@ -86,7 +86,7 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "6")]
+        //[Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "6")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Things to do hub is up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ThingsToDoPage")]
         public virtual void ThingsToDoHubIsUp()
