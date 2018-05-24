@@ -92,7 +92,7 @@ namespace Visit.FeatureFiles
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("LondonTubePageIsUp")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "1")]
+        //[Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "1")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "LondonTubePage")]
         public virtual void LondonTubePageIsUp()
         {

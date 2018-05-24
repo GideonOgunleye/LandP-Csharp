@@ -85,7 +85,8 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "2")]
+        //[Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "2")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.Priority(2)]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Tag Browse page is up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "TagBrowserPage")]
         public virtual void TagBrowsePageIsUp()

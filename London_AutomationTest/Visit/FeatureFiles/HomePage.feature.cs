@@ -85,8 +85,8 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "3")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.Priority(2)]
+        //[Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "3")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.Priority(1)]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Home page is up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "HomePage")]
         public virtual void HomePageIsUp()
