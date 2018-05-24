@@ -18,7 +18,6 @@ namespace Visit.FeatureFiles
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategory("Smoke")]
     public partial class LondonTubePageFeature
     {
         
@@ -85,11 +84,11 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Add two numbers")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("LondonTubePageIsUp")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "LondonTubePage")]
-        public virtual void AddTwoNumbers()
+        public virtual void LondonTubePageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("LondonTubePageIsUp", ((string[])(null)));
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8

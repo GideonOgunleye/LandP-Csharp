@@ -22,6 +22,8 @@ namespace Visit.BaseClasses
     public class BaseClass
     {
         private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        
+
         private static FirefoxProfile GetFirefoxptions()
         {
             FirefoxProfile profile = new FirefoxProfile();
@@ -33,11 +35,25 @@ namespace Visit.BaseClasses
         private static ChromeOptions GetChromeOptions()
         {
             ChromeOptions option = new ChromeOptions();
-            option.AddArgument("no-sandbox");
-            option.AddArgument("start-maximized");
-            
-            //option.AddExtension(@"C:\Users\rahul.rathore\Desktop\Cucumber\extension_3_0_12.crx");
-            Logger.Info(" Using Chrome Options ");
+
+            try
+            {
+
+                //option.BinaryLocation = @"C:\\Workspace\\London_AutomationTest\\packages\\Selenium.WebDriver.ChromeDriver.2.38.0.1\\driver\\win32\\chromedriver.exe";
+                option.AddArgument("no-sandbox");
+                option.AddArgument("--log-level=3");
+                option.AddArgument("start-maximized");
+
+                //option.AddExtension(@"C:\Users\rahul.rathore\Desktop\Cucumber\extension_3_0_12.crx");
+                Logger.Info(" Using Chrome Options ");
+                
+            }
+            catch (Exception e)
+            {
+                Logger.Info(e);
+                //throw;
+            }
+
             return option;
         }
 
@@ -60,9 +76,13 @@ namespace Visit.BaseClasses
 
         private static ChromeDriver GetChromeDriver()
         {
-            string chromeDriverDirectory = "./London_AutomationTest/Tools/chromedriver.exe";
-            ChromeDriver driver = new ChromeDriver(chromeDriverDirectory, GetChromeOptions(),TimeSpan.FromMinutes(3));
-            
+            ChromeDriverService service = ChromeDriverService.CreateDefaultService();
+            service.SuppressInitialDiagnosticInformation = true;
+            //string chromeDriverDirectory = "C:\\Workspace\\London_AutomationTest\\packages\\Selenium.WebDriver.ChromeDriver.2.38.0.1\\driver\\win32\\chromedriver.exe";
+            ChromeDriver driver = new ChromeDriver(service , GetChromeOptions(), TimeSpan.FromMinutes(3));
+
+            //ChromeDriver driver = new ChromeDriver(GetChromeOptions());
+
             return driver;
         }
 
