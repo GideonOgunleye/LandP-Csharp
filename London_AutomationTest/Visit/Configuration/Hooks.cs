@@ -24,7 +24,7 @@ namespace Visit.Configuration
         private static ExtentTest scenario;
         private static ExtentReports extent;
         private static KlovReporter klov;
-        private static string ApplicationDebugFolder => "C://Users//TOM//source//repos//Automation Tests//London_AutomationTest//Visit//TestReport";
+        private static string ApplicationDebugFolder => @"TestReport\";
 
         private static string HtmlReportFullPath { get; set; }
 
@@ -44,19 +44,22 @@ namespace Visit.Configuration
         public static void InitializeReport()
         {
             //Initialize Extent report before test starts
-            /*string fileName = "ExtentReport.html";
-            string path = Path.Combine(".\\TestReport", fileName);*/
-            var htmlReporter = new ExtentHtmlReporter(@"C:\Users\TOM\source\repos\Automation Tests\London_AutomationTest\Visit\TestReport\ExtentReport.html");
-            htmlReporter.Configuration().Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;
-
-            /*string path = Environment.CurrentDirectory;
-            var filePath = Path.GetFullPath(ApplicationDebugFolder);
-            LatestResultReportFolder = Path.Combine(path,filePath, DateTime.Now.ToString("MMdd_HHmm"));
-            Directory.CreateDirectory(LatestResultReportFolder);
-            HtmlReportFullPath = $"{LatestResultReportFolder}\\ExtentReport.html";
-            //TheLogger.Info("Test Logged" + HtmlReportFullPath);
-            var htmlReporter = new ExtentHtmlReporter(HtmlReportFullPath);
+            string fileName = "ExtentReport.html";
+            //string htmlpath = Path.Combine(".\\TestReport", fileName);
+            /*var htmlReporter = new ExtentHtmlReporter(@"London_AutomationTest\Visit\TestReport\ExtentReport.html");
             htmlReporter.Configuration().Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;*/
+
+            string path = Environment.CurrentDirectory;
+            var filePath = Path.GetFullPath(ApplicationDebugFolder);
+
+            //LatestResultReportFolder = Path.Combine(path,filePath, DateTime.Now.ToString("MMdd_HHmm"));
+            //Directory.CreateDirectory(LatestResultReportFolder);
+            //HtmlReportFullPath = $"{LatestResultReportFolder}\\ExtentReport.html";
+            //TheLogger.Info("Test Logged" + HtmlReportFullPath);
+            LatestResultReportFolder = Path.Combine(path, filePath, fileName);
+
+            var htmlReporter = new ExtentHtmlReporter(LatestResultReportFolder);
+            htmlReporter.Configuration().Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;
 
             extent = new ExtentReports();
             extent.AttachReporter(htmlReporter);
