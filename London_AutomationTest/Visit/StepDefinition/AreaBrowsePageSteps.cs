@@ -10,7 +10,8 @@ using Visit.BaseClasses;
 using Visit.ComponentHelper;
 using Visit.Settings;
 using Visit.PageObject;
-using log4net;
+//using log4net;
+using NLog;
 
 namespace Visit.StepDefinition
 {
@@ -18,7 +19,8 @@ namespace Visit.StepDefinition
     public class AreaBrowsePageSteps     
     {
         //private AreaBrowsePage ABpage;
-        private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        //private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         [Given(@"I navigate to the Area Browser page '(.*)'")]
         public void GivenINavigateToTheAreaBrowserPage(string p0)
@@ -54,7 +56,8 @@ namespace Visit.StepDefinition
             {
                 ObjectRepository.ABpage = new AreaBrowsePage(ObjectRepository.Driver);
                 Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
-                
+                //ReportHelper.PassingTestLogger("Test Sucessful");
+
             }
             catch (Exception e)
             {

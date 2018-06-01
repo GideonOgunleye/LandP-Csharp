@@ -1,0 +1,120 @@
+31-May-2018-11:21:40 [Visit.ComponentHelper.ReportHelper] [INFO] [StartReporter] - Sample.....
+31-May-2018-11:21:40 [Visit.ComponentHelper.ReportHelper] [INFO] [CreateReporterDirectory] - Test LoggedC:\Users\TOM\source\repos\Automation Tests\London_AutomationTest\Visit\TestReport\0531_1121\TestResults.html
+31-May-2018-11:21:40 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+31-May-2018-11:21:45 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+31-May-2018-11:21:46 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-11:21:53 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-11:21:53 [Visit.ComponentHelper.ReportHelper] [INFO] [PassingTestLogger] - TestReport Sucessful
+31-May-2018-11:21:56 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+31-May-2018-11:24:50 [Visit.ComponentHelper.ReportHelper] [INFO] [StartReporter] - Sample.....
+31-May-2018-11:24:50 [Visit.ComponentHelper.ReportHelper] [INFO] [CreateReporterDirectory] - Test LoggedC:\Users\TOM\source\repos\Automation Tests\London_AutomationTest\Visit\TestReport\0531_1124\TestResults.html
+31-May-2018-11:24:51 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+31-May-2018-11:24:55 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+31-May-2018-11:24:55 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-11:25:00 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-11:25:06 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+31-May-2018-11:25:28 [Visit.ComponentHelper.ReportHelper] [INFO] [StartReporter] - Sample.....
+31-May-2018-11:25:28 [Visit.ComponentHelper.ReportHelper] [INFO] [CreateReporterDirectory] - Test LoggedC:\Users\TOM\source\repos\Automation Tests\London_AutomationTest\Visit\TestReport\0531_1125\TestResults.html
+31-May-2018-11:25:28 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+31-May-2018-11:25:32 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+31-May-2018-11:25:32 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-11:25:37 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-11:25:37 [Visit.ComponentHelper.ReportHelper] [INFO] [PassingTestLogger] - TestReport Sucessful
+31-May-2018-11:25:39 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+31-May-2018-11:41:24 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-11:41:28 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-11:44:30 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-11:45:01 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-11:54:36 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-11:55:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-12:00:28 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-12:00:33 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-12:05:35 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-12:05:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-12:41:41 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-12:41:45 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-12:48:31 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-12:48:37 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-13:15:26 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-13:15:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-13:17:36 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-13:17:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-13:17:53 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-13:18:59 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-13:19:07 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-13:19:30 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+31-May-2018-13:31:51 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-13:58:41 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-14:00:49 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-14:01:29 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-14:01:34 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-01-34.jpeg
+31-May-2018-14:01:37 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-14:01:37 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-14:01:38 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-14:05:09 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-14:05:24 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-14:05:25 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-05-25.jpeg
+31-May-2018-14:05:25 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-14:05:25 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-14:05:25 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-14:14:10 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-14:14:19 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-14:14:19 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-14-19.jpeg
+31-May-2018-14:14:19 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-14:14:19 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-14:14:19 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-15:56:02 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-15:58:07 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-15:58:24 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-16:00:53 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-16:01:10 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-16:03:49 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-16:04:08 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-16:04:09 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-04-09.jpeg
+31-May-2018-16:04:09 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-16:04:09 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-16:04:10 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-16:07:56 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-16:08:07 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-16:08:08 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-08-08.jpeg
+31-May-2018-16:08:08 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-16:08:08 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-16:08:08 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-16:27:04 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-16:27:11 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-16:45:43 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-16:45:52 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-16:45:53 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-45-53.jpeg
+31-May-2018-16:45:53 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-16:45:53 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-16:45:53 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-16:49:43 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-16:49:51 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-16:49:53 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-49-52.jpeg
+31-May-2018-16:49:53 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-16:49:53 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-16:49:53 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-16:51:36 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-16:51:58 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-16:51:59 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-51-59.jpeg
+31-May-2018-16:51:59 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-16:51:59 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-16:51:59 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-17:00:33 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-17:00:42 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-17:00:43 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-00-43.jpeg
+31-May-2018-17:00:43 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-17:00:43 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-17:00:43 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-17:04:10 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-17:04:27 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-17:04:28 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-04-28.jpeg
+31-May-2018-17:04:28 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-17:04:28 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-17:04:28 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+31-May-2018-17:09:17 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+31-May-2018-17:09:35 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+31-May-2018-17:09:36 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-31-09-36.jpeg
+31-May-2018-17:09:36 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+31-May-2018-17:09:36 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+31-May-2018-17:09:36 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 

@@ -1,41 +1,6 @@
-24-May-2018-09:53:56 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-09:56:23 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-10:46:38 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-10:57:16 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-10:58:00 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-11:02:17 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-11:03:46 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-11:39:45 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-11:39:50 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
-24-May-2018-11:39:51 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-24-May-2018-11:40:01 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
-24-May-2018-11:40:02 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-05-24-40-02.jpeg
-24-May-2018-11:40:02 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
-24-May-2018-11:40:02 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-24-May-2018-11:40:02 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
-24-May-2018-11:40:05 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
-24-May-2018-12:09:45 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-12:10:01 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
-24-May-2018-12:10:03 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-24-May-2018-12:10:16 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//traveller-information/getting-around-london/london-tube
-24-May-2018-12:10:16 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
-24-May-2018-12:10:16 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-24-May-2018-12:10:16 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
-24-May-2018-12:10:20 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
-24-May-2018-14:38:10 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
-24-May-2018-14:39:45 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-14:39:50 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
-24-May-2018-14:39:51 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-24-May-2018-14:39:58 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
-24-May-2018-14:39:58 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-24-May-2018-14:39:58 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-24-May-2018-14:39:58 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-24-May-2018-14:40:01 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
-24-May-2018-14:40:39 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
-24-May-2018-14:40:44 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
-24-May-2018-14:40:45 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-24-May-2018-14:41:03 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
-24-May-2018-14:41:03 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-24-May-2018-14:41:03 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-24-May-2018-14:41:03 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-24-May-2018-14:41:07 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+01-Jun-2018-10:06:03 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+01-Jun-2018-10:06:19 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+01-Jun-2018-10:06:20 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-06-01-06-20.jpeg
+01-Jun-2018-10:06:20 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+01-Jun-2018-10:06:20 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+01-Jun-2018-10:06:21 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 

@@ -1,6 +1,7 @@
 ﻿//using ExcelDataReader.Log;
-using log4net;
+//using log4net;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NLog;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
@@ -21,12 +22,18 @@ namespace Visit.BaseClasses
     [TestClass]
     public class BaseClass
     {
-        private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        //private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
+
+        public TestContext TestContext { get; set; }
+
+        private ScreenshotTaker ScreenshotTaker { get; set; }
         
 
         private static FirefoxProfile GetFirefoxptions()
         {
             FirefoxProfile profile = new FirefoxProfile();
+            
             FirefoxProfileManager manager = new FirefoxProfileManager();
             //profile = manager.GetProfile("default");
             Logger.Info(" Using Firefox Profile ");
@@ -117,12 +124,28 @@ namespace Visit.BaseClasses
             return service;
         }
 
+        private void TakeScreenshotForTestFailure()
+        {
+            if (ScreenshotTaker != null)
+            {
+                ScreenshotTaker.CreateScreenshotIfTestFailed();
+                ReportHelper.ReportTestOutCome(ScreenshotTaker.ScreenshotFilePath);
+            }
+            else
+            {
+                ReportHelper.ReportTestOutCome("");
+            }
+        }
+
 
         [AssemblyInitialize]
         //[BeforeFeature()]
+        
+
         public static void InitWebdriver(TestContext tc)
         {
             //Thread.Sleep(5000);
+            //ReportHelper.StartReporter();
 
             ObjectRepository.Config = new AppConfigReader();
 
@@ -157,13 +180,17 @@ namespace Visit.BaseClasses
             //.SetPageLoadTimeout(TimeSpan.FromSeconds(ObjectRepository.Config.GetPageLoadTimeOut()));
             ObjectRepository.Driver.Manage().Timeouts().ImplicitWait = (TimeSpan.FromSeconds(ObjectRepository.Config.GetElementLoadTimeOut()));
             BrowserHelper.BrowserMaximize();
+
+
         }
+
 
 
         [AssemblyCleanup]
         //[AfterScenario()]
         public static void TearDown()
         {
+
             if (ObjectRepository.Driver != null)
             {
                 ObjectRepository.Driver.Close();

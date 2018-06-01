@@ -1,0 +1,42 @@
+29-May-2018-13:18:22 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:18:32 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:18:33 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:18:38 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+29-May-2018-13:18:47 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+29-May-2018-13:24:07 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:24:15 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:24:16 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:24:21 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+29-May-2018-13:24:28 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+29-May-2018-13:27:02 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:27:07 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:27:08 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:27:13 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+29-May-2018-13:27:18 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+29-May-2018-13:33:22 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:33:29 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:33:30 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:33:33 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+29-May-2018-13:36:36 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:36:43 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:36:44 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:36:46 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+29-May-2018-13:40:31 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:40:43 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:40:44 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:40:47 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+29-May-2018-13:42:25 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:42:35 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:42:36 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:42:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+29-May-2018-13:42:43 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+29-May-2018-13:45:37 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:45:44 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:45:45 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:45:51 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+29-May-2018-13:45:54 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
+29-May-2018-13:55:27 [Visit.BaseClasses.BaseClass] [INFO] [GetChromeOptions] -  Using Chrome Options 
+29-May-2018-13:55:42 [Visit.BaseClasses.BaseClass] [INFO] [InitWebdriver] -  Using Chrome Driver  
+29-May-2018-13:55:44 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-May-2018-13:55:51 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+29-May-2018-13:55:55 [Visit.BaseClasses.BaseClass] [INFO] [TearDown] -  Stopping the Driver  
