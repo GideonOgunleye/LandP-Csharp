@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NLog;
 using TechTalk.SpecFlow;
 using Visit.BaseClasses;
 using Visit.ComponentHelper;
@@ -17,6 +18,7 @@ namespace Visit.StepDefinition
     public class ThingsToDoPageSteps
     {
         private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        //private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         [Given(@"I navigate to the thing to do hub page '(.*)'")]
         public void GivenINavigateToTheThingToDoHubPage(string p0)

@@ -1,5 +1,6 @@
 ﻿using log4net;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace Visit.StepDefinition
     public class EventCalenderPageSteps 
     {
         private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        //private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         [Given(@"I navigate to event calendar page '(.*)'")]
         public void GivenINavigateToEventCalendarPage(string p0)

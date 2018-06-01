@@ -10,6 +10,7 @@ using Visit.BaseClasses;
 using Visit.Settings;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Visit.PageObject;
+using NLog;
 
 namespace Visit.StepDefinition
 {
@@ -17,6 +18,7 @@ namespace Visit.StepDefinition
     public class HomePageSteps
     {
         private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        //private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         [Given(@"I visit the Homepage")]
         public void GivenIVisitTheHomepage()

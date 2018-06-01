@@ -22,7 +22,7 @@ namespace Visit.GeneralHook
         //{
         //  _objectContainer = objectContainer;
         //}
-        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
+        //private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         public TestContext TestContext { get; set; }
 

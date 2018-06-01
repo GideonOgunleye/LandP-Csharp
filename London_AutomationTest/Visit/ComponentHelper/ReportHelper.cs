@@ -58,8 +58,8 @@ namespace Visit.ComponentHelper
         public static void AddTestCaseMetaDataToHtmlReport(TestContext testContext)
         {
             MyTestContext = testContext;
-            //CurrentTestCase = ReportManager.CreateTest(MyTestContext.TestName);
-            CurrentTestCase = ReportManager.CreateTest<Feature>("Feature");
+            CurrentTestCase = ReportManager.CreateTest(MyTestContext.TestName);
+            //CurrentTestCase = ReportManager.CreateTest<Feature>("Feature");
             //CurrentTestCase.CreateNode<Scenario>(MyTestContext.)
         }
 

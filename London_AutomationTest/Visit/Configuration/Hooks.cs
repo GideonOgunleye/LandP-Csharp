@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.ServiceModel.Syndication;
 using System.Text;
 using System.Threading.Tasks;
 using AventStack.ExtentReports;
@@ -23,6 +24,11 @@ namespace Visit.Configuration
         private static ExtentTest scenario;
         private static ExtentReports extent;
         private static KlovReporter klov;
+        private static string ApplicationDebugFolder => "C://Users//TOM//source//repos//Automation Tests//London_AutomationTest//Visit//TestReport";
+
+        private static string HtmlReportFullPath { get; set; }
+
+        public static string LatestResultReportFolder { get; set; }
 
         private readonly IObjectContainer _objectContainer;
 
@@ -38,9 +44,18 @@ namespace Visit.Configuration
         public static void InitializeReport()
         {
             //Initialize Extent report before test starts
-            //string fileName = "ExtentReport.html";
-            //string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"TestReport\", fileName);
-            var htmlReporter = new ExtentHtmlReporter(@"C:\Users\TOM\source\repos\Automation Tests\London_AutomationTest\Visit\TestReport\ExtentReport.html");
+            /*string fileName = "ExtentReport.html";
+            string path = Path.Combine(".\\TestReport", fileName);
+            var htmlReporter = new ExtentHtmlReporter(path);
+            htmlReporter.Configuration().Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;*/
+
+            string path = Environment.CurrentDirectory;
+            var filePath = Path.GetFullPath(ApplicationDebugFolder);
+            LatestResultReportFolder = Path.Combine(path,filePath, DateTime.Now.ToString("MMdd_HHmm"));
+            Directory.CreateDirectory(LatestResultReportFolder);
+            HtmlReportFullPath = $"{LatestResultReportFolder}\\ExtentReport.html";
+            //TheLogger.Info("Test Logged" + HtmlReportFullPath);
+            var htmlReporter = new ExtentHtmlReporter(HtmlReportFullPath);
             htmlReporter.Configuration().Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;
 
             extent = new ExtentReports();

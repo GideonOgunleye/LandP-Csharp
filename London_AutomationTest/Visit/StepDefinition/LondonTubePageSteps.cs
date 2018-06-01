@@ -1,5 +1,6 @@
 ﻿using log4net;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Visit.StepDefinition
     public class LondonTubePageSteps
     {
         private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(BaseClass));
+        //private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
         [Given(@"I navigate to the London tube page  '(.*)'")]
         public void GivenINavigateToTheLondonTubePage(string p0)
