@@ -139,3 +139,33 @@
 01-Jun-2018-12:56:52 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
 01-Jun-2018-12:56:52 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
 01-Jun-2018-12:56:52 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+01-Jun-2018-13:53:23 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+01-Jun-2018-13:53:39 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+01-Jun-2018-13:53:41 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-06-01-53-40.jpeg
+01-Jun-2018-13:53:41 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+01-Jun-2018-13:53:41 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+01-Jun-2018-13:53:41 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+01-Jun-2018-16:03:01 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+01-Jun-2018-16:03:16 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+01-Jun-2018-16:03:17 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-06-01-03-16.jpeg
+01-Jun-2018-16:03:17 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+01-Jun-2018-16:03:17 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+01-Jun-2018-16:03:17 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+01-Jun-2018-16:11:31 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+01-Jun-2018-16:11:40 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+01-Jun-2018-16:11:41 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-06-01-11-41.jpeg
+01-Jun-2018-16:11:41 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+01-Jun-2018-16:11:41 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+01-Jun-2018-16:11:41 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+01-Jun-2018-16:14:33 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+01-Jun-2018-16:14:49 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+01-Jun-2018-16:14:50 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-06-01-14-49.jpeg
+01-Jun-2018-16:14:50 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+01-Jun-2018-16:14:50 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+01-Jun-2018-16:14:50 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+01-Jun-2018-16:18:35 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+01-Jun-2018-16:18:46 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+01-Jun-2018-16:18:47 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-06-01-18-47.jpeg
+01-Jun-2018-16:18:47 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+01-Jun-2018-16:18:47 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+01-Jun-2018-16:18:47 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 

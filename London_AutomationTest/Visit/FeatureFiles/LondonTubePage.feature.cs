@@ -9,9 +9,6 @@
 //  </auto-generated>
 // ------------------------------------------------------------------------------
 #region Designer generated code
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 #pragma warning disable
 namespace Visit.FeatureFiles
 {
@@ -21,10 +18,7 @@ namespace Visit.FeatureFiles
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    //[Microsoft.VisualStudio.TestTools.UnitTesting.TestCategory("Smoke")]
-    
-    
-    
+    [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategory("Smoke")]
     public partial class LondonTubePageFeature
     {
         
@@ -92,7 +86,6 @@ namespace Visit.FeatureFiles
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("LondonTubePageIsUp")]
-        //[Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Priority", "1")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "LondonTubePage")]
         public virtual void LondonTubePageIsUp()
         {
