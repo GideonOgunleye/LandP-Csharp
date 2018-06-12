@@ -13,6 +13,7 @@ using BoDi;
 using OpenQA.Selenium.Remote;
 using TechTalk.SpecFlow;
 using Visit.ComponentHelper;
+using Visit.Settings;
 
 namespace Visit.Configuration
 {
@@ -75,7 +76,7 @@ namespace Visit.Configuration
         public static void BeforeFeature()
         {
             featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
-            
+
         }
 
         [AfterStep]
@@ -102,12 +103,27 @@ namespace Visit.Configuration
             }
             else if (ScenarioContext.Current.TestError != null)
             {
+                //string screenShotPath = GenericHelper.Capture(ObjectRepository.Driver, "Error");
+
                 if (stepType == "Given")
-                    scenario.CreateNode<Given>(ScenarioStepContext.Current.StepInfo.Text).Fail(ScenarioContext.Current.TestError.InnerException);
+                    scenario.CreateNode<Given>(ScenarioStepContext.Current.StepInfo.Text)
+                        .Fail(ScenarioContext.Current.TestError.Message);
+                //.AddScreenCaptureFromPath(screenShotPath, "Screen");
+
                 else if (stepType == "When")
-                    scenario.CreateNode<When>(ScenarioStepContext.Current.StepInfo.Text).Fail(ScenarioContext.Current.TestError.InnerException);
+                    scenario.CreateNode<When>(ScenarioStepContext.Current.StepInfo.Text)
+                        .Fail(ScenarioContext.Current.TestError.Message);
+                        //.AddScreenCaptureFromPath(screenShotPath, "Screen");
+
                 else if (stepType == "Then")
-                    scenario.CreateNode<Then>(ScenarioStepContext.Current.StepInfo.Text).Fail(ScenarioContext.Current.TestError.Message);
+                    scenario.CreateNode<Then>(ScenarioStepContext.Current.StepInfo.Text)
+                        .Fail(ScenarioContext.Current.TestError.Message);
+                        //.AddScreenCaptureFromPath(screenShotPath, "Screen");
+
+                else if (stepType == "And")
+                    scenario.CreateNode<And>(ScenarioStepContext.Current.StepInfo.Text)
+                        .Fail(ScenarioContext.Current.TestError.InnerException);
+                        //.AddScreenCaptureFromPath(screenShotPath, "Screen");
             }
 
             //Pending Status
@@ -119,7 +135,6 @@ namespace Visit.Configuration
                     scenario.CreateNode<When>(ScenarioStepContext.Current.StepInfo.Text).Skip("Step Definition Pending");
                 else if (stepType == "Then")
                     scenario.CreateNode<Then>(ScenarioStepContext.Current.StepInfo.Text).Skip("Step Definition Pending");
-
             }*/
 
         }
