@@ -3,7 +3,7 @@
 	As a visitor
 	I want to check the London tube page is up and running:
 
-#@mytag
+@web
 Scenario: LondonTubePageIsUp
 	Given I navigate to the London tube page  '/traveller-information/getting-around-london/london-tube'
 	#And I don't see an error code

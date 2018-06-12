@@ -75,7 +75,7 @@ namespace Visit.Configuration
             extent.Flush();
         }
 
-        [BeforeFeature]
+        [BeforeFeature ("web")]
         public static void BeforeFeature(FeatureContext featureContext)
         {
             //featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
