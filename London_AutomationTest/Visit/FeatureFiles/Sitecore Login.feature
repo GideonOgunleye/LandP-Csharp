@@ -14,10 +14,4 @@ Scenario: Login With Valid Credentials
 	When User Clicks on Content Editor Tab
 	Then Content Editor Page Should Be Displayed
 
-Scenario: Login WIth Invalid Credentials
-	Given User is On CMS Login Page "http://qa.cms.londonandpartners.com/sitecore/login"
-	When User Enters InValid Credebtials
-	| Username | Password |
-	| Valid    | InValid  |
-	And Clicks Login Button
-	Then User Should See Invalid Login Message "" on Screen
+

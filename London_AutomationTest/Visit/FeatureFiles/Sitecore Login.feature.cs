@@ -100,33 +100,6 @@ this.ScenarioSetup(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Login WIth Invalid Credentials")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Sitecore Login")]
-        public virtual void LoginWIthInvalidCredentials()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login WIth Invalid Credentials", ((string[])(null)));
-#line 17
-this.ScenarioSetup(scenarioInfo);
-#line 18
- testRunner.Given("User is On CMS Login Page \"http://qa.cms.londonandpartners.com/sitecore/login\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Username",
-                        "Password"});
-            table2.AddRow(new string[] {
-                        "Valid",
-                        "InValid"});
-#line 19
- testRunner.When("User Enters InValid Credebtials", ((string)(null)), table2, "When ");
-#line 22
- testRunner.And("Clicks Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 23
- testRunner.Then("User Should See Invalid Login Message \"\" on Screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
     }
 }
 #pragma warning restore
