@@ -90,6 +90,8 @@ namespace Visit.Configuration
             //MethodInfo getter = pInfo.GetGetMethod(nonPublic: true);
             //object TestResult = getter.Invoke(ScenarioContext.Current, null);
 
+
+
             if (ScenarioContext.Current.TestError == null)
             {
                 if (stepType == "Given")
@@ -122,7 +124,7 @@ namespace Visit.Configuration
 
                 else if (stepType == "And")
                     scenario.CreateNode<And>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.InnerException);
+                        .Fail(ScenarioContext.Current.TestError.Message);
                         //.AddScreenCaptureFromPath(screenShotPath, "Screen");
             }
 
