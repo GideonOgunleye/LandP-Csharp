@@ -140,11 +140,11 @@ namespace Visit.Configuration
         }
 
 
-        [AfterFeature]
+        /*[AfterFeature]
         public static void AfterFeature()
         {
             Console.WriteLine("AfterFeature Hook");
-        }
+        }*/
 
         [BeforeScenario]
         public static void BeforeScenario()
