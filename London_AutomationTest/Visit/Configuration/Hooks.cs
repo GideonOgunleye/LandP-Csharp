@@ -36,13 +36,18 @@ namespace Visit.Configuration
 
         private RemoteWebDriver _driver;
 
-        private readonly FeatureContext featureContext;
+        //private readonly FeatureContext featureContext;
 
         public Hooks(IObjectContainer objectContainer)
         {
             _objectContainer = objectContainer;
         }
 
+        /*public static void StepsWithScenarioContext(FeatureContext featureContext)
+        {
+            if (featureContext == null) throw new ArgumentNullException("featureContext");
+            this.featureContext = featureContext;
+        }*/
 
         [BeforeTestRun]
         public static void InitializeReport()
@@ -75,19 +80,15 @@ namespace Visit.Configuration
             extent.Flush();
         }
 
-        [BeforeFeature ("web")]
-        public static void BeforeFeature(FeatureContext featureContext)
+        [BeforeFeature]
+        public static void BeforeFeature()
         {
-            //featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
-            if (featureContext == null)
-                throw new ArgumentNullException("featureContext");
             
-
             featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
 
         }
 
-        [BeforeFeature ("cms")]
+        /*[BeforeFeature ("cms")]
         public static void BeforeCmsFeature(FeatureContext featureContext)
         {
             //featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
@@ -97,7 +98,7 @@ namespace Visit.Configuration
 
             featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
 
-        }
+        }*/
 
         [AfterStep]
         public void InsertReportingSteps()

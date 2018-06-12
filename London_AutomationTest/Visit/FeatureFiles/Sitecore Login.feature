@@ -3,7 +3,7 @@
 	I Want To Be Able to Login To The Content Editor CMS
 	So That I Can Create And Edit Content
 
-@cms
+#@cms
 Scenario: Login With Valid Credentials
 	Given User is On CMS Login Page 'http://qa.cms.londonandpartners.com/sitecore/login'
 	When User Enters Valid Credebtials
