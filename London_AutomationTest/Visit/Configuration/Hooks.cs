@@ -11,6 +11,7 @@ using AventStack.ExtentReports.Gherkin.Model;
 using AventStack.ExtentReports.Reporter;
 using BoDi;
 using OpenQA.Selenium.Remote;
+using RazorEngine.Compilation.ImpromptuInterface.Dynamic;
 using TechTalk.SpecFlow;
 using Visit.ComponentHelper;
 using Visit.Settings;
@@ -34,6 +35,8 @@ namespace Visit.Configuration
         private readonly IObjectContainer _objectContainer;
 
         private RemoteWebDriver _driver;
+
+        private readonly FeatureContext featureContext;
 
         public Hooks(IObjectContainer objectContainer)
         {
@@ -73,8 +76,25 @@ namespace Visit.Configuration
         }
 
         [BeforeFeature]
-        public static void BeforeFeature()
+        public static void BeforeFeature(FeatureContext featureContext)
         {
+            //featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
+            if (featureContext == null)
+                throw new ArgumentNullException("featureContext");
+            
+
+            featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
+
+        }
+
+        [BeforeFeature ("cms")]
+        public static void BeforeCmsFeature(FeatureContext featureContext)
+        {
+            //featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
+            if (featureContext == null)
+                throw new ArgumentNullException("featureContext");
+
+
             featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
 
         }
