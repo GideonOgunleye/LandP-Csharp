@@ -113,6 +113,8 @@ namespace Visit.StepDefinition
             {
                 AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]")).Text, "Home");
                 GenericHelper.TakeScreenShot();
+                //ButtonHelper.ClickButton(By.XPath(".//*[@class='sc-globalHeader-loginInfo']/child::span[@class='logout']"));
+
             }
             catch (Exception e)
             {

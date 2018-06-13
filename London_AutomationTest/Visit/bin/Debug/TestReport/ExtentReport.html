@@ -43,7 +43,7 @@
         <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 
             <a>
-                <span class='suite-start-time label blue darken-3'>6/12/2018 2:59:24 PM GMT Standard Time</span>
+                <span class='suite-start-time label blue darken-3'>6/13/2018 6:27:40 PM GMT Standard Time</span>
             </a>
             <a>
                 <span class="label blue darken-3">3.1.0</span>
@@ -123,7 +123,7 @@
                     <canvas id='parent-analysis' width='100' height='80'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span><span class='strong'>3</span> test(s) passed</span>
+                    <span><span class='strong'>8</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong'>0</span> test(s) failed, <span class='strong'>0</span> others
@@ -138,7 +138,7 @@
                         <canvas id='child-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>3</span> step(s) passed</span>
+                        <span><span class='strong'>8</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
                         <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
@@ -153,7 +153,7 @@
                         <canvas id='grandchild-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>10</span> step(s) passed</span>
+                        <span><span class='strong'>23</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
                         <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
@@ -172,58 +172,108 @@
 
                     <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='1'>
                         <div class='test-heading'>
-                            <span class='test-name'>Sitecore Login</span>
-                            <span class='test-time'>6/12/2018 2:59:24 PM</span>
+                            <span class='test-name'>AreaBrowsePage</span>
+                            <span class='test-time'>6/13/2018 6:27:40 PM</span>
                             <span class='test-status right pass'>Pass</span>
                         </div>
                         <div class='test-content hide'>
                                     <div class='scenario node' test-id='2' status='pass'>
-                                        <span class='scenario-duration right label'>00:00:32.2409695</span>
+                                        <span class='scenario-duration right label'>00:00:13.5712305</span>
                                         <div class='scenario-desc'>
                                             <b>Scenario</b>
-                                            Login With Valid Credentials
+                                            Area Browse page is up
 
                                             
                                         </div>
                                             <ul class='steps'>
                                                     <li test-id='3' class='node given pass' status='given pass'>
                                                         <b>Given</b>
-                                                        User is On CMS Login Page 'http://qa.cms.londonandpartners.com/sitecore/login'
+                                                        I navigate to the Area Browser page '/area/london-bridge'
                                                                                                                                                                     </li>
-                                                    <li test-id='4' class='node when pass' status='when pass'>
-                                                        <b>When</b>
-                                                        User Enters Valid Credebtials
+                                                    <li test-id='4' class='node given pass' status='given pass'>
+                                                        <b>Given</b>
+                                                        I don't see an error code
                                                                                                                                                                     </li>
-                                                    <li test-id='5' class='node when pass' status='when pass'>
-                                                        <b>When</b>
-                                                        Clicks Login Button
-                                                                                                                                                                    </li>
-                                                    <li test-id='6' class='node then pass' status='then pass'>
+                                                    <li test-id='5' class='node then pass' status='then pass'>
                                                         <b>Then</b>
-                                                        Sitecore Experience Platform Page Should Be Displayed
-                                                                                                                                                                    </li>
-                                                    <li test-id='7' class='node when pass' status='when pass'>
-                                                        <b>When</b>
-                                                        User Clicks on Content Editor Tab
-                                                                                                                                                                    </li>
-                                                    <li test-id='8' class='node then pass' status='then pass'>
-                                                        <b>Then</b>
-                                                        Content Editor Page Should Be Displayed
+                                                        I should be shown the area browse search grid
                                                                                                                                                                     </li>
                                             </ul>
                                     </div>
 
                         </div>
                     </li>
-                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='9'>
+                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='6'>
                         <div class='test-heading'>
-                            <span class='test-name'>LondonTubePage</span>
-                            <span class='test-time'>6/12/2018 2:59:56 PM</span>
+                            <span class='test-name'>EventCalendarPage</span>
+                            <span class='test-time'>6/13/2018 6:27:53 PM</span>
                             <span class='test-status right pass'>Pass</span>
                         </div>
                         <div class='test-content hide'>
-                                    <div class='scenario node' test-id='10' status='pass'>
-                                        <span class='scenario-duration right label'>00:00:16.0540318</span>
+                                    <div class='scenario node' test-id='7' status='pass'>
+                                        <span class='scenario-duration right label'>00:00:11.3425295</span>
+                                        <div class='scenario-desc'>
+                                            <b>Scenario</b>
+                                            Event calendar page is up
+
+                                            
+                                        </div>
+                                            <ul class='steps'>
+                                                    <li test-id='8' class='node given pass' status='given pass'>
+                                                        <b>Given</b>
+                                                        I navigate to event calendar page '/things-to-do/whats-on/special-events/london-events-calendar'
+                                                                                                                                                                    </li>
+                                                    <li test-id='9' class='node given pass' status='given pass'>
+                                                        <b>Given</b>
+                                                        I don't see an error code on Calender
+                                                                                                                                                                    </li>
+                                                    <li test-id='10' class='node then pass' status='then pass'>
+                                                        <b>Then</b>
+                                                        I should be at least one event
+                                                                                                                                                                    </li>
+                                            </ul>
+                                    </div>
+
+                        </div>
+                    </li>
+                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='11'>
+                        <div class='test-heading'>
+                            <span class='test-name'>HomePage</span>
+                            <span class='test-time'>6/13/2018 6:28:05 PM</span>
+                            <span class='test-status right pass'>Pass</span>
+                        </div>
+                        <div class='test-content hide'>
+                                    <div class='scenario node' test-id='12' status='pass'>
+                                        <span class='scenario-duration right label'>00:00:06.3035087</span>
+                                        <div class='scenario-desc'>
+                                            <b>Scenario</b>
+                                            Home page is up
+
+                                            
+                                        </div>
+                                            <ul class='steps'>
+                                                    <li test-id='13' class='node given pass' status='given pass'>
+                                                        <b>Given</b>
+                                                        I visit the Homepage
+                                                                                                                                                                    </li>
+                                                    <li test-id='14' class='node then pass' status='then pass'>
+                                                        <b>Then</b>
+                                                        I should be shown the main title 'OFFICIAL VISITOR GUIDE'
+                                                                                                                                                                    </li>
+                                            </ul>
+                                    </div>
+
+                        </div>
+                    </li>
+                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='15'>
+                        <div class='test-heading'>
+                            <span class='test-name'>LondonTubePage</span>
+                            <span class='test-time'>6/13/2018 6:28:11 PM</span>
+                            <span class='test-status right pass'>Pass</span>
+                        </div>
+                        <div class='test-content hide'>
+                                    <div class='scenario node' test-id='16' status='pass'>
+                                        <span class='scenario-duration right label'>00:00:06.8989059</span>
                                         <div class='scenario-desc'>
                                             <b>Scenario</b>
                                             LondonTubePageIsUp
@@ -231,11 +281,11 @@
                                             
                                         </div>
                                             <ul class='steps'>
-                                                    <li test-id='11' class='node given pass' status='given pass'>
+                                                    <li test-id='17' class='node given pass' status='given pass'>
                                                         <b>Given</b>
                                                         I navigate to the London tube page  '/traveller-information/getting-around-london/london-tube'
                                                                                                                                                                     </li>
-                                                    <li test-id='12' class='node then pass' status='then pass'>
+                                                    <li test-id='18' class='node then pass' status='then pass'>
                                                         <b>Then</b>
                                                         I should be shown the  'London Underground' Title
                                                                                                                                                                     </li>
@@ -244,29 +294,136 @@
 
                         </div>
                     </li>
-                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='13'>
+                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='19'>
                         <div class='test-heading'>
-                            <span class='test-name'>HomePage</span>
-                            <span class='test-time'>6/12/2018 3:00:12 PM</span>
+                            <span class='test-name'>ProductPage</span>
+                            <span class='test-time'>6/13/2018 6:28:18 PM</span>
                             <span class='test-status right pass'>Pass</span>
                         </div>
                         <div class='test-content hide'>
-                                    <div class='scenario node' test-id='14' status='pass'>
-                                        <span class='scenario-duration right label'>00:00:18.4512163</span>
+                                    <div class='scenario node' test-id='20' status='pass'>
+                                        <span class='scenario-duration right label'>00:00:08.5308570</span>
                                         <div class='scenario-desc'>
                                             <b>Scenario</b>
-                                            Home page is up
+                                            Product page is up
 
                                             
                                         </div>
                                             <ul class='steps'>
-                                                    <li test-id='15' class='node given pass' status='given pass'>
+                                                    <li test-id='21' class='node given pass' status='given pass'>
                                                         <b>Given</b>
-                                                        I visit the Homepage
+                                                        I navigate to the product page '/things-to-do/place/403052-radisson-blu-edwardian-grafton-hotel'
                                                                                                                                                                     </li>
-                                                    <li test-id='16' class='node then pass' status='then pass'>
+                                                    <li test-id='22' class='node then pass' status='then pass'>
                                                         <b>Then</b>
-                                                        I should be shown the main title 'OFFICIAL VISITOR GUIDE'
+                                                        I should be shown the Main Image
+                                                                                                                                                                    </li>
+                                            </ul>
+                                    </div>
+
+                        </div>
+                    </li>
+                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='23'>
+                        <div class='test-heading'>
+                            <span class='test-name'>Sitecore Login</span>
+                            <span class='test-time'>6/13/2018 6:28:26 PM</span>
+                            <span class='test-status right pass'>Pass</span>
+                        </div>
+                        <div class='test-content hide'>
+                                    <div class='scenario node' test-id='24' status='pass'>
+                                        <span class='scenario-duration right label'>00:01:18.8913566</span>
+                                        <div class='scenario-desc'>
+                                            <b>Scenario</b>
+                                            Login With Valid Credentials
+
+                                            
+                                        </div>
+                                            <ul class='steps'>
+                                                    <li test-id='25' class='node given pass' status='given pass'>
+                                                        <b>Given</b>
+                                                        User is On CMS Login Page 'http://qa.cms.londonandpartners.com/sitecore/login'
+                                                                                                                                                                    </li>
+                                                    <li test-id='26' class='node when pass' status='when pass'>
+                                                        <b>When</b>
+                                                        User Enters Valid Credebtials
+                                                                                                                                                                    </li>
+                                                    <li test-id='27' class='node when pass' status='when pass'>
+                                                        <b>When</b>
+                                                        Clicks Login Button
+                                                                                                                                                                    </li>
+                                                    <li test-id='28' class='node then pass' status='then pass'>
+                                                        <b>Then</b>
+                                                        Sitecore Experience Platform Page Should Be Displayed
+                                                                                                                                                                    </li>
+                                                    <li test-id='29' class='node when pass' status='when pass'>
+                                                        <b>When</b>
+                                                        User Clicks on Content Editor Tab
+                                                                                                                                                                    </li>
+                                                    <li test-id='30' class='node then pass' status='then pass'>
+                                                        <b>Then</b>
+                                                        Content Editor Page Should Be Displayed
+                                                                                                                                                                    </li>
+                                            </ul>
+                                    </div>
+
+                        </div>
+                    </li>
+                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='31'>
+                        <div class='test-heading'>
+                            <span class='test-name'>TagBrowserPage</span>
+                            <span class='test-time'>6/13/2018 6:29:45 PM</span>
+                            <span class='test-status right pass'>Pass</span>
+                        </div>
+                        <div class='test-content hide'>
+                                    <div class='scenario node' test-id='32' status='pass'>
+                                        <span class='scenario-duration right label'>00:00:13.4859660</span>
+                                        <div class='scenario-desc'>
+                                            <b>Scenario</b>
+                                            Tag Browse page is up
+
+                                            
+                                        </div>
+                                            <ul class='steps'>
+                                                    <li test-id='33' class='node given pass' status='given pass'>
+                                                        <b>Given</b>
+                                                        I navigate to the Tag Browser page '/tag/christmas-lights'
+                                                                                                                                                                    </li>
+                                                    <li test-id='34' class='node then pass' status='then pass'>
+                                                        <b>Then</b>
+                                                        I should be shown the tag browse search grid
+                                                                                                                                                                    </li>
+                                            </ul>
+                                    </div>
+
+                        </div>
+                    </li>
+                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='35'>
+                        <div class='test-heading'>
+                            <span class='test-name'>ThingsToDoPage</span>
+                            <span class='test-time'>6/13/2018 6:29:59 PM</span>
+                            <span class='test-status right pass'>Pass</span>
+                        </div>
+                        <div class='test-content hide'>
+                                    <div class='scenario node' test-id='36' status='pass'>
+                                        <span class='scenario-duration right label'>00:00:21.0042240</span>
+                                        <div class='scenario-desc'>
+                                            <b>Scenario</b>
+                                            Things to do hub is up
+
+                                            
+                                        </div>
+                                            <ul class='steps'>
+                                                    <li test-id='37' class='node given pass' status='given pass'>
+                                                        <b>Given</b>
+                                                        I navigate to the thing to do hub page '/things-to-do'
+                                                                                                                                                                    </li>
+                                                    <li test-id='38' class='node then pass' status='then pass'>
+                                                        <b>Then</b>
+                                                        I should be shown the title
+                                                                                                                                                                    </li>
+                                                    <li test-id='39' class='node then pass' status='then pass'>
+                                                        <b>Then</b>
+                                                        I should be shown the intro copy
                                                                                                                                                                     </li>
                                             </ul>
                                     </div>
@@ -337,36 +494,36 @@
         <div class='row'>
             <div class='col s2'>
                 <div class='card-panel r'>
- <span>Features</span>                     <div class='panel-lead'>3</div>
+ <span>Features</span>                     <div class='panel-lead'>8</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
- <span>Scenarios</span>                     <div class='panel-lead'>3</div>
+ <span>Scenarios</span>                     <div class='panel-lead'>8</div>
                 </div>
             </div>
                 <div class='col s2'>
                     <div class='card-panel r'>
                         Steps
-                        <div class='panel-lead'>10</div>
+                        <div class='panel-lead'>23</div>
                     </div>
                 </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Start
-                    <div class='panel-lead'>6/12/2018 2:59:24 PM</div>
+                    <div class='panel-lead'>6/13/2018 6:27:40 PM</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     End
-                    <div class='panel-lead'>6/12/2018 3:00:39 PM</div>
+                    <div class='panel-lead'>6/13/2018 6:30:26 PM</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Time Taken
-                    <div class='panel-lead'>00:01:15.4178558</div>
+                    <div class='panel-lead'>00:02:46.6064269</div>
                 </div>
             </div>
 
@@ -385,14 +542,14 @@
 
 		<script>
 			var statusGroup = {
-			    passParent: 3,
+			    passParent: 8,
 			    failParent: 0,
 			    fatalParent: 0,
 			    errorParent: 0,
 			    warningParent: 0,
 			    skipParent: 0,
 				
-			    passChild: 3,
+			    passChild: 8,
 			    failChild: 0,
 			    fatalChild: 0,
 			    errorChild: 0,
@@ -400,7 +557,7 @@
 			    skipChild: 0,
 			    infoChild: 0,
 				
-			    passGrandChild: 10,
+			    passGrandChild: 23,
 			    failGrandChild: 0,
 			    fatalGrandChild: 0,
 			    errorGrandChild: 0,

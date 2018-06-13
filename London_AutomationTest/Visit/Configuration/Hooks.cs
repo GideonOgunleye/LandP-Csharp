@@ -81,9 +81,11 @@ namespace Visit.Configuration
         }
 
         [BeforeFeature]
-        public static void BeforeFeature()
+        public static void BeforeFeature(FeatureContext featureContext)
         {
-            
+            if (featureContext == null)
+                throw new ArgumentNullException("featureContext");
+
             featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
 
         }
