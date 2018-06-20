@@ -13383,3 +13383,54 @@
 14-Jun-2018-12:54:00 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-06-14-54-00.jpeg
 14-Jun-2018-12:54:00 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-accountInformation']/li[1]/span
 14-Jun-2018-12:54:01 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-accountInformation']/li[1]/span
+20-Jun-2018-11:25:45 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-11:25:52 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page https://www.visitlondon.com/things-to-do/event/44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olympic-park
+20-Jun-2018-11:27:49 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-11:28:00 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/8864150-fathers-day-in-london
+20-Jun-2018-11:29:15 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-11:29:20 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/8864150-fathers-day-in-london
+20-Jun-2018-11:29:21 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf expired']/strong
+20-Jun-2018-11:52:43 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-11:52:54 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/8864150-fathers-day-in-london
+20-Jun-2018-11:52:55 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf expired']/strong
+20-Jun-2018-11:53:25 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-11:53:37 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olympic-park
+20-Jun-2018-11:53:38 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf expired']/strong
+20-Jun-2018-11:53:40 [Visit.StepDefinition.ValidateEventCodeSteps] [ERROR] [ThenEventPageShouldContainText] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf expired']/strong
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.ValidateEventCodeSteps.ThenEventPageShouldContainText(String p0) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\ValidateEventCodeSteps.cs:line 53
+20-Jun-2018-11:53:40 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Expired Event Status Code More Than 12 Months Old.jpeg
+20-Jun-2018-11:56:30 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-11:56:48 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olympic-park
+20-Jun-2018-11:56:48 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf expired']/strong
+20-Jun-2018-11:56:50 [Visit.StepDefinition.ValidateEventCodeSteps] [ERROR] [ThenEventPageShouldContainText] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf expired']/strong
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.ValidateEventCodeSteps.ThenEventPageShouldContainText(String p0) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\ValidateEventCodeSteps.cs:line 53
+20-Jun-2018-11:56:51 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Expired Event Status Code More Than 12 Months Old.jpeg
+20-Jun-2018-12:17:50 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-12:17:51 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf expired']/strong
+20-Jun-2018-12:17:52 [Visit.StepDefinition.ValidateEventCodeSteps] [ERROR] [GivenINavigateToUrlOfExpiredEvent] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf expired']/strong
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.ValidateEventCodeSteps.GivenINavigateToUrlOfExpiredEvent(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\ValidateEventCodeSteps.cs:line 72
+20-Jun-2018-12:17:53 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Expired Event Status Code Less Than 12 Months Old.jpeg
+20-Jun-2018-12:23:50 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-12:23:58 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/8864150-fathers-day-in-london
+20-Jun-2018-12:23:59 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf tint']/span
+20-Jun-2018-12:24:01 [Visit.StepDefinition.ValidateEventCodeSteps] [ERROR] [ThenEventPageShouldContainText] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf tint']/span
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.ValidateEventCodeSteps.ThenEventPageShouldContainText(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\ValidateEventCodeSteps.cs:line 63
+20-Jun-2018-12:24:01 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Expired Event Status Code Less Than 12 Months Old.jpeg
+20-Jun-2018-12:25:57 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-12:26:13 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/8864150-fathers-day-in-london
+20-Jun-2018-12:26:15 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf expired']/strong
+20-Jun-2018-12:27:14 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-12:27:25 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olympic-park
+20-Jun-2018-12:27:26 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf tint']/span
+20-Jun-2018-12:27:26 [Visit.StepDefinition.ValidateEventCodeSteps] [ERROR] [ThenEventPageShouldContainText] - Exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at Visit.StepDefinition.ValidateEventCodeSteps.ThenEventPageShouldContainText(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\ValidateEventCodeSteps.cs:line 63
+20-Jun-2018-12:27:27 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Expired Event Status Code More Than 12 Months Old.jpeg
+20-Jun-2018-12:40:53 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Jun-2018-12:41:12 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/event/44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olympic-park
+20-Jun-2018-12:41:14 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf tint']/h3

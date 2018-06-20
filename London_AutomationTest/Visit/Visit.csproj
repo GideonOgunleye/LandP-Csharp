@@ -147,6 +147,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EventCalenderPage.feature</DependentUpon>
     </Compile>
+    <Compile Include="FeatureFiles\Events.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Events.feature</DependentUpon>
+    </Compile>
     <Compile Include="FeatureFiles\HomePage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -198,6 +203,7 @@
     <Compile Include="StepDefinition\SitecoreValidLoginSteps.cs" />
     <Compile Include="StepDefinition\TagBrowsePageSteps.cs" />
     <Compile Include="StepDefinition\ThingsToDoPageSteps.cs" />
+    <Compile Include="StepDefinition\ValidateEventCodeSteps.cs" />
     <Compile Include="TestScript\Log4Net\TestLogger.cs" />
     <Compile Include="TestScript\TestNav.cs" />
     <Compile Include="TestScript\TestNav2.cs" />
@@ -232,6 +238,10 @@
     <None Include="FeatureFiles\EventCalenderPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>EventCalenderPage.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeatureFiles\Events.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Events.feature.cs</LastGenOutput>
     </None>
     <None Include="FeatureFiles\HomePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
