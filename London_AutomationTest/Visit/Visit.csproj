@@ -167,6 +167,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ProductPage.feature</DependentUpon>
     </Compile>
+    <Compile Include="FeatureFiles\Redirects.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Redirects.feature</DependentUpon>
+    </Compile>
     <Compile Include="FeatureFiles\Sitecore Login.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -198,6 +203,7 @@
     <Compile Include="StepDefinition\EventCalenderPageSteps.cs" />
     <Compile Include="StepDefinition\HomePageSteps.cs" />
     <Compile Include="StepDefinition\LondonTubePageSteps.cs" />
+    <Compile Include="StepDefinition\PageRedirectSteps.cs" />
     <Compile Include="StepDefinition\ProductPageSteps.cs" />
     <Compile Include="StepDefinition\SitecoreInvalidLoginSteps.cs" />
     <Compile Include="StepDefinition\SitecoreValidLoginSteps.cs" />
@@ -254,6 +260,10 @@
     <None Include="FeatureFiles\ProductPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ProductPage.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeatureFiles\Redirects.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Redirects.feature.cs</LastGenOutput>
     </None>
     <None Include="FeatureFiles\Sitecore Login.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
