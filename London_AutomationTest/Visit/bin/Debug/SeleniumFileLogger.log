@@ -13469,3 +13469,70 @@
 22-Jun-2018-10:31:27 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
 22-Jun-2018-10:31:35 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/about-us/about-visitlondoncom
 22-Jun-2018-10:31:39 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
+25-Jun-2018-11:18:14 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+25-Jun-2018-11:18:46 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/about-us
+25-Jun-2018-11:18:53 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
+29-Jun-2018-10:12:12 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-Jun-2018-10:15:40 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/heart
+29-Jun-2018-10:15:50 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
+29-Jun-2018-10:16:01 [Visit.StepDefinition.PageRedirectSteps] [ERROR] [ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf']/h1
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.PageRedirectSteps.ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\PageRedirectSteps.cs:line 50
+29-Jun-2018-10:16:02 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Whats On Page Redirects.jpeg
+09-Jul-2018-15:12:06 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+09-Jul-2018-15:12:09 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon
+09-Jul-2018-15:12:14 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+09-Jul-2018-15:12:16 [Visit.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\KeywordSearchSteps.cs:line 44
+09-Jul-2018-15:12:17 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : The Natural History Museum Keyword Search.jpeg
+09-Jul-2018-15:14:43 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+09-Jul-2018-15:14:57 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+09-Jul-2018-15:15:02 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+09-Jul-2018-15:15:03 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Natural History Museum
+09-Jul-2018-15:15:08 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
+09-Jul-2018-15:15:24 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
+09-Jul-2018-15:15:34 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='search-tile-title']/a
+09-Jul-2018-15:15:39 [Visit.StepDefinition.KeywordSearchSteps] [ERROR] [ThenIShouldSeeSearchResultsForContainingTheKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='search-tile-title']/a
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.KeywordSearchSteps.ThenIShouldSeeSearchResultsForContainingTheKeyword(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\KeywordSearchSteps.cs:line 87
+09-Jul-2018-15:15:40 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : The Natural History Museum Keyword Search.jpeg
+09-Jul-2018-15:18:38 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+09-Jul-2018-15:18:55 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+09-Jul-2018-15:19:00 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+09-Jul-2018-15:19:02 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Natural History Museum
+09-Jul-2018-15:19:07 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
+09-Jul-2018-15:19:24 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
+09-Jul-2018-15:19:33 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='search-tile-title']/a
+09-Jul-2018-15:19:33 [Visit.StepDefinition.KeywordSearchSteps] [ERROR] [ThenIShouldSeeSearchResultsForContainingTheKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='search-tile-title']/a
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.KeywordSearchSteps.ThenIShouldSeeSearchResultsForContainingTheKeyword(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\KeywordSearchSteps.cs:line 87
+09-Jul-2018-15:19:36 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : The Natural History Museum Keyword Search.jpeg
+09-Jul-2018-15:59:18 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+09-Jul-2018-15:59:25 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+09-Jul-2018-15:59:30 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+09-Jul-2018-15:59:31 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Natural History Museum
+09-Jul-2018-15:59:36 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
+09-Jul-2018-15:59:55 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
+09-Jul-2018-16:00:05 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='search-tile-title']/a
+09-Jul-2018-16:00:05 [Visit.StepDefinition.KeywordSearchSteps] [ERROR] [ThenIShouldSeeSearchResultsForContainingTheKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='search-tile-title']/a
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.JavaScriptExecutor.ScrollToWebElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\JavaScriptExecutor.cs:line 48
+   at Visit.StepDefinition.KeywordSearchSteps.ThenIShouldSeeSearchResultsForContainingTheKeyword(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\KeywordSearchSteps.cs:line 88
+09-Jul-2018-16:00:06 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : The Natural History Museum Keyword Search.jpeg
+19-Jul-2018-09:51:15 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Jul-2018-09:51:20 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+19-Jul-2018-09:51:21 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+19-Jul-2018-09:51:22 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunleye
+19-Jul-2018-09:51:22 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+19-Jul-2018-09:51:22 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+19-Jul-2018-09:51:22 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+19-Jul-2018-09:51:25 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+19-Jul-2018-09:51:32 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+19-Jul-2018-09:51:32 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+19-Jul-2018-09:51:39 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+19-Jul-2018-09:51:46 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+19-Jul-2018-09:51:47 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-19-51-47.jpeg
+19-Jul-2018-09:51:47 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-accountInformation']/li[1]/span
+19-Jul-2018-09:51:49 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-accountInformation']/li[1]/span

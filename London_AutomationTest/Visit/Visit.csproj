@@ -157,6 +157,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>HomePage.feature</DependentUpon>
     </Compile>
+    <Compile Include="FeatureFiles\KeywordSearch.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KeywordSearch.feature</DependentUpon>
+    </Compile>
     <Compile Include="FeatureFiles\LondonTubePage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -202,6 +207,7 @@
     <Compile Include="StepDefinition\AreaBrowsePageSteps.cs" />
     <Compile Include="StepDefinition\EventCalenderPageSteps.cs" />
     <Compile Include="StepDefinition\HomePageSteps.cs" />
+    <Compile Include="StepDefinition\KeywordSearchSteps.cs" />
     <Compile Include="StepDefinition\LondonTubePageSteps.cs" />
     <Compile Include="StepDefinition\PageRedirectSteps.cs" />
     <Compile Include="StepDefinition\ProductPageSteps.cs" />
@@ -252,6 +258,10 @@
     <None Include="FeatureFiles\HomePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>HomePage.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeatureFiles\KeywordSearch.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>KeywordSearch.feature.cs</LastGenOutput>
     </None>
     <None Include="FeatureFiles\LondonTubePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

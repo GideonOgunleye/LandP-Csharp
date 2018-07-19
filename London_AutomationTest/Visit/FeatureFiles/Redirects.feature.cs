@@ -70,12 +70,12 @@ namespace Visit.FeatureFiles
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Validate Whats On Page Redirects")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Whats On Page Redirects")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Redirects")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void ValidateWhatsOnPageRedirects()
+        public virtual void WhatsOnPageRedirects()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate Whats On Page Redirects", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Whats On Page Redirects", new string[] {
                         "Smoke"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
@@ -89,17 +89,17 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Validate About Us Page Redirects")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("About Us Page Redirects")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Redirects")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void ValidateAboutUsPageRedirects()
+        public virtual void AboutUsPageRedirects()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate About Us Page Redirects", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("About Us Page Redirects", new string[] {
                         "Smoke"});
 #line 13
 this.ScenarioSetup(scenarioInfo);
 #line 14
- testRunner.Given("User Enters Url \'http://qa.visitlondon.com/about-us/about-visitlondoncom\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("User Enters Url \'http://qa.visitlondon.com/about-us\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 15
  testRunner.Then("User should be navigated to the \"About Us\" Page and See Text \"About visitlondon.c" +
                     "om\" On Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

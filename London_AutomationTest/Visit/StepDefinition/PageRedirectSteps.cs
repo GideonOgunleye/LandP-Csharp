@@ -46,11 +46,11 @@ namespace Visit.StepDefinition
                 switch (url)
                 {
                     case "Whats On":
-
+                        Thread.Sleep(5000);
                         Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='cf']/h1")).Text.Contains(p1));
                         break;
                     case "About Us":
-
+                        Thread.Sleep(5000);
                         Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='cf']/h1")).Text.Contains(p1));
                         break;
                     default:

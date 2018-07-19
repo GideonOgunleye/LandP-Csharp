@@ -1,35 +1,15 @@
-22-Jun-2018-10:18:41 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-22-Jun-2018-10:18:42 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page qa.visitlondon.com/heart
-22-Jun-2018-10:18:43 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
-22-Jun-2018-10:18:46 [Visit.StepDefinition.PageRedirectSteps] [ERROR] [GivenUserShouldBeNavigatedToThePageAndSeeTextOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf']/h1
-   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
-   at Visit.StepDefinition.PageRedirectSteps.GivenUserShouldBeNavigatedToThePageAndSeeTextOnPage(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\PageRedirectSteps.cs:line 51
-22-Jun-2018-10:18:46 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Whats On Page Redirects.jpeg
-22-Jun-2018-10:21:40 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-22-Jun-2018-10:21:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page qa.visitlondon.com/heart
-22-Jun-2018-10:21:42 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
-22-Jun-2018-10:21:44 [Visit.StepDefinition.PageRedirectSteps] [ERROR] [GivenUserShouldBeNavigatedToThePageAndSeeTextOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf']/h1
-   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
-   at Visit.StepDefinition.PageRedirectSteps.GivenUserShouldBeNavigatedToThePageAndSeeTextOnPage(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\PageRedirectSteps.cs:line 51
-22-Jun-2018-10:21:45 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Whats On Page Redirects.jpeg
-22-Jun-2018-10:25:28 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-22-Jun-2018-10:25:29 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page qa.visitlondon.com/heart
-22-Jun-2018-10:25:31 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
-22-Jun-2018-10:25:33 [Visit.StepDefinition.PageRedirectSteps] [ERROR] [ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf']/h1
-   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
-   at Visit.StepDefinition.PageRedirectSteps.ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\PageRedirectSteps.cs:line 50
-22-Jun-2018-10:25:33 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Whats On Page Redirects.jpeg
-22-Jun-2018-10:26:33 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-22-Jun-2018-10:26:35 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page qa.visitlondon.com/heart
-22-Jun-2018-10:27:40 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
-22-Jun-2018-10:27:46 [Visit.StepDefinition.PageRedirectSteps] [ERROR] [ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf']/h1
-   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
-   at Visit.StepDefinition.PageRedirectSteps.ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\PageRedirectSteps.cs:line 50
-22-Jun-2018-10:29:27 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-22-Jun-2018-10:29:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/heart
-22-Jun-2018-10:30:48 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-22-Jun-2018-10:31:02 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/heart
-22-Jun-2018-10:31:06 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
-22-Jun-2018-10:31:27 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-22-Jun-2018-10:31:35 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/about-us/about-visitlondoncom
-22-Jun-2018-10:31:39 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
+19-Jul-2018-09:51:15 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Jul-2018-09:51:20 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+19-Jul-2018-09:51:21 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+19-Jul-2018-09:51:22 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunleye
+19-Jul-2018-09:51:22 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+19-Jul-2018-09:51:22 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+19-Jul-2018-09:51:22 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+19-Jul-2018-09:51:25 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+19-Jul-2018-09:51:32 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+19-Jul-2018-09:51:32 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+19-Jul-2018-09:51:39 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+19-Jul-2018-09:51:46 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+19-Jul-2018-09:51:47 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-19-51-47.jpeg
+19-Jul-2018-09:51:47 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-accountInformation']/li[1]/span
+19-Jul-2018-09:51:49 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-accountInformation']/li[1]/span

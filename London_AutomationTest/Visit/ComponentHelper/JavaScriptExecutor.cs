@@ -12,6 +12,8 @@ namespace Visit.ComponentHelper
 {
     public class JavaScriptExecutor
     {
+        
+
         public static object ExecuteScript(string script)
         {
             IJavaScriptExecutor executor = ((IJavaScriptExecutor)ObjectRepository.Driver);
@@ -20,9 +22,11 @@ namespace Visit.ComponentHelper
 
         public static void ScrollToElement(IWebElement element)
         {
+            //IWebElement element = GenericHelper.GetElement(locator);
             ExecuteScript("window.scrollTo(0," + element.Location.Y + ")");
             Thread.Sleep(300);
             //element.Click();
+            
         }
         public static void ScrollToAndClick(IWebElement element)
         {
@@ -37,6 +41,14 @@ namespace Visit.ComponentHelper
             ExecuteScript("window.scrollTo(0," + element.Location.Y + ")");
             Thread.Sleep(300);
             element.Click();
+        }
+
+        public static void ScrollToWebElement(By locator)
+        {
+            IWebElement element = GenericHelper.GetElement(locator);
+            ExecuteScript("window.scrollTo(0," + element.Location.Y + ")");
+            Thread.Sleep(300);
+            //element.Click();
         }
     }
 }
