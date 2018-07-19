@@ -3,12 +3,12 @@
 	I want to use the search function
 	So that Required Products/Events Returned
 
-#@Smoke
+@Smoke
 Scenario: The Natural History Museum Keyword Search
 	Given User is on Home Page 'http://qa.visitlondon.com'
 	When I Enter 'Natural History Museum' Keyword
 	And I Hit The Search Button
-	Then I Should See Search Results for 'Natural Museum' Containing The Keyword 'Natural History Museum'
+	Then I Should See Search Results for 'Natural Museum' Containing The Keyword 'Natural'
 
 #@Smoke
 Scenario: The Science Museum Keyword Search

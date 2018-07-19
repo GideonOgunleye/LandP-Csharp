@@ -12,6 +12,12 @@ namespace Visit.ComponentHelper
 {
     public class JavaScriptExecutor
     {
+
+        public static void ScrollTo(int xPosition = 0, int yPosition = 0)
+        {
+            var js = String.Format("window.scrollTo({0}, {1})", xPosition, yPosition);
+            ExecuteScript(js);
+        }
         
 
         public static object ExecuteScript(string script)
@@ -49,6 +55,16 @@ namespace Visit.ComponentHelper
             ExecuteScript("window.scrollTo(0," + element.Location.Y + ")");
             Thread.Sleep(300);
             //element.Click();
+        }
+
+        public static void ScrollToView(By locator)
+        {
+            IWebElement element = GenericHelper.GetElement(locator);
+
+            if (element.Location.Y > 200)
+            {
+                ScrollTo(0, element.Location.Y - 100);
+            }
         }
     }
 }

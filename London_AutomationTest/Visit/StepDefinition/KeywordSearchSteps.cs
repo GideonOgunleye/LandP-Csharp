@@ -85,8 +85,10 @@ namespace Visit.StepDefinition
                     case "Natural Museum":
                         
                         Thread.Sleep(5000);
-                        JavaScriptExecutor.ScrollToWebElement(By.XPath(".//*[@class='search-tile-title']/a"));
-                        Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='search-tile-title']/a")).Text.Contains(p1));
+                        //JavaScriptExecutor.ScrollToWebElement(By.XPath(".//*[@class='search-tile-title']/a"));
+                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a"));
+                        Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a")).Text.Contains(p1));
+                        //ButtonHelper.ClickButton(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a"));
                         break;
                     case "Science Museum":
                         Thread.Sleep(5000);

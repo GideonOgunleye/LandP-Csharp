@@ -72,9 +72,11 @@ namespace Visit.FeatureFiles
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("The Natural History Museum Keyword Search")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "KeywordSearch")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
         public virtual void TheNaturalHistoryMuseumKeywordSearch()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The Natural History Museum Keyword Search", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The Natural History Museum Keyword Search", new string[] {
+                        "Smoke"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -84,8 +86,8 @@ this.ScenarioSetup(scenarioInfo);
 #line 10
  testRunner.And("I Hit The Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 11
- testRunner.Then("I Should See Search Results for \'Natural Museum\' Containing The Keyword \'Natural " +
-                    "History Museum\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I Should See Search Results for \'Natural Museum\' Containing The Keyword \'Natural\'" +
+                    "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
