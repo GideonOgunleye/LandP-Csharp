@@ -8,7 +8,7 @@ Scenario: Login With Valid Credentials
 	Given User is On CMS Login Page 'http://qa.cms.londonandpartners.com/sitecore/login'
 	When User Enters Valid Credebtials
 	| Username | Password |
-	| gogunleye   | P@rtner$L0nd0n  |
+	| gogunley   | P@rtner$L0nd0n  |
 	And Clicks Login Button
 	Then Sitecore Experience Platform Page Should Be Displayed
 	When User Clicks on Content Editor Tab

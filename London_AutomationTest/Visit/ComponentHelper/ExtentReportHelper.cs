@@ -62,7 +62,8 @@ namespace Visit.ComponentHelper
             switch (status)
             {
                 case TestStatus.Failed:
-                    logstatus = Status.Fail;
+                    //logstatus = Status.Fail;
+                    
                     break;
                 case TestStatus.Inconclusive:
                     logstatus = Status.Warning;
@@ -74,9 +75,10 @@ namespace Visit.ComponentHelper
                     logstatus = Status.Pass;
                     break;
             }
-
-            extentTest.Log(logstatus, "Test ended with " + logstatus + stacktrace);
-            extentReport.Flush();
+            //string screenshotPath = GenericHelper.TakeScreenShot();
+            //extentTest.Log(logstatus, "Test ended with " + logstatus + stacktrace);
+            //extentTest.Log(logstatus, "Snapshot below" + extentTest.AddScreenCaptureFromPath(screenshotPath));
+            //extentReport.Flush();
         }
 
         [Test]

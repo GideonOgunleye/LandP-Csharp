@@ -13614,3 +13614,481 @@
 19-Jul-2018-12:14:45 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
 19-Jul-2018-12:14:51 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a
 19-Jul-2018-12:14:52 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a
+23-Jul-2018-12:34:52 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-12:34:54 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-12:34:55 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-12:34:55 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-12:34:55 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-12:34:55 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-12:34:55 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-12:34:56 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-12:34:59 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-12:35:00 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-12:35:00 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-13:15:52 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-13:15:54 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-13:15:55 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-13:15:56 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-13:15:56 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-13:15:56 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-13:15:56 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-13:15:57 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-13:16:03 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-13:16:05 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-13:16:05 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-13:18:59 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-13:19:01 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-13:19:02 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-13:19:02 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-13:19:02 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-13:19:02 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-13:19:02 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-13:19:03 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-13:19:07 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-13:19:08 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-13:19:09 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-13:21:10 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-13:21:14 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-13:21:15 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-13:21:15 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-13:21:15 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-13:21:16 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-13:21:16 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-13:21:19 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-13:21:26 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-13:21:29 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-13:21:30 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-13:23:59 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-13:24:02 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-13:24:03 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-13:24:04 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-13:24:04 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-13:24:05 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-13:24:05 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-13:24:06 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-13:24:13 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-13:24:16 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-13:24:16 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-13:33:01 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-13:33:03 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-13:33:04 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-13:33:07 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+23-Jul-2018-13:33:07 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-13:34:13 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-13:34:14 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-13:34:15 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-13:34:17 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+23-Jul-2018-13:34:17 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-13:36:55 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-13:36:56 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-13:36:57 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-13:36:59 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+23-Jul-2018-13:36:59 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-13:48:58 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-13:49:15 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com//area/london-bridge
+23-Jul-2018-13:49:16 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-49-16.jpeg
+23-Jul-2018-13:49:17 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-49-16.jpeg
+23-Jul-2018-13:49:17 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+23-Jul-2018-13:49:17 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+23-Jul-2018-13:49:17 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait Configured value 
+23-Jul-2018-14:02:20 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-14:02:24 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-14:02:25 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-14:02:27 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+23-Jul-2018-14:02:28 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-14:15:48 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-14:16:05 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-14:16:06 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-14:16:07 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+23-Jul-2018-14:16:07 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-16-07.jpeg
+23-Jul-2018-14:16:08 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-16-07.jpeg
+23-Jul-2018-14:16:08 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-14:20:36 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-14:20:44 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+23-Jul-2018-14:20:44 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+23-Jul-2018-14:20:44 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+23-Jul-2018-14:20:44 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+23-Jul-2018-14:20:45 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-20-45.jpeg
+23-Jul-2018-14:20:46 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-20-45.jpeg
+23-Jul-2018-14:28:45 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-14:28:49 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-14:28:49 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-14:28:50 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunleye
+23-Jul-2018-14:28:50 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-14:28:50 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-14:28:50 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-14:29:00 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-14:29:03 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-14:29:03 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-14:29:13 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-14:29:17 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+23-Jul-2018-14:29:17 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-29-17.jpeg
+23-Jul-2018-14:29:17 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-29-17.jpeg
+23-Jul-2018-14:29:17 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-accountInformation']/li[1]/span
+23-Jul-2018-14:29:19 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-accountInformation']/li[1]/span
+23-Jul-2018-14:33:31 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-14:33:33 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-14:33:34 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-14:33:34 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-14:33:34 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-14:33:34 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-14:33:34 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-14:33:35 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-14:33:40 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-14:33:44 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-14:33:46 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-33-45.jpeg
+23-Jul-2018-14:33:47 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2018-07-23-33-45.jpeg
+23-Jul-2018-14:33:49 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-15:18:11 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-15:18:18 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+23-Jul-2018-15:18:18 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+23-Jul-2018-15:18:18 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+23-Jul-2018-15:18:18 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+23-Jul-2018-15:20:44 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-15:20:49 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+23-Jul-2018-15:20:49 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+23-Jul-2018-15:20:49 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+23-Jul-2018-15:20:49 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+23-Jul-2018-15:23:26 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-15:23:31 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-15:23:32 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-15:23:33 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-15:23:33 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-15:23:33 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-15:23:33 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-15:23:35 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-15:23:42 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-15:23:45 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-15:23:47 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-15:39:28 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-15:39:39 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+23-Jul-2018-15:39:39 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+23-Jul-2018-15:39:39 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+23-Jul-2018-15:39:40 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+23-Jul-2018-15:49:05 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-15:49:07 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-15:49:08 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-15:49:08 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-15:49:08 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-15:49:08 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-15:49:08 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-15:49:09 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-15:49:13 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-15:49:15 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-15:49:16 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-16:28:23 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-16:28:24 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-16:28:25 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-16:28:25 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-16:28:25 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-16:28:25 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-16:28:25 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-16:28:26 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-16:28:29 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-16:28:30 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-16:28:31 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-16:41:59 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-16:42:11 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-16:42:12 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-16:42:13 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+23-Jul-2018-16:42:13 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-16:44:12 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-16:44:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-16:44:42 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-16:44:44 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+23-Jul-2018-16:44:45 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-16:45:43 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-16:45:55 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-16:45:56 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-16:45:57 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+23-Jul-2018-16:45:58 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-16:47:25 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-16:47:28 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-16:47:30 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-16:47:30 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-16:47:30 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-16:47:31 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-16:47:31 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-16:47:32 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-16:47:40 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-16:47:43 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-16:47:45 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-16:49:20 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-16:49:21 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-16:49:22 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-16:49:22 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-16:49:22 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-16:49:22 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-16:49:22 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-16:49:23 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-16:49:26 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-16:49:27 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-16:49:27 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-17:00:17 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-17:00:18 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-17:00:19 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-17:00:19 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-17:00:19 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-17:00:19 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-17:00:19 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:00:20 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:00:23 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-17:00:24 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-17:00:25 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-17:05:16 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-17:05:19 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-17:05:20 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-17:05:20 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-17:05:20 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-17:05:20 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-17:05:20 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:05:21 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:05:25 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-17:05:27 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-17:05:28 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-17:09:26 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-17:09:27 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-17:09:28 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-17:09:29 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-17:09:29 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-17:09:29 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-17:09:29 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:09:30 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:09:34 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-17:09:36 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-17:09:37 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-17:10:55 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-17:10:58 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-17:10:59 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-17:11:00 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-17:11:00 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-17:11:00 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-17:11:00 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:11:05 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:11:09 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-17:11:11 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-17:11:12 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-17:11:50 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-17:11:52 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-17:11:53 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-17:11:53 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-17:11:53 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-17:11:53 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-17:11:53 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:11:54 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:11:58 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-17:12:00 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-17:12:02 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-17:13:14 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-17:13:19 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-17:13:20 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-17:13:21 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-17:13:21 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-17:13:21 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-17:13:21 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:13:23 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:13:28 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-17:13:30 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-17:13:32 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+23-Jul-2018-17:21:07 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Jul-2018-17:21:09 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Jul-2018-17:21:10 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Jul-2018-17:21:10 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+23-Jul-2018-17:21:10 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Jul-2018-17:21:10 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+23-Jul-2018-17:21:10 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:21:11 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+23-Jul-2018-17:21:14 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Jul-2018-17:21:16 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+23-Jul-2018-17:21:16 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:21:10 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:21:11 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:21:12 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:21:14 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:21:15 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:23:02 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:23:25 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+24-Jul-2018-09:23:25 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+24-Jul-2018-09:23:25 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+24-Jul-2018-09:23:26 [Visit.ComponentHelper.GenericHelper+<>c__DisplayClass3_0] [INFO] [<WaitForWebElementFunc>b__0] -  Waiting for Element : By.ClassName[Contains]: tagline
+24-Jul-2018-09:23:26 [Visit.StepDefinition.HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Visit.ComponentHelper.GenericHelper.WaitForWebElement(By locator, TimeSpan timeout) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 133
+   at Visit.PageObject.HomePage.HTitle() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\PageObject\HomePage.cs:line 28
+   at Visit.StepDefinition.HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\HomePageSteps.cs:line 46
+24-Jul-2018-09:25:09 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:25:32 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/
+24-Jul-2018-09:25:32 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+24-Jul-2018-09:25:32 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+24-Jul-2018-09:25:33 [Visit.ComponentHelper.GenericHelper+<>c__DisplayClass3_0] [INFO] [<WaitForWebElementFunc>b__0] -  Waiting for Element : By.ClassName[Contains]: tagline
+24-Jul-2018-09:25:33 [Visit.StepDefinition.HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Visit.ComponentHelper.GenericHelper.WaitForWebElement(By locator, TimeSpan timeout) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 133
+   at Visit.PageObject.HomePage.HTitle() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\PageObject\HomePage.cs:line 28
+   at Visit.StepDefinition.HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\HomePageSteps.cs:line 46
+24-Jul-2018-09:28:02 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:28:05 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:28:06 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:28:08 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:28:08 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:30:02 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:30:03 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:30:04 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:30:06 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:30:07 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:33:30 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:33:31 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:33:32 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:33:34 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:33:35 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:38:40 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:38:41 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:38:42 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:38:44 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:38:45 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:41:19 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:41:20 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:41:21 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:41:23 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:41:24 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:44:47 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:44:47 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:44:48 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:44:50 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:44:51 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:46:57 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:46:58 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:46:59 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:47:01 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:47:02 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:50:16 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:50:17 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:50:18 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:50:20 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:50:21 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-09:52:53 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-09:52:53 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-09:52:54 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-09:52:56 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-09:52:57 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-10:07:17 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-10:07:21 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-10:07:22 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-10:07:25 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-10:07:25 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+24-Jul-2018-10:09:48 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jul-2018-10:09:51 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+24-Jul-2018-10:09:52 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+24-Jul-2018-10:09:54 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [WhenUserEntersValidCredebtials] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.Id: UserName
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.SitecoreValidLoginSteps.WhenUserEntersValidCredebtials(Table table) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 41
+24-Jul-2018-10:09:55 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg
+25-Jul-2018-09:27:20 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+25-Jul-2018-09:27:27 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+25-Jul-2018-09:27:28 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+25-Jul-2018-09:27:28 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : gogunley
+25-Jul-2018-09:27:28 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+25-Jul-2018-09:27:29 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : P@rtner$L0nd0n
+25-Jul-2018-09:27:29 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@name='ctl08']
+25-Jul-2018-09:27:30 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@name='ctl08']
+25-Jul-2018-09:27:36 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+25-Jul-2018-09:27:38 [Visit.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\SitecoreValidLoginSteps.cs:line 81
+25-Jul-2018-09:27:39 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Login With Valid Credentials.jpeg

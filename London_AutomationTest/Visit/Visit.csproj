@@ -405,6 +405,7 @@
   <ItemGroup>
     <Folder Include="bin\Release\" />
     <Folder Include="DataDriven\" />
+    <Folder Include="ErrorScreenshots\" />
     <Folder Include="ExcelReader\" />
     <Folder Include="Keyword\" />
   </ItemGroup>

@@ -69,6 +69,7 @@ namespace Visit.Configuration
 
             var htmlReporter = new ExtentHtmlReporter(LatestResultReportFolder);
             htmlReporter.Configuration().Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;
+            
 
             extent = new ExtentReports();
             extent.AttachReporter(htmlReporter);
@@ -128,27 +129,27 @@ namespace Visit.Configuration
             }
             else if (ScenarioContext.Current.TestError != null)
             {
-                //string screenShotPath = GenericHelper.Capture(ObjectRepository.Driver, "Error");
+                string screenShotPath = GetScreenShot.Capture(ObjectRepository.Driver, "ScreenshotName");
 
                 if (stepType == "Given")
                     scenario.CreateNode<Given>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.Message);
-                //.AddScreenCaptureFromPath(screenShotPath, "Screen");
+                        .Fail(ScenarioContext.Current.TestError.Message)
+                        .AddScreenCaptureFromPath(screenShotPath, "Test.Png");
 
                 else if (stepType == "When")
                     scenario.CreateNode<When>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.Message);
-                        //.AddScreenCaptureFromPath(screenShotPath, "Screen");
-
+                        .Fail(ScenarioContext.Current.TestError.Message)
+                        .AddScreenCaptureFromPath(screenShotPath, "Test.Png");
+                
                 else if (stepType == "Then")
                     scenario.CreateNode<Then>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.Message);
-                        //.AddScreenCaptureFromPath(screenShotPath, "Screen");
+                        .Fail(ScenarioContext.Current.TestError.Message)
+                        .AddScreenCaptureFromPath(screenShotPath, "Test.Png");
 
                 else if (stepType == "And")
                     scenario.CreateNode<And>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.Message);
-                        //.AddScreenCaptureFromPath(screenShotPath, "Screen");
+                        .Fail(ScenarioContext.Current.TestError.Message)
+                        .AddScreenCaptureFromPath(screenShotPath, "Test.Png");
             }
 
             //Pending Status

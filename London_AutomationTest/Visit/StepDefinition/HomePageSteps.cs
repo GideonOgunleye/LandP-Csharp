@@ -44,6 +44,9 @@ namespace Visit.StepDefinition
             {
                 ObjectRepository.Hpage = new HomePage(ObjectRepository.Driver);
                 Assert.IsTrue(ObjectRepository.Hpage.HTitle().Contains(p0));
+                //GenericHelper.TakeScreenShot();
+                //GenericHelper.TakeScreenShot2("Screen");
+                GetScreenShot.Capture(ObjectRepository.Driver, "Screen");
             }
             catch (Exception e)
             {

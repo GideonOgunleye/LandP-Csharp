@@ -101,7 +101,7 @@ namespace Visit.ComponentHelper
                 throw new NoSuchElementException("Element Not Found : " + locator.ToString());
         }
 
-        public static void TakeScreenShot(string filename = "Screen")
+        public static string TakeScreenShot(string filename = "Screen")
         {
             var screen = ObjectRepository.Driver.TakeScreenshot();
             if (filename.Equals("Screen"))
@@ -109,10 +109,20 @@ namespace Visit.ComponentHelper
                 filename = filename + DateTime.UtcNow.ToString("yyyy-MM-dd-mm-ss") + ".jpeg";
                 screen.SaveAsFile(filename, ScreenshotImageFormat.Jpeg);
                 Logger.Info(" ScreenShot Taken : " + filename);
-                return;
+                //return;
             }
             screen.SaveAsFile(filename, ScreenshotImageFormat.Jpeg);
             Logger.Info(" ScreenShot Taken : " + filename);
+            return filename;
+        }
+
+        public static string TakeScreenShot2(string ImageName)
+        {
+            var screenshot = ObjectRepository.Driver.TakeScreenshot();
+            string Filename = ImageName + DateTime.UtcNow.ToString("yyyy-MM-dd-mm-ss") + ".jpeg";
+            string localpath = "C:\\Users\\TOM\\source\\repos\\Automation Tests\\London_AutomationTest\\Visit\\bin\\Debug\\TestReport\\" + Filename + ".png";
+            screenshot.SaveAsFile(localpath, ScreenshotImageFormat.Png);
+            return localpath;
         }
 
         public static bool WaitForWebElement(By locator, TimeSpan timeout)
