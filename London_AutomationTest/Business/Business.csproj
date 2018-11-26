@@ -110,9 +110,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClasses\BaseClass.cs" />
+    <Compile Include="BaseClasses\PageBase.cs" />
+    <Compile Include="BaseClasses\ReportingBase.cs" />
+    <Compile Include="ComponentHelper\AssertHelper.cs" />
+    <Compile Include="ComponentHelper\BrowserHelper.cs" />
+    <Compile Include="ComponentHelper\ButtonHelper.cs" />
+    <Compile Include="ComponentHelper\CheckBoxHelper.cs" />
+    <Compile Include="ComponentHelper\ComboBoxHelper.cs" />
+    <Compile Include="ComponentHelper\ExtentReportHelper.cs" />
+    <Compile Include="ComponentHelper\GenericHelper.cs" />
+    <Compile Include="ComponentHelper\GetScreenShot.cs" />
+    <Compile Include="ComponentHelper\JavaScriptExecutor.cs" />
+    <Compile Include="ComponentHelper\JavaScriptPopHelper.cs" />
+    <Compile Include="ComponentHelper\LinkHelper.cs" />
+    <Compile Include="ComponentHelper\Log4NetHelper.cs" />
+    <Compile Include="ComponentHelper\NavigationHelper.cs" />
+    <Compile Include="ComponentHelper\RadioButtonHelper.cs" />
+    <Compile Include="ComponentHelper\ReportHelper.cs" />
+    <Compile Include="ComponentHelper\ScreenshotTaker.cs" />
+    <Compile Include="ComponentHelper\TextBoxHelper.cs" />
+    <Compile Include="ComponentHelper\WebDriverExtensions.cs" />
+    <Compile Include="ComponentHelper\WindowHelper.cs" />
     <Compile Include="Configuration\AppConfigReader.cs" />
     <Compile Include="Configuration\BrowserType.cs" />
     <Compile Include="Configuration\Hooks.cs" />
+    <Compile Include="CustomException\NoKeywordFoundException.cs" />
+    <Compile Include="CustomException\NoSuitableDriverFound.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
     <Compile Include="Settings\AppConfigKeys.cs" />
     <Compile Include="Settings\ObjectRepository.cs" />
@@ -125,8 +148,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ComponentHelper\" />
-    <Folder Include="CustomException\" />
     <Folder Include="DataDriven\" />
     <Folder Include="FeatureFiles\" />
     <Folder Include="GeneralHook\" />
