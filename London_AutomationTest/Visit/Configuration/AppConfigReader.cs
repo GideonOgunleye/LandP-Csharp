@@ -55,5 +55,10 @@ namespace Visit.Configuration
         {
             return ConfigurationManager.AppSettings.Get(AppConfigKeys.Website);
         }
+
+        public string GetPreviewWebsite()
+        {
+            return ConfigurationManager.AppSettings.Get(AppConfigKeys.PreviewWebsite);
+        }
     }
 }

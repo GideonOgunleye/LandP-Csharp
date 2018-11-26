@@ -3,7 +3,7 @@
 	I want to use the search function
 	So that Required Products/Events Returned
 
-@Smoke
+#@Smoke
 Scenario: The Natural History Museum Keyword Search
 	Given User is on Home Page 'http://qa.visitlondon.com'
 	When I Enter 'Natural History Museum' Keyword

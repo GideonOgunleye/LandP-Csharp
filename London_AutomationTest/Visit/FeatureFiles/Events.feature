@@ -3,7 +3,7 @@
 	I Want To Check For Status Codes Returned By Expired Events
 	So That I Can Ensure That The Events Return The Relevant Codes
 
-@Smoke
+#@Smoke
 Scenario: Expired Event Status Code Less Than 12 Months Old
 	Given I Navigate To Url of Expired Event 'http://qa.visitlondon.com/things-to-do/event/8864150-fathers-day-in-london'
 	#Then Event Should Return Status Code '200'

@@ -86,7 +86,7 @@ this.ScenarioSetup(scenarioInfo);
                         "Username",
                         "Password"});
             table1.AddRow(new string[] {
-                        "gogunley",
+                        "gogunleye",
                         "P@rtner$L0nd0n"});
 #line 9
  testRunner.When("User Enters Valid Credebtials", ((string)(null)), table1, "When ");

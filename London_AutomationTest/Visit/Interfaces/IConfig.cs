@@ -13,6 +13,7 @@ namespace Visit.Interfaces
         string GetUsername();
         string GetPassword();
         string GetWebsite();
+        string GetPreviewWebsite();
         int GetPageLoadTimeOut();
         int GetElementLoadTimeOut();
     }

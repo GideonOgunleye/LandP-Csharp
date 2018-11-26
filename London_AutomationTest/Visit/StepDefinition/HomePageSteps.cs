@@ -35,6 +35,21 @@ namespace Visit.StepDefinition
 
         }
 
+        [Given(@"I Navigate To PreviewHomePage")]
+        public void INavigateToPreviewHomePage()
+        {
+            try
+            {
+                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetPreviewWebsite());
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                //throw;
+            }
+
+        }
+
         [Then(@"I should be shown the main title '(.*)'")]
         public void ThenIShouldBeShownTheMainTitle(string p0)
         {

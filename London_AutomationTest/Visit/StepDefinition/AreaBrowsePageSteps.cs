@@ -39,6 +39,23 @@ namespace Visit.StepDefinition
             }
         }
 
+        [Given(@"I navigate to the Preview Area Browse Page '(.*)'")]
+        public void GivenINavigateToThePreviewAreaBrowsePage(string p0)
+        {
+
+            //NavigationHelper.NavigateToUrl(p0);
+
+            try
+            {
+                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetPreviewWebsite() + p0);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                //throw;
+            }
+        }
+
 
         [Given(@"I don't see an error code")]
         public void GivenIDonTSeeAnErrorCode()

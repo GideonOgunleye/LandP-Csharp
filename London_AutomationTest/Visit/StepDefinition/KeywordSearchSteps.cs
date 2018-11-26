@@ -59,6 +59,21 @@ namespace Visit.StepDefinition
         {
             try
             {
+                ButtonHelper.ClickButton(By.XPath(".//*[@class='close-overlay-3 TT-feedback-popup-close']"));
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("No Pop-Up: " + e);
+                
+                //throw;
+            }
+
+
+            try
+            {
                 ButtonHelper.ClickButton(By.XPath(".//*[@class='header-search cf']/button"));
                 Thread.Sleep(5000);
 
