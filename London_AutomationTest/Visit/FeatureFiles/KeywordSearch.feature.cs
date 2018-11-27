@@ -109,8 +109,8 @@ this.ScenarioSetup(scenarioInfo);
 #line 17
  testRunner.And("I Hit The Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 18
- testRunner.Then("I Should See Search Results for \'Science Museum\' Containing The Keyword \'Natural " +
-                    "History Museum\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I Should See Search Results for \'Science Museum\' Containing The Keyword \'Science\'" +
+                    "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -132,8 +132,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 24
  testRunner.And("I Hit The Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 25
- testRunner.Then("I Should See Search Results for \'Premier Inn\' Containing The Keyword \'Natural His" +
-                    "tory Museum\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I Should See Search Results for \'Premier Inn\' Containing The Keyword \'Premier\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -155,8 +154,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 31
  testRunner.And("I Hit The Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 32
- testRunner.Then("I Should See Search Results for \'Holiday Inn\' Containing The Keyword \'Natural His" +
-                    "tory Museum\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I Should See Search Results for \'Holiday Inn\' Containing The Keyword \'Holiday\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -178,8 +176,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 38
  testRunner.And("I Hit The Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 39
- testRunner.Then("I Should See Search Results for \'Harry Potter\' Containing The Keyword \'Natural Hi" +
-                    "story Museum\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I Should See Search Results for \'Harry Potter\' Containing The Keyword \'Harry\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
