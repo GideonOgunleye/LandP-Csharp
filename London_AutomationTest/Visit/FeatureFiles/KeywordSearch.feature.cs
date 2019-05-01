@@ -260,7 +260,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 66
 this.ScenarioSetup(scenarioInfo);
 #line 67
- testRunner.Given("User is on Home Page \'http://qpreview-sc.visitlondon.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("User is on Home Page \'http://preview-sc.visitlondon.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 68
  testRunner.When("I Enter \'Holiday Inn\' Keyword", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 69
@@ -282,7 +282,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 73
 this.ScenarioSetup(scenarioInfo);
 #line 74
- testRunner.Given("User is on Home Page \'http://qpreview-sc.visitlondon.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("User is on Home Page \'http://preview-sc.visitlondon.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 75
  testRunner.When("I Enter \'Harry Potter\' Keyword", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 76

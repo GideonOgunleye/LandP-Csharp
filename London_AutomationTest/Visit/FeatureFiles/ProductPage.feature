@@ -13,3 +13,9 @@ Scenario: Product page is up
 	Given I navigate to the product page '/things-to-do/place/403052-radisson-blu-edwardian-grafton-hotel'
 	#And I don't see an error code
 	Then I should be shown the Main Image
+
+@Preview-Smoke
+Scenario: Preview Product page is up
+	Given I navigate to the Preview product page '/things-to-do/place/403052-radisson-blu-edwardian-grafton-hotel'
+	#And I don't see an error code
+	Then I should be shown the Main Image

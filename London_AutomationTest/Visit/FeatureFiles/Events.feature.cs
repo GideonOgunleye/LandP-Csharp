@@ -89,11 +89,9 @@ this.ScenarioSetup(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Expired Event Status Code More Than 12 Months Old")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Events")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
         public virtual void ExpiredEventStatusCodeMoreThan12MonthsOld()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Expired Event Status Code More Than 12 Months Old", new string[] {
-                        "Smoke"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Expired Event Status Code More Than 12 Months Old", ((string[])(null)));
 #line 13
 this.ScenarioSetup(scenarioInfo);
 #line 14
@@ -101,8 +99,27 @@ this.ScenarioSetup(scenarioInfo);
                     "44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olympic-park" +
                     "\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 16
- testRunner.Then("Event Page \'Greater Than 12 Months\' Should Contain Text \"The page you have reques" +
-                    "ted is gone\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Event Page \'Greater Than 12 Months\' Should Contain Text \"This event has finished\"" +
+                    "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview Expired Event Status Code More Than 12 Months Old")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Events")]
+        public virtual void PreviewExpiredEventStatusCodeMoreThan12MonthsOld()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview Expired Event Status Code More Than 12 Months Old", ((string[])(null)));
+#line 19
+this.ScenarioSetup(scenarioInfo);
+#line 20
+ testRunner.Given("I Navigate To Url of Expired Event \'http://preview-sc.visitlondon.com/things-to-d" +
+                    "o/event/44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olym" +
+                    "pic-park\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 22
+ testRunner.Then("Event Page \'Greater Than 12 Months\' Should Contain Text \"This event has finished\"" +
+                    "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

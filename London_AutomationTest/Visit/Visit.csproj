@@ -192,6 +192,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ThingsToDoPage.feature</DependentUpon>
     </Compile>
+    <Compile Include="FeatureFiles\TopTenAttractionsPage.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TopTenAttractionsPage.feature</DependentUpon>
+    </Compile>
     <Compile Include="GeneralHook\GeneralHook.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
     <Compile Include="PageObject\AreaBrowsePage.cs" />
@@ -286,6 +291,10 @@
     <None Include="FeatureFiles\ThingsToDoPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ThingsToDoPage.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeatureFiles\TopTenAttractionsPage.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>TopTenAttractionsPage.feature.cs</LastGenOutput>
     </None>
     <None Include="license" />
     <None Include="packages.config" />

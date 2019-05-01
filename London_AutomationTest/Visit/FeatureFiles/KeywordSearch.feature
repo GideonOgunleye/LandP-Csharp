@@ -64,14 +64,14 @@ Scenario: Preview The Premier Inn Keyword Search
 
 @Preview-Smoke
 Scenario: Preview The Holiday Inn Keyword Search
-	Given User is on Home Page 'http://qpreview-sc.visitlondon.com'
+	Given User is on Home Page 'http://preview-sc.visitlondon.com'
 	When I Enter 'Holiday Inn' Keyword
 	And I Hit The Search Button
 	Then I Should See Search Results for 'Holiday Inn' Containing The Keyword 'Holiday'
 
 @Preview-Smoke
 Scenario: Preview The Harry Potter Keyword Search
-	Given User is on Home Page 'http://qpreview-sc.visitlondon.com'
+	Given User is on Home Page 'http://preview-sc.visitlondon.com'
 	When I Enter 'Harry Potter' Keyword
 	And I Hit The Search Button
 	Then I Should See Search Results for 'Harry Potter' Containing The Keyword 'Harry'

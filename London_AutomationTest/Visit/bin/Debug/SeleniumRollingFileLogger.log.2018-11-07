@@ -1,0 +1,7 @@
+07-Nov-2018-15:20:17 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+07-Nov-2018-15:20:35 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/heart
+07-Nov-2018-15:20:44 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
+07-Nov-2018-15:20:46 [Visit.StepDefinition.PageRedirectSteps] [ERROR] [ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf']/h1
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.PageRedirectSteps.ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage(String p0, String p1) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\PageRedirectSteps.cs:line 50
+07-Nov-2018-15:20:49 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Whats On Page Redirects.jpeg

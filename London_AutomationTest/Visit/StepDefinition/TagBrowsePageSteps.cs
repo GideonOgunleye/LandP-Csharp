@@ -11,6 +11,7 @@ using Visit.BaseClasses;
 using Visit.ComponentHelper;
 using Visit.PageObject;
 using Visit.Settings;
+using OpenQA.Selenium;
 
 namespace Visit.StepDefinition
 {
@@ -34,14 +35,30 @@ namespace Visit.StepDefinition
             }
         }
 
+        [Given(@"I navigate to the Preview Tag Browser page '(.*)'")]
+        public void GivenINavigateToThePreviewTagBrowserPage(string p0)
+        {
+            try
+            {
+                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetPreviewWebsite() + p0);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                //throw;
+            }
+        }
+
         [Then(@"I should be shown the tag browse search grid")]
         public void ThenIShouldBeShownTheTagBrowseSearchGrid()
         {
 
             try
             {
-                ObjectRepository.TBpage = new TagBrowsePage(ObjectRepository.Driver);
-                Assert.IsTrue(ObjectRepository.TBpage.HasSearchGrid());
+                //ObjectRepository.TBpage = new TagBrowsePage(ObjectRepository.Driver);
+                //Assert.IsTrue(ObjectRepository.TBpage.HasSearchGrid());
+                Assert.IsTrue(GenericHelper.WaitForWebElement(By.ClassName("search-grid-results"), TimeSpan.FromMilliseconds(500)));
+                ButtonHelper.ClickButton(By.XPath(".//*[@class='search-grid-results']/li[1]/a"));
             }
             catch (Exception e)
             {

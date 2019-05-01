@@ -9,8 +9,14 @@ Scenario: Expired Event Status Code Less Than 12 Months Old
 	#Then Event Should Return Status Code '200'
 	Then Event Page 'Less Than 12 Months' Should Contain Text "This event has finished"
 	
-@Smoke
+#@Smoke
 Scenario: Expired Event Status Code More Than 12 Months Old
 	Given I Navigate To Url of Expired Event 'http://qa.visitlondon.com/things-to-do/event/44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olympic-park'
 	#Then Event Should Return Status Code '401'
-	Then Event Page 'Greater Than 12 Months' Should Contain Text "The page you have requested is gone"
+	Then Event Page 'Greater Than 12 Months' Should Contain Text "This event has finished"
+
+#@Preview-Smoke
+Scenario: Preview Expired Event Status Code More Than 12 Months Old
+	Given I Navigate To Url of Expired Event 'http://preview-sc.visitlondon.com/things-to-do/event/44448097-england-v-australia-in-the-four-nations-at-queen-elizabeth-olympic-park'
+	#Then Event Should Return Status Code '401'
+	Then Event Page 'Greater Than 12 Months' Should Contain Text "This event has finished"

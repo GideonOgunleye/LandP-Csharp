@@ -26,6 +26,12 @@ namespace Visit.StepDefinition
             NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetWebsite() + p0);
         }
 
+        [Given(@"I navigate to Preview event calendar page '(.*)'")]
+        public void GivenINavigateToPreviewEventCalendarPage(string p0)
+        {
+            NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetPreviewWebsite() + p0);
+        }
+
 
         [Given(@"I don't see an error code on Calender")]
         public void GivenIDonTSeeAnErrorCodeOnCalender()

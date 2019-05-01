@@ -33,6 +33,20 @@ namespace Visit.StepDefinition
             }
         }
 
+        [Given(@"I navigate to the Preview London tube page  '(.*)'")]
+        public void GivenINavigateToThePreviewLondonTubePage(string p0)
+        {
+            try
+            {
+                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetPreviewWebsite() + p0);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                //throw;
+            }
+        }
+
 
         [Then(@"I should be shown the  '(.*)' Title")]
         public void ThenIShouldBeShownTheTitle(string p0)
