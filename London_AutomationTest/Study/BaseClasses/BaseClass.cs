@@ -95,7 +95,7 @@ namespace Business.BaseClasses
             InternetExplorerDriver driver = new InternetExplorerDriver(GetIEOptions());
             return driver;
         }
-
+/**
         private static PhantomJSDriver GetPhantomJsDriver()
         {
             PhantomJSDriver driver = new PhantomJSDriver(GetPhantomJsDrvierService());
@@ -119,7 +119,7 @@ namespace Business.BaseClasses
             service.LoadImages = true;
             Logger.Info(" Using PhantomJS Driver Service  ");
             return service;
-        }
+        }**/
 
         private void TakeScreenshotForTestFailure()
         {
