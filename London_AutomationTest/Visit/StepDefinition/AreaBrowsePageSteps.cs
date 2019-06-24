@@ -73,6 +73,7 @@ namespace Visit.StepDefinition
             {
                 ObjectRepository.ABpage = new AreaBrowsePage(ObjectRepository.Driver);
                 Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
+                //Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
                 //ReportHelper.PassingTestLogger("Test Sucessful");
 
             }
