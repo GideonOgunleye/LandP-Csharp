@@ -5,7 +5,7 @@
 
 #@Smoke
 Scenario: Expired Event Status Code Less Than 12 Months Old
-	Given I Navigate To Url of Expired Event 'http://qa.visitlondon.com/things-to-do/event/8864150-fathers-day-in-london'
+	Given I Navigate To Url of Expired Event 'http://qa.upgrade.visitlondon.com/things-to-do/event/8864150-fathers-day-in-london'
 	#Then Event Should Return Status Code '200'
 	Then Event Page 'Less Than 12 Months' Should Contain Text "This event has finished"
 	

@@ -33,7 +33,7 @@ Scenario: The Holiday Inn Keyword Search
 
 @Smoke
 Scenario: The Harry Potter Keyword Search
-	Given User is on Home Page 'http://qa.visitlondon.com'
+	Given User is on Home Page 'http://qa.upgrade.visitlondon.com'
 	When I Enter 'Harry Potter' Keyword
 	And I Hit The Search Button
 	Then I Should See Search Results for 'Harry Potter' Containing The Keyword 'Harry'

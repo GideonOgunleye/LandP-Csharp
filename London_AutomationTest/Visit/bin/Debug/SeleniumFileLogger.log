@@ -14531,3 +14531,25 @@
 26-Mar-2019-12:23:29 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
 26-Mar-2019-12:23:37 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/about-us
 26-Mar-2019-12:23:47 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
+24-Jun-2019-13:50:27 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jun-2019-13:52:42 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jun-2019-13:52:44 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.upgrade.visitlondon.com
+24-Jun-2019-13:52:49 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+24-Jun-2019-13:52:51 [Visit.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\TextBoxHelper.cs:line 17
+   at Visit.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\KeywordSearchSteps.cs:line 44
+24-Jun-2019-13:52:54 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : The Harry Potter Keyword Search.jpeg
+24-Jun-2019-13:53:25 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Jun-2019-13:54:00 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.upgrade.visitlondon.com
+24-Jun-2019-13:54:05 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+24-Jun-2019-13:54:12 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Harry Potter
+24-Jun-2019-13:54:17 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+24-Jun-2019-13:54:19 [Visit.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\ButtonHelper.cs:line 18
+   at Visit.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\KeywordSearchSteps.cs:line 62
+24-Jun-2019-13:54:19 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
+24-Jun-2019-13:54:27 [Visit.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
+24-Jun-2019-13:54:37 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a
+24-Jun-2019-13:54:38 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a
