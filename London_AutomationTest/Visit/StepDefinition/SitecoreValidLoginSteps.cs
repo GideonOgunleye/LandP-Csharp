@@ -58,7 +58,7 @@ namespace Visit.StepDefinition
 
             try
             {
-                ButtonHelper.ClickButton(By.XPath("//input[@name='ctl08']"));
+                ButtonHelper.ClickButton(By.XPath("//input[@id='LogInBtn']"));
                 
             }
             catch (Exception e)

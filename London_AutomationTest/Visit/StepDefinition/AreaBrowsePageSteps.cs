@@ -47,7 +47,7 @@ namespace Visit.StepDefinition
 
             try
             {
-                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetPreviewWebsite() + p0);
+                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetWebsite() + p0);
             }
             catch (Exception e)
             {
@@ -72,14 +72,16 @@ namespace Visit.StepDefinition
             try
             {
                 ObjectRepository.ABpage = new AreaBrowsePage(ObjectRepository.Driver);
-                Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
+                AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/h1[contains(text(), 'London Bridge')]")).Text, "London Bridge");
+                //Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
                 //Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
                 //ReportHelper.PassingTestLogger("Test Sucessful");
 
             }
             catch (Exception e)
             {
-                Logger.Error("Exception: " + e); 
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
             }
 
             //AssertHelper.AreEqual(GenericHelper.GetElement(By.Id("prices-acc")).GetAttribute("Prices and Opening Times"), "Prices and Opening Times");

@@ -230,7 +230,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="bin\Debug\FileLogger.log" />
     <None Include="bin\Debug\nunit_random_seed.tmp" />
     <None Include="bin\Debug\RollingFile.log" />
