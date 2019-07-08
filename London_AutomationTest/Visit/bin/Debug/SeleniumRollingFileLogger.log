@@ -164,3 +164,12 @@
 08-Jul-2019-11:18:30 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2019-07-08-18-30.jpeg
 08-Jul-2019-11:18:31 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2019-07-08-18-30.jpeg
 08-Jul-2019-11:18:31 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/h1[contains(text(), 'London Bridge')]
+08-Jul-2019-11:46:57 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Jul-2019-11:47:02 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/area/london-bridge
+08-Jul-2019-11:47:03 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2019-07-08-47-03.jpeg
+08-Jul-2019-11:47:03 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2019-07-08-47-03.jpeg
+08-Jul-2019-11:47:03 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/h1[contains(text(), 'London Bridge')]
+08-Jul-2019-11:47:05 [Visit.StepDefinition.AreaBrowsePageSteps] [ERROR] [ThenIShouldBeShownTheAreaBrowseSearchGrid] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div/h1[contains(text(), 'London Bridge')]
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.StepDefinition.AreaBrowsePageSteps.ThenIShouldBeShownTheAreaBrowseSearchGrid() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\AreaBrowsePageSteps.cs:line 75
+08-Jul-2019-11:47:07 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Area Browse page is up.jpeg
