@@ -115,16 +115,16 @@ namespace Visit.StepDefinition
                         JavaScriptExecutor.ScrollToView(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a"));
                         Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a")).Text.Contains(p1));
                         break;
-                    case "Holiday Inn":
-                        Thread.Sleep(5000);
-                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a"));
-                        Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a")).Text.Contains(p1));
-                        break;
-                    case "Harry Potter":
-                        Thread.Sleep(5000);
-                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a"));
-                        Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a")).Text.Contains(p1));
-                        break;
+                    /*   case "Holiday Inn":
+                         Thread.Sleep(5000);
+                         JavaScriptExecutor.ScrollToView(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a"));
+                         Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a")).Text.Contains(p1));
+                         break;
+                     case "Harry Potter":
+                         Thread.Sleep(5000);
+                         JavaScriptExecutor.ScrollToView(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a"));
+                         Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@class='search-grid-results']/li[1]/div[1]/div/h3/a")).Text.Contains(p1));
+                         break;*/
                     default:
                         Console.WriteLine("No Matching Text Found");
                         break;

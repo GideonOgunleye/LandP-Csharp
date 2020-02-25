@@ -14728,3 +14728,31 @@
    at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
    at Visit.StepDefinition.AreaBrowsePageSteps.ThenIShouldBeShownTheAreaBrowseSearchGrid() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\AreaBrowsePageSteps.cs:line 75
 08-Jul-2019-11:47:07 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Area Browse page is up.jpeg
+05-Feb-2020-09:10:43 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+05-Feb-2020-09:12:36 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+05-Feb-2020-09:12:40 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+05-Feb-2020-09:12:42 [Visit.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Natural History Museum
+05-Feb-2020-09:12:47 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+05-Feb-2020-09:12:49 [Visit.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
+   at Visit.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\ButtonHelper.cs:line 18
+   at Visit.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\KeywordSearchSteps.cs:line 62
+05-Feb-2020-09:12:49 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
+05-Feb-2020-09:12:49 [Visit.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - Exception: OpenQA.Selenium.WebDriverException: unknown error: Element <button title="Search" class="header-search-submit" type="submit">...</button> is not clickable at point (1262, 70). Other element would receive the click: <div id="CybotCookiebotDialogBodyUnderlay" style="display: block; width: 1676px; height: 5897px; opacity: 0.75;"></div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at Visit.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\ComponentHelper\ButtonHelper.cs:line 19
+   at Visit.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\StepDefinition\KeywordSearchSteps.cs:line 77
+05-Feb-2020-09:12:51 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : The Natural History Museum Keyword Search.jpeg
+24-Feb-2020-15:49:23 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Feb-2020-15:49:27 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/about-us
+24-Feb-2020-15:49:37 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
+24-Feb-2020-16:49:26 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Feb-2020-16:51:47 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Feb-2020-16:51:56 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+24-Feb-2020-16:51:56 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+24-Feb-2020-16:51:56 [Visit.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+24-Feb-2020-16:51:56 [Visit.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 

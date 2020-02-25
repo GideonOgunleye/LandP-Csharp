@@ -11,8 +11,8 @@ C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\bin\Debug
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\bin\Debug\Visit.dll.config
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\bin\Debug\Visit.dll
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\bin\Debug\Visit.pdb
-C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.csprojAssemblyReference.cache
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.csproj.CoreCompileInputs.cache
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.csproj.CopyComplete
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.dll
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.pdb
+C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.csprojAssemblyReference.cache

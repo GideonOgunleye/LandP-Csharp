@@ -1,0 +1,16 @@
+24-Feb-2020-16:47:11 [Convention.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Feb-2020-16:47:51 [Convention.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/
+24-Feb-2020-16:52:16 [Convention.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Feb-2020-16:52:27 [Convention.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london//search-venue
+24-Feb-2020-16:52:27 [Convention.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venuesearch']/div/fieldset/legend[contains(text(), 'Venue style')]
+24-Feb-2020-16:52:29 [Convention.StepDefinition.VenueSearchPageSteps] [ERROR] [ThenIShouldSeeVenueSearchResults] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='venuesearch']/div/fieldset/legend[contains(text(), 'Venue style')]
+   at Convention.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Convention\ComponentHelper\GenericHelper.cs:line 100
+   at Convention.StepDefinition.VenueSearchPageSteps.ThenIShouldSeeVenueSearchResults() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Convention\StepDefinition\VenueSearchPageSteps.cs:line 48
+24-Feb-2020-16:52:31 [Convention.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Search Page is Up.jpeg
+24-Feb-2020-16:57:22 [Convention.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+24-Feb-2020-16:57:23 [Convention.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london//search-venue
+24-Feb-2020-16:57:23 [Convention.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venuesearch']/div/fieldset/legend[contains(text(), 'Venue style')]
+24-Feb-2020-16:57:25 [Convention.StepDefinition.VenueSearchPageSteps] [ERROR] [ThenIShouldSeeVenueSearchResults] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='venuesearch']/div/fieldset/legend[contains(text(), 'Venue style')]
+   at Convention.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Convention\ComponentHelper\GenericHelper.cs:line 100
+   at Convention.StepDefinition.VenueSearchPageSteps.ThenIShouldSeeVenueSearchResults() in C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Convention\StepDefinition\VenueSearchPageSteps.cs:line 48
+24-Feb-2020-16:57:27 [Convention.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Search Page is Up.jpeg
