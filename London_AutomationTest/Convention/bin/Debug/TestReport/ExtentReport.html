@@ -43,7 +43,7 @@
         <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 
             <a>
-                <span class='suite-start-time label blue darken-3'>2/25/2020 10:03:53 AM GMT Standard Time</span>
+                <span class='suite-start-time label blue darken-3'>3/16/2020 3:23:34 PM GMT Standard Time</span>
             </a>
             <a>
                 <span class="label blue darken-3">3.1.0</span>
@@ -123,10 +123,10 @@
                     <canvas id='parent-analysis' width='100' height='80'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span><span class='strong'>1</span> test(s) passed</span>
+                    <span><span class='strong'>0</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong'>0</span> test(s) failed, <span class='strong'>0</span> others
+                    <span class='strong'>1</span> test(s) failed, <span class='strong'>0</span> others
                 </div>
             </div>
         </div>
@@ -138,10 +138,10 @@
                         <canvas id='child-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>1</span> step(s) passed</span>
+                        <span><span class='strong'>0</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
-                        <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
+                        <span class='strong'>1</span> step(s) failed, <span class='strong'>0</span> others
                     </div>
                 </div>
             </div>
@@ -153,10 +153,10 @@
                         <canvas id='grandchild-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>2</span> step(s) passed</span>
+                        <span><span class='strong'>1</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
-                        <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
+                        <span class='strong'>1</span> step(s) failed, <span class='strong'>0</span> others
                     </div>
                 </div>
             </div>
@@ -170,15 +170,15 @@
             <ul id='test-collection' class='test-collection'>
 
 
-                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='1'>
+                    <li class='test displayed active has-leaf fail' status='fail' bdd='bdd' test-id='1'>
                         <div class='test-heading'>
                             <span class='test-name'>VenueSearchPage</span>
-                            <span class='test-time'>2/25/2020 10:03:53 AM</span>
-                            <span class='test-status right pass'>Pass</span>
+                            <span class='test-time'>3/16/2020 3:23:34 PM</span>
+                            <span class='test-status right fail'>Fail</span>
                         </div>
                         <div class='test-content hide'>
-                                    <div class='scenario node' test-id='2' status='pass'>
-                                        <span class='scenario-duration right label'>00:00:06.9286837</span>
+                                    <div class='scenario node' test-id='2' status='fail'>
+                                        <span class='scenario-duration right label'>00:00:07.3540575</span>
                                         <div class='scenario-desc'>
                                             <b>Scenario</b>
                                             Validate Search Page is Up
@@ -190,10 +190,17 @@
                                                         <b>Given</b>
                                                         I Navigate To The Search Venue Page '/search-venue'
                                                                                                                                                                     </li>
-                                                    <li test-id='4' class='node then pass' status='then pass'>
+                                                    <li test-id='4' class='node then fail' status='then fail'>
                                                         <b>Then</b>
                                                         I Should See Venue Search Results
-                                                                                                                                                                    </li>
+                                                            <ul class='screenshots right'>
+                                                                    <li><a data-featherlight="image" href="C:\Workspace\London_AutomationTest\Convention\bin\Debug\TestReport\ScreenshotName2020-03-16-23-41.Png"><i class='material-icons'>panorama</i></a></li>
+                                                            </ul>
+                                                                                                                                                                            <div class='pre'>Assert.Fail failed. ExceptionMicrosoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at Convention.StepDefinition.VenueSearchPageSteps.ThenIShouldSeeVenueSearchResults() in C:\Workspace\London_AutomationTest\Convention\StepDefinition\VenueSearchPageSteps.cs:line 50</div>
+                                                    </li>
                                             </ul>
                                     </div>
 
@@ -280,19 +287,19 @@
             <div class='col s2'>
                 <div class='card-panel r'>
                     Start
-                    <div class='panel-lead'>2/25/2020 10:03:53 AM</div>
+                    <div class='panel-lead'>3/16/2020 3:23:34 PM</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     End
-                    <div class='panel-lead'>2/25/2020 10:04:05 AM</div>
+                    <div class='panel-lead'>3/16/2020 3:23:47 PM</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Time Taken
-                    <div class='panel-lead'>00:00:11.6721542</div>
+                    <div class='panel-lead'>00:00:13.0009270</div>
                 </div>
             </div>
 
@@ -311,23 +318,23 @@
 
 		<script>
 			var statusGroup = {
-			    passParent: 1,
-			    failParent: 0,
+			    passParent: 0,
+			    failParent: 1,
 			    fatalParent: 0,
 			    errorParent: 0,
 			    warningParent: 0,
 			    skipParent: 0,
 				
-			    passChild: 1,
-			    failChild: 0,
+			    passChild: 0,
+			    failChild: 1,
 			    fatalChild: 0,
 			    errorChild: 0,
 			    warningChild: 0,
 			    skipChild: 0,
 			    infoChild: 0,
 				
-			    passGrandChild: 2,
-			    failGrandChild: 0,
+			    passGrandChild: 1,
+			    failGrandChild: 1,
 			    fatalGrandChild: 0,
 			    errorGrandChild: 0,
 			    warningGrandChild: 0,

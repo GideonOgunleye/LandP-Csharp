@@ -420,6 +420,7 @@
     <Folder Include="DataDriven\" />
     <Folder Include="ErrorScreenshots\" />
     <Folder Include="ExcelReader\" />
+    <Folder Include="FeatureFiles_CVB\" />
     <Folder Include="Keyword\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

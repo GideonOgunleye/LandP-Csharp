@@ -58,14 +58,22 @@ namespace Visit.Configuration
             /*var htmlReporter = new ExtentHtmlReporter(@"London_AutomationTest\Visit\TestReport\ExtentReport.html");
             htmlReporter.Configuration().Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;*/
 
-            string path = Environment.CurrentDirectory;
-            var filePath = Path.GetFullPath(ApplicationDebugFolder);
+              string path = Environment.CurrentDirectory;
+              var filePath = Path.GetFullPath(ApplicationDebugFolder);
+              
+
+          /*  string workingDirectory = Environment.CurrentDirectory;
+            string path = Directory.GetParent(workingDirectory).Parent.Parent.FullName;  */
 
             //LatestResultReportFolder = Path.Combine(path,filePath, DateTime.Now.ToString("MMdd_HHmm"));
             //Directory.CreateDirectory(LatestResultReportFolder);
             //HtmlReportFullPath = $"{LatestResultReportFolder}\\ExtentReport.html";
             //TheLogger.Info("Test Logged" + HtmlReportFullPath);
+
             LatestResultReportFolder = Path.Combine(path, filePath, fileName);
+                
+
+           /* LatestResultReportFolder = Path.Combine(path, fileName); */
 
             var htmlReporter = new ExtentHtmlReporter(LatestResultReportFolder);
             htmlReporter.Configuration().Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;

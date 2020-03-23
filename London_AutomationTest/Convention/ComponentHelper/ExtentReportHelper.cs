@@ -5,7 +5,9 @@ using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,11 +42,16 @@ namespace Convention.ComponentHelper
                 extentReport.AddSystemInfo("Environment", "Automation");
                 extentReport.AddSystemInfo("Version", "ABCD");*/
 
-                var dir = TestContext.CurrentContext.TestDirectory + "TestReport\\";
+                //var dir = TestContext.CurrentContext.TestDirectory + "TestReport\\";
+                string workingDirectory = Environment.CurrentDirectory;
+                string path = Directory.GetParent(workingDirectory).Parent.FullName;
+                //string projectpath = new Uri().LocalPath;
+                //var dir = Assembly.GetCallingAssembly().
                 var fileName = this.GetType().ToString() + ".html";
-                var htmlReporter = new ExtentHtmlReporter(dir + fileName);
+                var htmlReporter = new ExtentHtmlReporter(path + fileName);
 
-                extentReport = new ExtentReports();
+                //extentReport = new ExtentReports();
+                
                 extentReport.AttachReporter(htmlReporter);
 
             }

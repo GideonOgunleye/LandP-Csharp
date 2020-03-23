@@ -58,10 +58,19 @@ namespace Convention.Configuration
             string path = Environment.CurrentDirectory;
             var filePath = Path.GetFullPath(ApplicationDebugFolder);
 
+
+            /*   string workingDirectory = Environment.CurrentDirectory;
+               string path = Directory.GetParent(workingDirectory).Parent.Parent.FullName; */
+
+            //string Parent = Directory.GetParent(path).FullName;
+
             //LatestResultReportFolder = Path.Combine(path,filePath, DateTime.Now.ToString("MMdd_HHmm"));
             //Directory.CreateDirectory(LatestResultReportFolder);
             //HtmlReportFullPath = $"{LatestResultReportFolder}\\ExtentReport.html";
             //TheLogger.Info("Test Logged" + HtmlReportFullPath);
+
+            /* LatestResultReportFolder = Path.Combine(path, fileName); */
+
             LatestResultReportFolder = Path.Combine(path, filePath, fileName);
 
             var htmlReporter = new ExtentHtmlReporter(LatestResultReportFolder);
