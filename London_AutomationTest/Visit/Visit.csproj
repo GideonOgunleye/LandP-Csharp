@@ -199,6 +199,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TopTenAttractionsPage.feature</DependentUpon>
     </Compile>
+    <Compile Include="FeatureFiles_CVB\Convention_SearchVenuePage.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Convention_SearchVenuePage.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureFiles_CVB\SpecFlowFeature1.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
+    </Compile>
     <Compile Include="GeneralHook\GeneralHook.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
     <Compile Include="PageObject\AreaBrowsePage.cs" />
@@ -211,8 +221,10 @@
     <Compile Include="PageObject\ThingsToDoPage.cs" />
     <Compile Include="Settings\AppConfigKeys.cs" />
     <Compile Include="Settings\ObjectRepository.cs" />
+    <Compile Include="StepDefination_CVB\Convention_VenueSearchPageSteps.cs" />
     <Compile Include="StepDefinition\AreaBrowsePageSteps.cs" />
     <Compile Include="StepDefinition\EventCalenderPageSteps.cs" />
+    <Compile Include="StepDefinition\FeatureStepDef.cs" />
     <Compile Include="StepDefinition\HomePageSteps.cs" />
     <Compile Include="StepDefinition\KeywordSearchSteps.cs" />
     <Compile Include="StepDefinition\LondonTubePageSteps.cs" />
@@ -253,7 +265,7 @@
     <None Include="bin\Debug\TestReport\0601_1614" />
     <None Include="bin\Debug\Visit.dll.config" />
     <None Include="FeatureFiles\AreaBrowsePage.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <Generator>SpecFlow.Tools.MsBuild.Generation</Generator>
       <LastGenOutput>AreaBrowsePage.feature.cs</LastGenOutput>
     </None>
     <None Include="FeatureFiles\EventCalenderPage.feature">
@@ -299,6 +311,14 @@
     <None Include="FeatureFiles\TopTenAttractionsPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>TopTenAttractionsPage.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeatureFiles_CVB\Convention_SearchVenuePage.feature">
+      <Generator>SpecFlow.Tools.MsBuild.Generation</Generator>
+      <LastGenOutput>Convention_SearchVenuePage.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeatureFiles_CVB\SpecFlowFeature1.feature">
+      <Generator>SpecFlow.Tools.MsBuild.Generation</Generator>
+      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
     </None>
     <None Include="license" />
     <None Include="packages.config" />
@@ -420,7 +440,6 @@
     <Folder Include="DataDriven\" />
     <Folder Include="ErrorScreenshots\" />
     <Folder Include="ExcelReader\" />
-    <Folder Include="FeatureFiles_CVB\" />
     <Folder Include="Keyword\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

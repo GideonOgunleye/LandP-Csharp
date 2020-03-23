@@ -56,6 +56,21 @@ namespace Visit.Configuration
             return ConfigurationManager.AppSettings.Get(AppConfigKeys.Website);
         }
 
+        public string GetConventionWebsite()
+        {
+            return ConfigurationManager.AppSettings.Get(AppConfigKeys.ConventionWebsite);
+        }
+
+        public string GetBusinessWebsite()
+        {
+            return ConfigurationManager.AppSettings.Get(AppConfigKeys.BusinessWebsite);
+        }
+
+        public string GetStudyWebsite()
+        {
+            return ConfigurationManager.AppSettings.Get(AppConfigKeys.StudyWebsite);
+        }
+
         public string GetPreviewWebsite()
         {
             return ConfigurationManager.AppSettings.Get(AppConfigKeys.PreviewWebsite);
