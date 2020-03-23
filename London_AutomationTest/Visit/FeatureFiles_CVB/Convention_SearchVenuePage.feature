@@ -1,4 +1,4 @@
-﻿Feature: VenueSearchPage
+﻿Feature: ConventionVenueSearchPage
 	In order to test a deploy
 	As a visitor
 	I want to check the venue search page is up and running:
