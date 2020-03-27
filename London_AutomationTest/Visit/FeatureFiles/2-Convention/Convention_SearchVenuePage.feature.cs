@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles.Visit
+namespace Visit.FeatureFiles._2_Convention
 {
     using TechTalk.SpecFlow;
     
@@ -18,14 +18,14 @@ namespace Visit.FeatureFiles.Visit
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class LondonTubePageFeature
+    public partial class ConventionVenueSearchPageFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "LondonTubePage.feature"
+#line 1 "Convention_SearchVenuePage.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,8 +44,8 @@ namespace Visit.FeatureFiles.Visit
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "LondonTubePage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the London tube page " +
-                    "is up and running:", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ConventionVenueSearchPage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the venue search page" +
+                    " is up and running:", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -60,9 +60,9 @@ namespace Visit.FeatureFiles.Visit
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "LondonTubePage")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "ConventionVenueSearchPage")))
             {
-                global::Visit.FeatureFiles.Visit.LondonTubePageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles._2_Convention.ConventionVenueSearchPageFeature.FeatureSetup(null);
             }
         }
         
@@ -84,39 +84,31 @@ namespace Visit.FeatureFiles.Visit
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("LondonTubePageIsUp")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "LondonTubePage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convention Search Page is Up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void LondonTubePageIsUp()
+        public virtual void ConventionSearchPageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("LondonTubePageIsUp", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page is Up", new string[] {
                         "Smoke"});
-#line 7
-this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I navigate to the London tube page  \'/traveller-information/getting-around-london" +
-                    "/london-tube\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
+#line 9
+ testRunner.Given("I Navigate To The Search Venue Page \'/search-venue\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
- testRunner.Then("I should be shown the  \'London Underground\' Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I Should See Venue Search Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview LondonTubePageIsUp")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "LondonTubePage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Preview-Smoke")]
-        public virtual void PreviewLondonTubePageIsUp()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Validate Convention Search Page Home Link")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
+        public virtual void ValidateConventionSearchPageHomeLink()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview LondonTubePageIsUp", new string[] {
-                        "Preview-Smoke"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate Convention Search Page Home Link", ((string[])(null)));
 #line 13
 this.ScenarioSetup(scenarioInfo);
-#line 14
- testRunner.Given("I navigate to the Preview London tube page  \'/traveller-information/getting-aroun" +
-                    "d-london/london-tube\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 16
- testRunner.Then("I should be shown the  \'London Underground\' Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

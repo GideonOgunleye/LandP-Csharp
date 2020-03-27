@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles.Visit
+namespace Visit.FeatureFiles._1_Visit
 {
     using TechTalk.SpecFlow;
     
@@ -18,14 +18,14 @@ namespace Visit.FeatureFiles.Visit
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class AreaBrowsePageFeature
+    public partial class EventCalendarPageFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "AreaBrowsePage.feature"
+#line 1 "EventCalenderPage.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,8 +44,8 @@ namespace Visit.FeatureFiles.Visit
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "AreaBrowsePage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the an area browser p" +
-                    "age is up and running:", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "EventCalendarPage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the Event calendar is" +
+                    " and running", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -60,9 +60,9 @@ namespace Visit.FeatureFiles.Visit
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "AreaBrowsePage")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "EventCalendarPage")))
             {
-                global::Visit.FeatureFiles.Visit.AreaBrowsePageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles._1_Visit.EventCalendarPageFeature.FeatureSetup(null);
             }
         }
         
@@ -84,41 +84,43 @@ namespace Visit.FeatureFiles.Visit
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Area Browse page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "AreaBrowsePage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Event calendar page is up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "EventCalendarPage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void AreaBrowsePageIsUp()
+        public virtual void EventCalendarPageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Area Browse page is up", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Event calendar page is up", new string[] {
                         "Smoke"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
+#line 8
+ testRunner.Given("I navigate to event calendar page \'/things-to-do/whats-on/special-events/london-e" +
+                    "vents-calendar\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.Given("I navigate to the Area Browser page \'/area/london-bridge\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.And("I don\'t see an error code on Calender", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 10
- testRunner.And("I don\'t see an error code", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 11
- testRunner.Then("I should be shown the area browse search grid", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I should be at least one event", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview Area Browse page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "AreaBrowsePage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview Event calendar page is up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "EventCalendarPage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Preview-Smoke")]
-        public virtual void PreviewAreaBrowsePageIsUp()
+        public virtual void PreviewEventCalendarPageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview Area Browse page is up", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview Event calendar page is up", new string[] {
                         "Preview-Smoke"});
-#line 14
+#line 13
 this.ScenarioSetup(scenarioInfo);
-#line 17
- testRunner.Given("I navigate to the Preview Area Browse Page \'/area/london-bridge\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 18
- testRunner.And("I don\'t see an error code", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 19
- testRunner.Then("I should be shown the area browse search grid", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 14
+ testRunner.Given("I navigate to Preview event calendar page \'/things-to-do/whats-on/special-events/" +
+                    "london-events-calendar\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 15
+ testRunner.And("I don\'t see an error code on Calender", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 16
+ testRunner.Then("I should be at least one event", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

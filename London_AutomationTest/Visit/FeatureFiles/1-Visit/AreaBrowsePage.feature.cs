@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles.Convention
+namespace Visit.FeatureFiles._1_Visit
 {
     using TechTalk.SpecFlow;
     
@@ -18,14 +18,14 @@ namespace Visit.FeatureFiles.Convention
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class ConventionVenueSearchPageFeature
+    public partial class AreaBrowsePageFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "Convention_SearchVenuePage.feature"
+#line 1 "AreaBrowsePage.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,8 +44,8 @@ namespace Visit.FeatureFiles.Convention
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ConventionVenueSearchPage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the venue search page" +
-                    " is up and running:", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "AreaBrowsePage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the an area browser p" +
+                    "age is up and running:", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -60,9 +60,9 @@ namespace Visit.FeatureFiles.Convention
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "ConventionVenueSearchPage")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "AreaBrowsePage")))
             {
-                global::Visit.FeatureFiles.Convention.ConventionVenueSearchPageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles._1_Visit.AreaBrowsePageFeature.FeatureSetup(null);
             }
         }
         
@@ -84,31 +84,41 @@ namespace Visit.FeatureFiles.Convention
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convention Search Page is Up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Area Browse page is up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "AreaBrowsePage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void ConventionSearchPageIsUp()
+        public virtual void AreaBrowsePageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page is Up", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Area Browse page is up", new string[] {
                         "Smoke"});
-#line 8
+#line 7
 this.ScenarioSetup(scenarioInfo);
 #line 9
- testRunner.Given("I Navigate To The Search Venue Page \'/search-venue\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I navigate to the Area Browser page \'/area/london-bridge\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
- testRunner.Then("I Should See Venue Search Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("I don\'t see an error code", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 11
+ testRunner.Then("I should be shown the area browse search grid", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Validate Convention Search Page Home Link")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
-        public virtual void ValidateConventionSearchPageHomeLink()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview Area Browse page is up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "AreaBrowsePage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Preview-Smoke")]
+        public virtual void PreviewAreaBrowsePageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate Convention Search Page Home Link", ((string[])(null)));
-#line 13
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview Area Browse page is up", new string[] {
+                        "Preview-Smoke"});
+#line 14
 this.ScenarioSetup(scenarioInfo);
+#line 17
+ testRunner.Given("I navigate to the Preview Area Browse Page \'/area/london-bridge\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 18
+ testRunner.And("I don\'t see an error code", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 19
+ testRunner.Then("I should be shown the area browse search grid", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

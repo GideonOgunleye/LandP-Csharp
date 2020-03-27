@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles.Visit
+namespace Visit.FeatureFiles._1_Visit
 {
     using TechTalk.SpecFlow;
     
@@ -18,14 +18,14 @@ namespace Visit.FeatureFiles.Visit
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class HomePageFeature
+    public partial class TopTenAttractionsPageFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "HomePage.feature"
+#line 1 "TopTenAttractionsPage.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,8 +44,8 @@ namespace Visit.FeatureFiles.Visit
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "HomePage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the homepage is up an" +
-                    "d running:", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "TopTenAttractionsPage", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
+                    "f two numbers", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -60,9 +60,9 @@ namespace Visit.FeatureFiles.Visit
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "HomePage")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "TopTenAttractionsPage")))
             {
-                global::Visit.FeatureFiles.Visit.HomePageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles._1_Visit.TopTenAttractionsPageFeature.FeatureSetup(null);
             }
         }
         
@@ -84,37 +84,43 @@ namespace Visit.FeatureFiles.Visit
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("01 Home page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "HomePage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void _01HomePageIsUp()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Top Ten Bookable Attractions Is Up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "TopTenAttractionsPage")]
+        public virtual void TopTenBookableAttractionsIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01 Home page is up", new string[] {
-                        "Smoke"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Top Ten Bookable Attractions Is Up", ((string[])(null)));
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I visit the Homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I Navigate to the top ten attractions page \'/things-to-do/sightseeing/london-attr" +
+                    "action/top-ten-attractions\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.Then("I should be shown the main title \'OFFICIAL VISITOR GUIDE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("The Tab List is Present on Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 10
+ testRunner.When("When I Click On Top Ten Bookable Attractions Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+ testRunner.Then("Then I Should See an attraction Item", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview Home page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "HomePage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Preview-Smoke")]
-        public virtual void PreviewHomePageIsUp()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Top Ten Free Attractions Is Up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "TopTenAttractionsPage")]
+        public virtual void TopTenFreeAttractionsIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview Home page is up", new string[] {
-                        "Preview-Smoke"});
-#line 12
-this.ScenarioSetup(scenarioInfo);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Top Ten Free Attractions Is Up", ((string[])(null)));
 #line 14
- testRunner.Given("I Navigate To PreviewHomePage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 15
- testRunner.Then("I should be shown the main title \'OFFICIAL VISITOR GUIDE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("I Navigate to the top ten attractions page \'/things-to-do/sightseeing/london-attr" +
+                    "action/top-ten-attractions\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 16
+ testRunner.And("The Tab List is Present on Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 17
+ testRunner.When("When I Click On Top Ten Free Attractions Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 18
+ testRunner.Then("Then I Should See an attraction Item", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

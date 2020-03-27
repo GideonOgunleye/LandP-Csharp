@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles.Visit
+namespace Visit.FeatureFiles._1_Visit
 {
     using TechTalk.SpecFlow;
     
@@ -62,7 +62,7 @@ namespace Visit.FeatureFiles.Visit
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "Events")))
             {
-                global::Visit.FeatureFiles.Visit.EventsFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles._1_Visit.EventsFeature.FeatureSetup(null);
             }
         }
         

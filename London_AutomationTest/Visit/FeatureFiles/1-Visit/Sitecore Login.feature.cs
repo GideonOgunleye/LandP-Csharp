@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles.Visit
+namespace Visit.FeatureFiles._1_Visit
 {
     using TechTalk.SpecFlow;
     
@@ -18,14 +18,14 @@ namespace Visit.FeatureFiles.Visit
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class EventCalendarPageFeature
+    public partial class SitecoreLoginFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "EventCalenderPage.feature"
+#line 1 "Sitecore Login.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,8 +44,8 @@ namespace Visit.FeatureFiles.Visit
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "EventCalendarPage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the Event calendar is" +
-                    " and running", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Sitecore Login", "\tAs a CMS User\r\n\tI Want To Be Able to Login To The Content Editor CMS\r\n\tSo That I" +
+                    " Can Create And Edit Content", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -60,9 +60,9 @@ namespace Visit.FeatureFiles.Visit
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "EventCalendarPage")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "Sitecore Login")))
             {
-                global::Visit.FeatureFiles.Visit.EventCalendarPageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles._1_Visit.SitecoreLoginFeature.FeatureSetup(null);
             }
         }
         
@@ -84,43 +84,34 @@ namespace Visit.FeatureFiles.Visit
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Event calendar page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "EventCalendarPage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Login With Valid Credentials")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Sitecore Login")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void EventCalendarPageIsUp()
+        public virtual void LoginWithValidCredentials()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Event calendar page is up", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login With Valid Credentials", new string[] {
                         "Smoke"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I navigate to event calendar page \'/things-to-do/whats-on/special-events/london-e" +
-                    "vents-calendar\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
- testRunner.And("I don\'t see an error code on Calender", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 10
- testRunner.Then("I should be at least one event", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("User is On CMS Login Page \'http://qa.cms.londonandpartners.com/sitecore/login\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview Event calendar page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "EventCalendarPage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Preview-Smoke")]
-        public virtual void PreviewEventCalendarPageIsUp()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview Event calendar page is up", new string[] {
-                        "Preview-Smoke"});
+            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Username",
+                        "Password"});
+            table1.AddRow(new string[] {
+                        "gogunleye",
+                        "P@rtner$L0nd0n"});
+#line 9
+ testRunner.When("User Enters Valid Credebtials", ((string)(null)), table1, "When ");
+#line 12
+ testRunner.And("Clicks Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 13
-this.ScenarioSetup(scenarioInfo);
+ testRunner.Then("Sitecore Experience Platform Page Should Be Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 14
- testRunner.Given("I navigate to Preview event calendar page \'/things-to-do/whats-on/special-events/" +
-                    "london-events-calendar\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.When("User Clicks on Content Editor Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 15
- testRunner.And("I don\'t see an error code on Calender", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 16
- testRunner.Then("I should be at least one event", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Content Editor Page Should Be Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

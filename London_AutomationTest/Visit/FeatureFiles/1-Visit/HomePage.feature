@@ -4,7 +4,7 @@
 	I want to check the homepage is up and running:
 
 @Smoke
-Scenario:01 Home page is up
+Scenario: Home page is up
 	Given I visit the Homepage
 	Then I should be shown the main title 'OFFICIAL VISITOR GUIDE'
 

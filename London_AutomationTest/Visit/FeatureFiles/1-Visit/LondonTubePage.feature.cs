@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles.Visit
+namespace Visit.FeatureFiles._1_Visit
 {
     using TechTalk.SpecFlow;
     
@@ -18,14 +18,14 @@ namespace Visit.FeatureFiles.Visit
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.2.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class ProductPageFeature
+    public partial class LondonTubePageFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "ProductPage.feature"
+#line 1 "LondonTubePage.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,9 +44,8 @@ namespace Visit.FeatureFiles.Visit
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ProductPage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the  Product page is " +
-                    "up and running:\r\n\t\t- Home page\r\n\t\t- Product page\r\n\t\t- Event calendar\r\n\t\t- Things" +
-                    " to do\r\n\t\t- London tube", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "LondonTubePage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the London tube page " +
+                    "is up and running:", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -61,9 +60,9 @@ namespace Visit.FeatureFiles.Visit
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "ProductPage")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "LondonTubePage")))
             {
-                global::Visit.FeatureFiles.Visit.ProductPageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles._1_Visit.LondonTubePageFeature.FeatureSetup(null);
             }
         }
         
@@ -85,39 +84,39 @@ namespace Visit.FeatureFiles.Visit
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Product page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ProductPage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("LondonTubePageIsUp")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "LondonTubePage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void ProductPageIsUp()
+        public virtual void LondonTubePageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Product page is up", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("LondonTubePageIsUp", new string[] {
                         "Smoke"});
-#line 12
+#line 7
 this.ScenarioSetup(scenarioInfo);
-#line 13
- testRunner.Given("I navigate to the product page \'/things-to-do/place/403052-radisson-blu-edwardian" +
-                    "-grafton-hotel\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 15
- testRunner.Then("I should be shown the Main Image", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 8
+ testRunner.Given("I navigate to the London tube page  \'/traveller-information/getting-around-london" +
+                    "/london-tube\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 10
+ testRunner.Then("I should be shown the  \'London Underground\' Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview Product page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ProductPage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview LondonTubePageIsUp")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "LondonTubePage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Preview-Smoke")]
-        public virtual void PreviewProductPageIsUp()
+        public virtual void PreviewLondonTubePageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview Product page is up", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview LondonTubePageIsUp", new string[] {
                         "Preview-Smoke"});
-#line 18
+#line 13
 this.ScenarioSetup(scenarioInfo);
-#line 19
- testRunner.Given("I navigate to the Preview product page \'/things-to-do/place/403052-radisson-blu-e" +
-                    "dwardian-grafton-hotel\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 21
- testRunner.Then("I should be shown the Main Image", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 14
+ testRunner.Given("I navigate to the Preview London tube page  \'/traveller-information/getting-aroun" +
+                    "d-london/london-tube\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 16
+ testRunner.Then("I should be shown the  \'London Underground\' Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

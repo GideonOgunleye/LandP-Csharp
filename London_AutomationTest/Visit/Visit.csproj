@@ -139,67 +139,67 @@
     <Compile Include="Configuration\Hooks.cs" />
     <Compile Include="CustomException\NoKeywordFoundException.cs" />
     <Compile Include="CustomException\NoSuitableDriverFound.cs" />
-    <Compile Include="FeatureFiles\Visit\AreaBrowsePage.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\AreaBrowsePage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AreaBrowsePage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\EventCalenderPage.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\EventCalenderPage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EventCalenderPage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\Events.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\Events.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Events.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\HomePage.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\HomePage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>HomePage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\KeywordSearch.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\KeywordSearch.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>KeywordSearch.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\LondonTubePage.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\LondonTubePage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>LondonTubePage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\ProductPage.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\ProductPage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ProductPage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\Redirects.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\Redirects.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Redirects.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\Sitecore Login.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\Sitecore Login.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Sitecore Login.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\TagBrowserPage.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\TagBrowserPage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TagBrowserPage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\ThingsToDoPage.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\ThingsToDoPage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ThingsToDoPage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Visit\TopTenAttractionsPage.feature.cs">
+    <Compile Include="FeatureFiles\1-Visit\TopTenAttractionsPage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TopTenAttractionsPage.feature</DependentUpon>
     </Compile>
-    <Compile Include="FeatureFiles\Convention\Convention_SearchVenuePage.feature.cs">
+    <Compile Include="FeatureFiles\2-Convention\Convention_SearchVenuePage.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Convention_SearchVenuePage.feature</DependentUpon>
@@ -216,20 +216,20 @@
     <Compile Include="PageObject\ThingsToDoPage.cs" />
     <Compile Include="Settings\AppConfigKeys.cs" />
     <Compile Include="Settings\ObjectRepository.cs" />
-    <Compile Include="StepDefinition\Convention\Convention_VenueSearchPageSteps.cs" />
-    <Compile Include="StepDefinition\Visit\AreaBrowsePageSteps.cs" />
-    <Compile Include="StepDefinition\Visit\EventCalenderPageSteps.cs" />
-    <Compile Include="StepDefinition\Visit\FeatureStepDef.cs" />
-    <Compile Include="StepDefinition\Visit\HomePageSteps.cs" />
-    <Compile Include="StepDefinition\Visit\KeywordSearchSteps.cs" />
-    <Compile Include="StepDefinition\Visit\LondonTubePageSteps.cs" />
-    <Compile Include="StepDefinition\Visit\PageRedirectSteps.cs" />
-    <Compile Include="StepDefinition\Visit\ProductPageSteps.cs" />
-    <Compile Include="StepDefinition\Visit\SitecoreInvalidLoginSteps.cs" />
-    <Compile Include="StepDefinition\Visit\SitecoreValidLoginSteps.cs" />
-    <Compile Include="StepDefinition\Visit\TagBrowsePageSteps.cs" />
-    <Compile Include="StepDefinition\Visit\ThingsToDoPageSteps.cs" />
-    <Compile Include="StepDefinition\Visit\ValidateEventCodeSteps.cs" />
+    <Compile Include="StepDefinition\2-Convention\Convention_VenueSearchPageSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\AreaBrowsePageSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\EventCalenderPageSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\FeatureStepDef.cs" />
+    <Compile Include="StepDefinition\1-Visit\HomePageSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\KeywordSearchSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\LondonTubePageSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\PageRedirectSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\ProductPageSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\SitecoreInvalidLoginSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\SitecoreValidLoginSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\TagBrowsePageSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\ThingsToDoPageSteps.cs" />
+    <Compile Include="StepDefinition\1-Visit\ValidateEventCodeSteps.cs" />
     <Compile Include="TestScript\Log4Net\TestLogger.cs" />
     <Compile Include="TestScript\TestNav.cs" />
     <Compile Include="TestScript\TestNav2.cs" />
@@ -259,55 +259,55 @@
     <None Include="bin\Debug\SeleniumRollingFileLogger.log.2018-05-31" />
     <None Include="bin\Debug\TestReport\0601_1614" />
     <None Include="bin\Debug\Visit.dll.config" />
-    <None Include="FeatureFiles\Visit\AreaBrowsePage.feature">
+    <None Include="FeatureFiles\1-Visit\AreaBrowsePage.feature">
       <Generator>SpecFlow.Tools.MsBuild.Generation</Generator>
       <LastGenOutput>AreaBrowsePage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\EventCalenderPage.feature">
+    <None Include="FeatureFiles\1-Visit\EventCalenderPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>EventCalenderPage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\Events.feature">
+    <None Include="FeatureFiles\1-Visit\Events.feature">
       <Generator>SpecFlow.Tools.MsBuild.Generation</Generator>
       <LastGenOutput>Events.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\HomePage.feature">
+    <None Include="FeatureFiles\1-Visit\HomePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>HomePage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\KeywordSearch.feature">
+    <None Include="FeatureFiles\1-Visit\KeywordSearch.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>KeywordSearch.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\LondonTubePage.feature">
+    <None Include="FeatureFiles\1-Visit\LondonTubePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>LondonTubePage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\ProductPage.feature">
+    <None Include="FeatureFiles\1-Visit\ProductPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ProductPage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\Redirects.feature">
+    <None Include="FeatureFiles\1-Visit\Redirects.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Redirects.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\Sitecore Login.feature">
+    <None Include="FeatureFiles\1-Visit\Sitecore Login.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Sitecore Login.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\TagBrowserPage.feature">
+    <None Include="FeatureFiles\1-Visit\TagBrowserPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>TagBrowserPage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\ThingsToDoPage.feature">
+    <None Include="FeatureFiles\1-Visit\ThingsToDoPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ThingsToDoPage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Visit\TopTenAttractionsPage.feature">
+    <None Include="FeatureFiles\1-Visit\TopTenAttractionsPage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>TopTenAttractionsPage.feature.cs</LastGenOutput>
     </None>
-    <None Include="FeatureFiles\Convention\Convention_SearchVenuePage.feature">
+    <None Include="FeatureFiles\2-Convention\Convention_SearchVenuePage.feature">
       <Generator>SpecFlow.Tools.MsBuild.Generation</Generator>
       <LastGenOutput>Convention_SearchVenuePage.feature.cs</LastGenOutput>
     </None>
@@ -431,11 +431,11 @@
     <Folder Include="DataDriven\" />
     <Folder Include="ErrorScreenshots\" />
     <Folder Include="ExcelReader\" />
-    <Folder Include="FeatureFiles\Business\" />
-    <Folder Include="FeatureFiles\Study\" />
+    <Folder Include="FeatureFiles\3-Business\" />
+    <Folder Include="FeatureFiles\4-Study\" />
     <Folder Include="Keyword\" />
-    <Folder Include="StepDefinition\Business\" />
-    <Folder Include="StepDefinition\Study\" />
+    <Folder Include="StepDefinition\3-Business\" />
+    <Folder Include="StepDefinition\4-Study\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
