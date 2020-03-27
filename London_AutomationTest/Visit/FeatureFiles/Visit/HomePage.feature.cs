@@ -84,12 +84,12 @@ namespace Visit.FeatureFiles.Visit
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Home page is up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("01 Home page is up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "HomePage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
-        public virtual void HomePageIsUp()
+        public virtual void _01HomePageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Home page is up", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("01 Home page is up", new string[] {
                         "Smoke"});
 #line 7
 this.ScenarioSetup(scenarioInfo);

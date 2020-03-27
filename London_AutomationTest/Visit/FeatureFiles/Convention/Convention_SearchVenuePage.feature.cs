@@ -84,13 +84,13 @@ namespace Visit.FeatureFiles.Convention
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Validate Convention Search Page is Up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convention Search Page is Up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke_cvb")]
-        public virtual void ValidateConventionSearchPageIsUp()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
+        public virtual void ConventionSearchPageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate Convention Search Page is Up", new string[] {
-                        "Smoke_cvb"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page is Up", new string[] {
+                        "Smoke"});
 #line 8
 this.ScenarioSetup(scenarioInfo);
 #line 9

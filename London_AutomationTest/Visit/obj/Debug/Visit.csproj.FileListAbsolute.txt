@@ -16,6 +16,7 @@ C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.dll
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.pdb
 C:\Users\TOM\Source\Repos\Automation Tests\London_AutomationTest\Visit\obj\Debug\Visit.csprojAssemblyReference.cache
+C:\Workspace\London_AutomationTest\Visit\obj\Debug\Visit.pdb
 C:\Workspace\London_AutomationTest\Visit\bin\Debug\NUnit3.TestAdapter.dll
 C:\Workspace\London_AutomationTest\Visit\bin\Debug\NUnit3.TestAdapter.pdb
 C:\Workspace\London_AutomationTest\Visit\bin\Debug\nunit.engine.dll
@@ -31,4 +32,3 @@ C:\Workspace\London_AutomationTest\Visit\bin\Debug\Visit.dll
 C:\Workspace\London_AutomationTest\Visit\bin\Debug\Visit.pdb
 C:\Workspace\London_AutomationTest\Visit\obj\Debug\Visit.csproj.CopyComplete
 C:\Workspace\London_AutomationTest\Visit\obj\Debug\Visit.dll
-C:\Workspace\London_AutomationTest\Visit\obj\Debug\Visit.pdb
