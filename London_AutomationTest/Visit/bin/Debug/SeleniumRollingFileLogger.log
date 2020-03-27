@@ -1,31 +1,3 @@
-23-Mar-2020-12:05:30 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-23-Mar-2020-12:05:31 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com//area/london-bridge
-23-Mar-2020-12:05:33 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2020-03-23-05-32.jpeg
-23-Mar-2020-12:05:33 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2020-03-23-05-32.jpeg
-23-Mar-2020-12:05:33 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/h1[contains(text(), 'London Bridge')]
-23-Mar-2020-12:05:36 [Visit.StepDefinition.AreaBrowsePageSteps] [ERROR] [ThenIShouldBeShownTheAreaBrowseSearchGrid] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div/h1[contains(text(), 'London Bridge')]
-   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
-   at Visit.StepDefinition.AreaBrowsePageSteps.ThenIShouldBeShownTheAreaBrowseSearchGrid() in C:\Workspace\London_AutomationTest\Visit\StepDefinition\AreaBrowsePageSteps.cs:line 75
-23-Mar-2020-12:05:38 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Area Browse page is up.jpeg
-23-Mar-2020-12:06:48 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-23-Mar-2020-12:07:26 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com//area/london-bridge
-23-Mar-2020-12:07:28 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2020-03-23-07-28.jpeg
-23-Mar-2020-12:07:28 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2020-03-23-07-28.jpeg
-23-Mar-2020-12:07:28 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/h1[contains(text(), 'London Bridge')]
-23-Mar-2020-17:52:17 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-23-Mar-2020-17:52:21 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/search-venue
-23-Mar-2020-17:52:25 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]
-23-Mar-2020-17:52:26 [Visit.StepDefination_CVB.VenueSearchPageSteps] [ERROR] [ThenIShouldSeeVenueSearchResults] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]
-   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
-   at Visit.StepDefination_CVB.VenueSearchPageSteps.ThenIShouldSeeVenueSearchResults() in C:\Workspace\London_AutomationTest\Visit\StepDefination_CVB\Convention_VenueSearchPageSteps.cs:line 51
-23-Mar-2020-17:52:27 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Convention Search Page is Up.jpeg
-23-Mar-2020-18:03:31 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-23-Mar-2020-18:03:33 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/search-venue
-23-Mar-2020-18:03:37 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]
-23-Mar-2020-18:03:40 [Visit.StepDefination_CVB.VenueSearchPageSteps] [ERROR] [ThenIShouldSeeVenueSearchResults] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]
-   at Visit.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\Visit\ComponentHelper\GenericHelper.cs:line 101
-   at Visit.StepDefination_CVB.VenueSearchPageSteps.ThenIShouldSeeVenueSearchResults() in C:\Workspace\London_AutomationTest\Visit\StepDefination_CVB\Convention_VenueSearchPageSteps.cs:line 51
-23-Mar-2020-18:03:42 [Visit.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Validate Convention Search Page is Up.jpeg
-23-Mar-2020-18:05:23 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-23-Mar-2020-18:05:24 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
-23-Mar-2020-18:05:29 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]
+27-Mar-2020-10:00:54 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+27-Mar-2020-10:00:57 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
+27-Mar-2020-10:01:02 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]

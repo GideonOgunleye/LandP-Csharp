@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles
+namespace Visit.FeatureFiles.Visit
 {
     using TechTalk.SpecFlow;
     
@@ -62,7 +62,7 @@ namespace Visit.FeatureFiles
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "LondonTubePage")))
             {
-                global::Visit.FeatureFiles.LondonTubePageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles.Visit.LondonTubePageFeature.FeatureSetup(null);
             }
         }
         

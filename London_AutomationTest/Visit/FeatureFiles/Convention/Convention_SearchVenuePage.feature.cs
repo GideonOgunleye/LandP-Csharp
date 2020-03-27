@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Visit.FeatureFiles_CVB
+namespace Visit.FeatureFiles.Convention
 {
     using TechTalk.SpecFlow;
     
@@ -62,7 +62,7 @@ namespace Visit.FeatureFiles_CVB
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "ConventionVenueSearchPage")))
             {
-                global::Visit.FeatureFiles_CVB.ConventionVenueSearchPageFeature.FeatureSetup(null);
+                global::Visit.FeatureFiles.Convention.ConventionVenueSearchPageFeature.FeatureSetup(null);
             }
         }
         
@@ -86,11 +86,11 @@ namespace Visit.FeatureFiles_CVB
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Validate Convention Search Page is Up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke_cvb")]
         public virtual void ValidateConventionSearchPageIsUp()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate Convention Search Page is Up", new string[] {
-                        "Smoke"});
+                        "Smoke_cvb"});
 #line 8
 this.ScenarioSetup(scenarioInfo);
 #line 9

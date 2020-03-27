@@ -14853,3 +14853,6 @@
 23-Mar-2020-18:05:23 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
 23-Mar-2020-18:05:24 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
 23-Mar-2020-18:05:29 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]
+27-Mar-2020-10:00:54 [Visit.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+27-Mar-2020-10:00:57 [Visit.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
+27-Mar-2020-10:01:02 [Visit.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]
