@@ -33,6 +33,7 @@ namespace Visit.StepDefination_CVB
             try
             {
                 NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetConventionWebsite() + p0);
+                Thread.Sleep(5000);
             }
             catch (Exception e)
             {
@@ -58,6 +59,111 @@ namespace Visit.StepDefination_CVB
                 Assert.Fail("Exception" + e);
             }
         }
+
+        [Then(@"I should See the Home Link in BreadCrumb")]
+        public void ThenIShouldSeeTheHomeLinkInBreadCrumb()
+        {
+            try
+            {
+
+                Thread.Sleep(5000);
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/div[1]/a")).Text.Contains("Home"));
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+            }
+        }
+
+        [When(@"I Click on The Home Page Link")]
+        public void WhenIClickOnTheHomePageLink()
+        {
+            try
+            {
+
+                
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='content']/div/div[1]/a"));
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+            }
+        }
+
+        [Then(@"I Should Be Navigated To The Home Page")]
+        public void ThenIShouldBeNavigatedToTheHomePage()
+        {
+            try
+            {
+
+                
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div/h1")).Text.Contains("Welcome to London"));
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+            }
+        }
+
+        [Then(@"I Should See The Full BreadCrumb Link")]
+        public void ThenIShouldSeeTheFullBreadCrumbLink()
+        {
+            try
+            {
+
+                
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/div[1]/span[1]")).Text.Contains("You are here"));
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+            }
+
+            try
+            {
+
+                
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/div[1]/a")).Text.Contains("Home"));
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+            }
+
+            try
+            {
+
+                
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/div[1]/mark")).Text.Contains("Search results"));
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+            }
+        }
+
+
+
+
 
 
 
