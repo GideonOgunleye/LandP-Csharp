@@ -70,6 +70,7 @@ C:\Workspace\London_AutomationTest\LnP\bin\Debug\TechTalk.SpecFlow.MSTest.SpecFl
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\Utf8Json.xml
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\WebDriver.xml
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\WebDriver.Support.xml
+C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csprojAssemblyReference.cache
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csproj.CoreCompileInputs.cache
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csproj.CopyComplete
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\SeleniumWebdriver.dll
