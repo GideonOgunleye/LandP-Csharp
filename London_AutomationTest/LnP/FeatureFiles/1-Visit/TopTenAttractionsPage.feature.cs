@@ -10,7 +10,11 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
+<<<<<<< HEAD:London_AutomationTest/LnP/FeatureFiles/1-Visit/TopTenAttractionsPage.feature.cs
 namespace SeleniumWebdriver.FeatureFiles._1_Visit
+=======
+namespace Visit.FeatureFiles._1_Visit
+>>>>>>> 2c359e89f9a48efa4c90acbc5811cb981dc31492:London_AutomationTest/Visit/FeatureFiles/1-Visit/TopTenAttractionsPage.feature.cs
 {
     using TechTalk.SpecFlow;
     
@@ -62,7 +66,11 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "TopTenAttractionsPage")))
             {
+<<<<<<< HEAD:London_AutomationTest/LnP/FeatureFiles/1-Visit/TopTenAttractionsPage.feature.cs
                 global::SeleniumWebdriver.FeatureFiles._1_Visit.TopTenAttractionsPageFeature.FeatureSetup(null);
+=======
+                global::Visit.FeatureFiles._1_Visit.TopTenAttractionsPageFeature.FeatureSetup(null);
+>>>>>>> 2c359e89f9a48efa4c90acbc5811cb981dc31492:London_AutomationTest/Visit/FeatureFiles/1-Visit/TopTenAttractionsPage.feature.cs
             }
         }
         
