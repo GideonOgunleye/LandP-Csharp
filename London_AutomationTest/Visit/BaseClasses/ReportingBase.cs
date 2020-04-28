@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NLog;
-using Visit.ComponentHelper;
+using LnP.ComponentHelper;
 
-namespace Visit.BaseClasses
+namespace LnP.BaseClasses
 {
     [TestClass]
     public class ReportingBase

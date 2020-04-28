@@ -7,12 +7,12 @@ using System.Threading;
 using System.Threading.Tasks;
 using AventStack.ExtentReports;
 using AventStack.ExtentReports.Model;
-using Visit.ComponentHelper;
-using Visit.Settings;
+using LnP.ComponentHelper;
+using LnP.Settings;
 using NLog;
-using Visit.BaseClasses;
+using LnP.BaseClasses;
 
-namespace Visit.TestScript
+namespace LnP.TestScript
 {
     [TestClass]
     public class TestNav : ReportingBase

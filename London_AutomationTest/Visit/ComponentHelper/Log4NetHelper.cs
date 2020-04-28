@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Visit.ComponentHelper
+namespace LnP.ComponentHelper
 {
     public class Log4NetHelper
     {

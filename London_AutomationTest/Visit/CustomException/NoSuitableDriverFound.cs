@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Visit.CustomException
+namespace LnP.CustomException
 {
     public class NoSuitableDriverFound : Exception
     {

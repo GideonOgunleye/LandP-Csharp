@@ -6,12 +6,12 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NLog;
-using Visit.BaseClasses;
-using Visit.ComponentHelper;
-using Visit.Settings;
+using LnP.BaseClasses;
+using LnP.ComponentHelper;
+using LnP.Settings;
 
 
-namespace Visit.TestScript
+namespace LnP.TestScript
 {
     [TestClass]
     public class TestNav2 : ReportingBase

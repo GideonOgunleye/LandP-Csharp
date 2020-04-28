@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TechTalk.SpecFlow;
-using Visit.ComponentHelper;
+using LnP.ComponentHelper;
 
-namespace Visit.GeneralHook
+namespace LnP.GeneralHook
 {
     [Binding]
     public class GeneralHook

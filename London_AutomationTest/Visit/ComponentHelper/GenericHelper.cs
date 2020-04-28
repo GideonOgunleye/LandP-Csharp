@@ -9,9 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Visit.Settings;
+using LnP.Settings;
 
-namespace Visit.ComponentHelper
+namespace LnP.ComponentHelper
 {
     public class GenericHelper
     {

@@ -2,7 +2,7 @@
 using System;
 //using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Visit
+namespace LnP
 {
     [TestClass]
     public class UnitTest1

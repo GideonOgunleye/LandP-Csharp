@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Visit.ComponentHelper;
+using LnP.ComponentHelper;
 
-namespace Visit.BaseClasses
+namespace LnP.BaseClasses
 {
     public class PageBase
     {

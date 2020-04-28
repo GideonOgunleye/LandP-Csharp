@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Visit.ComponentHelper;
+using LnP.ComponentHelper;
 
-namespace Visit.TestScript.Log4Net
+namespace LnP.TestScript.Log4Net
 {
     [TestClass]
     public class TestLogger

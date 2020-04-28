@@ -8,9 +8,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using Visit.Settings;
+using LnP.Settings;
 
-namespace Visit.ComponentHelper
+namespace LnP.ComponentHelper
 {
     
     public class ExtentReportHelper

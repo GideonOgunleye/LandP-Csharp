@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Visit.Interfaces;
-using Visit.PageObject;
+using LnP.Interfaces;
+using LnP.PageObject;
 
-namespace Visit.Settings
+namespace LnP.Settings
 {
     public class ObjectRepository
     {

@@ -6,19 +6,19 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
-using OpenQA.Selenium.PhantomJS;
+//using OpenQA.Selenium.PhantomJS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Visit.ComponentHelper;
-using Visit.Configuration;
-using Visit.CustomException;
-using Visit.Settings;
+using LnP.ComponentHelper;
+using LnP.Configuration;
+using LnP.CustomException;
+using LnP.Settings;
 
-namespace Visit.BaseClasses
+namespace LnP.BaseClasses
 {
     [TestClass]
     public class BaseClass
@@ -31,7 +31,7 @@ namespace Visit.BaseClasses
         private ScreenshotTaker ScreenshotTaker { get; set; }
         
 
-        private static FirefoxProfile GetFirefoxptions()
+        private static FirefoxProfile GetFirefoxProfile()
         {
             FirefoxProfile profile = new FirefoxProfile();
             
@@ -39,6 +39,15 @@ namespace Visit.BaseClasses
             //profile = manager.GetProfile("default");
             Logger.Info(" Using Firefox Profile ");
             return profile;
+        }
+
+        public static FirefoxOptions GetFirefoxOptions()
+        {
+            FirefoxOptions firefoxOptions = new FirefoxOptions();
+            firefoxOptions.Profile = GetFirefoxProfile();
+            firefoxOptions.AcceptInsecureCertificates = true;
+            return firefoxOptions;
+
         }
         private static ChromeOptions GetChromeOptions()
         {
@@ -78,7 +87,7 @@ namespace Visit.BaseClasses
 
         private static FirefoxDriver GetFirefoxDriver()
         {
-            FirefoxDriver driver = new FirefoxDriver(GetFirefoxptions());
+            FirefoxDriver driver = new FirefoxDriver(GetFirefoxOptions());
             return driver;
         }
 
@@ -100,7 +109,7 @@ namespace Visit.BaseClasses
             return driver;
         }
 
-        private static PhantomJSDriver GetPhantomJsDriver()
+     /*   private static PhantomJSDriver GetPhantomJsDriver()
         {
             PhantomJSDriver driver = new PhantomJSDriver(GetPhantomJsDrvierService());
 
@@ -123,7 +132,7 @@ namespace Visit.BaseClasses
             service.LoadImages = true;
             Logger.Info(" Using PhantomJS Driver Service  ");
             return service;
-        }
+        }  */
 
         private void TakeScreenshotForTestFailure()
         {
@@ -168,10 +177,11 @@ namespace Visit.BaseClasses
                     Logger.Info(" Using Internet Explorer Driver  ");
                     break;
 
-                case BrowserType.PhantomJs:
+             /*   case BrowserType.PhantomJs:
                     ObjectRepository.Driver = GetPhantomJsDriver();
                     Logger.Info(" Using PhantomJs Driver  ");
                     break;
+                */
 
                 default:
                     throw new NoSuitableDriverFound("Driver Not Found : " + ObjectRepository.Config.GetBrowser().ToString());

@@ -13,10 +13,10 @@ using BoDi;
 using OpenQA.Selenium.Remote;
 using RazorEngine.Compilation.ImpromptuInterface.Dynamic;
 using TechTalk.SpecFlow;
-using Visit.ComponentHelper;
-using Visit.Settings;
+using LnP.ComponentHelper;
+using LnP.Settings;
 
-namespace Visit.Configuration
+namespace LnP.Configuration
 {
     [Binding]
     public class Hooks
@@ -35,6 +35,15 @@ namespace Visit.Configuration
         private readonly IObjectContainer _objectContainer;
 
         private RemoteWebDriver _driver;
+
+        private static ScenarioContext SceContext;
+
+        private static FeatureContext FtrContext;
+
+        public Hooks(ScenarioContext Context)
+        {
+            SceContext = Context;
+        }
 
         //private readonly FeatureContext featureContext;
 
@@ -92,10 +101,12 @@ namespace Visit.Configuration
         [BeforeFeature]
         public static void BeforeFeature(FeatureContext featureContext)
         {
+            FtrContext = featureContext;
+
             if (featureContext == null)
                 throw new ArgumentNullException("featureContext");
 
-            featureName = extent.CreateTest<Feature>(FeatureContext.Current.FeatureInfo.Title);
+            featureName = extent.CreateTest<Feature>(FtrContext.FeatureInfo.Title);
 
         }
 
@@ -124,7 +135,7 @@ namespace Visit.Configuration
 
 
 
-            if (ScenarioContext.Current.TestError == null)
+            if (SceContext.TestError == null)
             {
                 if (stepType == "Given")
                     scenario.CreateNode<Given>(ScenarioStepContext.Current.StepInfo.Text);
@@ -135,28 +146,28 @@ namespace Visit.Configuration
                 else if (stepType == "And")
                     scenario.CreateNode<And>(ScenarioStepContext.Current.StepInfo.Text);
             }
-            else if (ScenarioContext.Current.TestError != null)
+            else if (SceContext.TestError != null)
             {
                 string screenShotPath = GetScreenShot.Capture(ObjectRepository.Driver, "ScreenshotName");
 
                 if (stepType == "Given")
                     scenario.CreateNode<Given>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.Message)
+                        .Fail(SceContext.TestError.Message)
                         .AddScreenCaptureFromPath(screenShotPath, "Test.Png");
 
                 else if (stepType == "When")
                     scenario.CreateNode<When>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.Message)
+                        .Fail(SceContext.TestError.Message)
                         .AddScreenCaptureFromPath(screenShotPath, "Test.Png");
                 
                 else if (stepType == "Then")
                     scenario.CreateNode<Then>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.Message)
+                        .Fail(SceContext.TestError.Message)
                         .AddScreenCaptureFromPath(screenShotPath, "Test.Png");
 
                 else if (stepType == "And")
                     scenario.CreateNode<And>(ScenarioStepContext.Current.StepInfo.Text)
-                        .Fail(ScenarioContext.Current.TestError.Message)
+                        .Fail(SceContext.TestError.Message)
                         .AddScreenCaptureFromPath(screenShotPath, "Test.Png");
             }
 
@@ -183,19 +194,19 @@ namespace Visit.Configuration
         [BeforeScenario]
         public static void BeforeScenario()
         {
-            scenario = featureName.CreateNode<Scenario>(ScenarioContext.Current.ScenarioInfo.Title);
+            scenario = featureName.CreateNode<Scenario>(SceContext.ScenarioInfo.Title);
         }
 
         [AfterScenario]
         public static void AfterScenario()
         {
             Console.WriteLine("AfterScenario Hook");
-            if (ScenarioContext.Current.TestError != null)
+            if (SceContext.TestError != null)
             {
-                string name = ScenarioContext.Current.ScenarioInfo.Title + ".jpeg";
+                string name = SceContext.ScenarioInfo.Title + ".jpeg";
                 GenericHelper.TakeScreenShot(name);
-                Console.WriteLine(ScenarioContext.Current.TestError.Message);
-                Console.WriteLine(ScenarioContext.Current.TestError.StackTrace);
+                Console.WriteLine(SceContext.TestError.Message);
+                Console.WriteLine(SceContext.TestError.StackTrace);
             }
         }
     }
