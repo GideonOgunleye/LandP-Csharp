@@ -255,12 +255,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\DataDriven\TestDataFiles\TestData.xml" />
+    <Content Include="bin\Debug\Resources\chromedriver.exe" />
+    <Content Include="bin\Debug\Resources\FileUpload.exe" />
+    <Content Include="bin\Debug\Resources\IEDriverServer.exe" />
+    <Content Include="bin\Debug\Resources\phantomjs.exe" />
+    <Content Include="bin\Debug\Resources\SampleFile.txt" />
     <Content Include="Resources\SampleFile.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="bin\Debug\DataDriven\TestDataFiles\CreateData.csv" />
+    <None Include="bin\Debug\DataDriven\TestDataFiles\ExcelData.xlsx" />
+    <None Include="bin\Debug\Resources\ExcelData.xlsx" />
     <None Include="DataDriven\TestDataFiles\CreateData.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -360,6 +369,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\Debug\TestReport\" />
     <Folder Include="DataDriven\Script\" />
   </ItemGroup>
   <Choose>
