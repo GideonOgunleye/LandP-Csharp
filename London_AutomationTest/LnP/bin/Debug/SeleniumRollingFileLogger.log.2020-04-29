@@ -1,0 +1,8 @@
+29-Apr-2020-12:30:22 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-Apr-2020-12:30:26 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+29-Apr-2020-12:30:27 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+29-Apr-2020-12:30:27 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+29-Apr-2020-12:30:31 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+29-Apr-2020-12:30:31 [LnP.StepDefinition.HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at LnP.PageObject.HomePage.HTitle() in C:\Workspace\London_AutomationTest\LnP\PageObject\HomePage.cs:line 29
+   at LnP.StepDefinition.HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\HomePageSteps.cs:line 61

@@ -161,6 +161,130 @@ namespace LnP.StepDefination_CVB
             }
         }
 
+        [When(@"I Enter '(.*)' in Min Field")]
+        public void WhenIEnterInMinField(string p0)
+        {
+            try
+            {
+                TextBoxHelper.ClearTextBox(By.XPath(".//*[@id='total-space-min']"));
+                TextBoxHelper.TypeInTextBox(By.XPath(".//*[@id='total-space-min']"), p0);
+                Thread.Sleep(5000);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+
+        [When(@"I Enter '(.*)' in Max Field")]
+        public void WhenIEnterInMaxField(string p0)
+        {
+            try
+            {
+                TextBoxHelper.ClearTextBox(By.XPath(".//*[@id='total-space-max']"));
+                TextBoxHelper.TypeInTextBox(By.XPath(".//*[@id='total-space-max']"), p0);
+                Thread.Sleep(5000);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+        [When(@"I Click Search Button")]
+        public void WhenIClickSearchButton()
+        {
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@class='course-search-submit']"));
+                Thread.Sleep(5000);
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+        [Then(@"i Should See '(.*)' and '(.*)' in Search Reuslt")]
+        public void ThenIShouldSeeAndInSearchReuslt(string p0, string p1)
+        {
+            try
+            {
+                Thread.Sleep(5000);
+                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[2]/div/h3/a"));
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[2]/div/h3/a")).Text.Contains(p0));
+      
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+
+            try
+            {
+                Thread.Sleep(5000);
+                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[3]/div/h3/a"));
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[3]/div/h3/a")).Text.Contains(p1));
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+        [When(@"I Click on Next Pagination Button")]
+        public void WhenIClickOnNextPaginationButton()
+        {
+            try
+            {
+                Thread.Sleep(5000);
+                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='content']/div/div[2]/div/div[2]"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@class='course-search-submit']"));
+                Thread.Sleep(5000);
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+        [Then(@"I Should See '(.*)' in Search Results")]
+        public void ThenIShouldSeeInSearchResults(string p0)
+        {
+            try
+            {
+                Thread.Sleep(5000);
+                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[3]/div/h3/a"));
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[3]/div/h3/a")).Text.Contains(p0));
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+
+
+
+
+
 
 
 

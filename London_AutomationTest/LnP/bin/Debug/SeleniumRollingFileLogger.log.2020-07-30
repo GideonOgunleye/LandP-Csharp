@@ -1,0 +1,23 @@
+30-Jul-2020-10:30:18 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+30-Jul-2020-10:30:20 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Search Services Page Is Up.jpeg
+30-Jul-2020-10:39:08 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+30-Jul-2020-10:39:09 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Search Services Page Is Up.jpeg
+30-Jul-2020-10:40:54 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+30-Jul-2020-10:41:01 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+30-Jul-2020-10:41:01 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+30-Jul-2020-10:41:01 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+30-Jul-2020-10:41:03 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+30-Jul-2020-10:41:03 [LnP.StepDefinition.HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at LnP.PageObject.HomePage.HTitle() in C:\Workspace\London_AutomationTest\LnP\PageObject\HomePage.cs:line 29
+   at LnP.StepDefinition.HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\HomePageSteps.cs:line 61
+30-Jul-2020-10:41:26 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+30-Jul-2020-10:41:28 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Search Services Is Up.jpeg
+30-Jul-2020-10:42:27 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+30-Jul-2020-10:42:32 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
+30-Jul-2020-10:42:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/div[1]/a
+30-Jul-2020-10:42:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/div[1]/a
+30-Jul-2020-10:43:20 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='content']/div/div[1]/a
+30-Jul-2020-10:43:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+30-Jul-2020-10:44:34 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+30-Jul-2020-10:44:35 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
+30-Jul-2020-10:44:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]

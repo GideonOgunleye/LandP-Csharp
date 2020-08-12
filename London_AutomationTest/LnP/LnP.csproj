@@ -177,7 +177,7 @@
     <Compile Include="CustomException\NoSutiableDriverFound.cs" />
     <Compile Include="ExcelReader\ExcelReader.cs" />
     <Compile Include="ExcelReader\TestExcelData.cs" />
-    <Compile Include="StepDefinition\FeatureStepDef.cs" />
+    <Compile Include="StepDefinition\TestFeatures\FeatureStepDef.cs" />
     <Compile Include="GeneralHook\GeneralHook.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
     <Compile Include="Keyword\DataEngine.cs" />
@@ -208,9 +208,9 @@
     <Compile Include="StepDefinition\1-Visit\ThingsToDoPageSteps.cs" />
     <Compile Include="StepDefinition\1-Visit\ValidateEventCodeSteps.cs" />
     <Compile Include="StepDefinition\2-Convention\Convention_VenueSearchPageSteps.cs" />
-    <Compile Include="StepDefinition\Hooks.cs" />
-    <Compile Include="StepDefinition\TestFeature.cs" />
-    <Compile Include="StepDefinition\TestFeature2.cs" />
+    <Compile Include="StepDefinition\TestFeatures\Hooks.cs" />
+    <Compile Include="StepDefinition\TestFeatures\TestFeature.cs" />
+    <Compile Include="StepDefinition\TestFeatures\TestFeature2.cs" />
     <Compile Include="TestScript\AngularScript\TestProtractor.cs" />
     <Compile Include="TestScript\AutoSuggest\TestAutoSuggest.cs" />
     <Compile Include="TestScript\BrowserActions\TestBrowserActions.cs" />
@@ -316,16 +316,20 @@
       <LastGenOutput>TopTenAttractionsPage.feature.cs</LastGenOutput>
     </None>
     <None Include="FeatureFiles\2-Convention\Convention_AccommodationPage.feature" />
+    <None Include="FeatureFiles\2-Convention\Convention_HomePage.feature" />
     <None Include="FeatureFiles\2-Convention\Convention_SearchServicesPage.feature" />
     <None Include="FeatureFiles\2-Convention\Convention_SearchVenuePage.feature">
       <LastGenOutput>Convention_SearchVenuePage.feature.cs</LastGenOutput>
     </None>
     <None Include="FeatureFiles\2-Convention\Convention_ToursAndServicesPage.feature" />
-    <None Include="FeatureFiles\SpecFlowFeature2.feature" />
-    <None Include="FeatureFiles\Hooks.feature" />
-    <None Include="FeatureFiles\SpecFlowFeature1.feature" />
-    <None Include="FeatureFiles\TestFeature.feature" />
-    <None Include="FeatureFiles\TestFeature2.feature" />
+    <None Include="FeatureFiles\3-Business\Business_HomePage.feature" />
+    <None Include="FeatureFiles\4-Study\Study_HomePage.feature" />
+    <None Include="FeatureFiles\Test Features\SpecFlowFeature2.feature" />
+    <None Include="FeatureFiles\Test Features\Hooks.feature" />
+    <None Include="FeatureFiles\Test Features\SpecFlowFeature1.feature" />
+    <None Include="FeatureFiles\Test Features\SpecFlowFeature3.feature" />
+    <None Include="FeatureFiles\Test Features\TestFeature.feature" />
+    <None Include="FeatureFiles\Test Features\TestFeature2.feature" />
     <Content Include="extent-config.xml" />
     <Content Include="NLog.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -372,6 +376,8 @@
   <ItemGroup>
     <Folder Include="bin\Debug\TestReport\" />
     <Folder Include="DataDriven\Script\" />
+    <Folder Include="StepDefinition\3-Business\" />
+    <Folder Include="StepDefinition\4-Study\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
@@ -404,13 +410,13 @@
     <Error Condition="!Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.3.0.225\build\SpecFlow.Tools.MsBuild.Generation.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.Tools.MsBuild.Generation.3.0.225\build\SpecFlow.Tools.MsBuild.Generation.targets'))" />
     <Error Condition="!Exists('..\packages\MSTest.TestAdapter.2.1.1\build\net45\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.2.1.1\build\net45\MSTest.TestAdapter.props'))" />
     <Error Condition="!Exists('..\packages\MSTest.TestAdapter.2.1.1\build\net45\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.2.1.1\build\net45\MSTest.TestAdapter.targets'))" />
-    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.81.0.4044.6900\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.81.0.4044.6900\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.84.0.4147.3001\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.84.0.4147.3001\build\Selenium.WebDriver.ChromeDriver.targets'))" />
   </Target>
   <Import Project="..\packages\Selenium.WebDriver.IEDriver.3.11.1\build\Selenium.WebDriver.IEDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.IEDriver.3.11.1\build\Selenium.WebDriver.IEDriver.targets')" />
   <Import Project="..\packages\SpecFlow.MsTest.3.0.225\build\SpecFlow.MsTest.targets" Condition="Exists('..\packages\SpecFlow.MsTest.3.0.225\build\SpecFlow.MsTest.targets')" />
   <Import Project="..\packages\SpecFlow.Tools.MsBuild.Generation.3.0.225\build\SpecFlow.Tools.MsBuild.Generation.targets" Condition="Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.3.0.225\build\SpecFlow.Tools.MsBuild.Generation.targets')" />
   <Import Project="..\packages\MSTest.TestAdapter.2.1.1\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.2.1.1\build\net45\MSTest.TestAdapter.targets')" />
-  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.81.0.4044.6900\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.81.0.4044.6900\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.84.0.4147.3001\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.84.0.4147.3001\build\Selenium.WebDriver.ChromeDriver.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

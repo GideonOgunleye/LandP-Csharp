@@ -20,3 +20,20 @@ Scenario: Convention Search Page Home Link
 Scenario: Convention Search Page BreadCrumb
 	Given I Navigate To The Search Venue Page '/search-venue'
 	Then I Should See The Full BreadCrumb Link
+
+
+@Smoke
+Scenario: Convention Search Page Results
+	Given I Navigate To The Search Venue Page '/Search-venue'
+	When I Enter '10000' in Min Field
+	And I Enter '30000' in Max Field
+	When I Click Search Button
+	Then i Should See 'Olympia London' and 'RS Alexandra Palace' in Search Reuslt
+
+@SmokeTest
+Scenario: Convention Search Page Pagination
+	Given I Navigate To The Search Venue Page '/Search-venue'
+	When I Click on Next Pagination Button
+	Then I Should See 'Text' in Search Results
+
+

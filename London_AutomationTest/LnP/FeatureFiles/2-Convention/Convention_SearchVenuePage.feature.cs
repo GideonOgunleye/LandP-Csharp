@@ -148,6 +148,52 @@ this.ScenarioInitialize(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convention Search Page Results")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
+        public virtual void ConventionSearchPageResults()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page Results", null, new string[] {
+                        "Smoke"});
+#line 26
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 27
+ testRunner.Given("I Navigate To The Search Venue Page \'/Search-venue\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 28
+ testRunner.When("I Enter \'10000\' in Min Field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 29
+ testRunner.And("I Enter \'30000\' in Max Field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 30
+ testRunner.When("I Click Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 31
+ testRunner.Then("i Should See \'Olympia London\' and \'RS Alexandra Palace\' in Search Reuslt", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convention Search Page Pagination")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("SmokeTest")]
+        public virtual void ConventionSearchPagePagination()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page Pagination", null, new string[] {
+                        "SmokeTest"});
+#line 34
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 35
+ testRunner.Given("I Navigate To The Search Venue Page \'/Search-venue\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 36
+ testRunner.When("I Click on Next Pagination Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 37
+ testRunner.Then("I Should See \'Text\' in Search Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore
