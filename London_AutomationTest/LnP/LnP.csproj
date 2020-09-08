@@ -177,6 +177,7 @@
     <Compile Include="CustomException\NoSutiableDriverFound.cs" />
     <Compile Include="ExcelReader\ExcelReader.cs" />
     <Compile Include="ExcelReader\TestExcelData.cs" />
+    <Compile Include="StepDefinition\2-Convention\Convention_AccommodationSearchPageSteps.cs" />
     <Compile Include="StepDefinition\TestFeatures\FeatureStepDef.cs" />
     <Compile Include="GeneralHook\GeneralHook.cs" />
     <Compile Include="Interfaces\IConfig.cs" />

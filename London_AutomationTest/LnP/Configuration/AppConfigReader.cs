@@ -75,5 +75,20 @@ namespace LnP.Configuration
         {
             return ConfigurationManager.AppSettings.Get(AppConfigKeys.PreviewWebsite);
         }
+
+        public string GetConventionPreviewWebsite()
+        {
+            return ConfigurationManager.AppSettings.Get(AppConfigKeys.ConventionPreviewWebsite);
+        }
+
+        public string GetBusinessPreviewWebsite()
+        {
+            return ConfigurationManager.AppSettings.Get(AppConfigKeys.BusinessPreviewWebsite);
+        }
+
+        public string GetStudyPreviewWebsite()
+        {
+            return ConfigurationManager.AppSettings.Get(AppConfigKeys.StudyPreviewWebsite);
+        }
     }
 }

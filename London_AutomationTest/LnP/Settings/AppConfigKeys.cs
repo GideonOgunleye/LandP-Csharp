@@ -16,6 +16,9 @@ namespace LnP.Settings
         public const string StudyWebsite = "StudyWebsite";
         public const string BusinessWebsite = "BusinessWebsite";
         public const string PreviewWebsite = "PreviewWebsite";
+        public const string ConventionPreviewWebsite = "ConventionPreviewWebsite";
+        public const string BusinessPreviewWebsite = "BusinessPreviewWebsite";
+        public const string StudyPreviewWebsite = "StudyPreviewWebsite";
         public const string PageLoadTimeout = "PageLoadTimeout";
         public const string ElementLoadTimeout = "ElementLoadTimeout";
     }

@@ -17,6 +17,9 @@ namespace LnP.Interfaces
         string GetBusinessWebsite();
         string GetStudyWebsite();
         string GetPreviewWebsite();
+        string GetConventionPreviewWebsite();
+        string GetStudyPreviewWebsite();
+        string GetBusinessPreviewWebsite();
         int GetPageLoadTimeOut();
         int GetElementLoadTimeOut();
     }

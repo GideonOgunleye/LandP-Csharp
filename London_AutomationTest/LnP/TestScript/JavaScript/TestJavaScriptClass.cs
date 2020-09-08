@@ -7,6 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using LnP.ComponentHelper;
 using LnP.Settings;
+using System.Threading;
 
 namespace LnP.TestScript.JavaScript
 {
@@ -27,6 +28,15 @@ namespace LnP.TestScript.JavaScript
             executor.ExecuteScript("window.scrollTo(0," + element.Location.Y + ")");
             element.Click();
 
+        }
+
+        [TestMethod]
+        public void ScrollToView()
+        {
+            NavigationHelper.NavigateToUrl("http://qa.conventionbureau.london/search-accommodation");
+            Thread.Sleep(5000);
+            JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[3]/div/h3/a"));
+            Thread.Sleep(1000);
         }
     }
 }
