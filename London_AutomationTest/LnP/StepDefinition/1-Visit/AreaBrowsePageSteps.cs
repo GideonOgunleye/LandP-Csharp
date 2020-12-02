@@ -72,7 +72,7 @@ namespace LnP.StepDefinition
             try
             {
                 ObjectRepository.ABpage = new AreaBrowsePage(ObjectRepository.Driver);
-                AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/h1[contains(text(), 'London Bridge')]")).Text, "London Bridge");
+                AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/h1[contains(text(), 'London Bridge')]")).Text, "Tower Bridge");
                 //Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
                 //Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
                 //ReportHelper.PassingTestLogger("Test Sucessful");
