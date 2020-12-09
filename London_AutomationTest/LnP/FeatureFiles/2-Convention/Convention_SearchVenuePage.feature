@@ -25,10 +25,10 @@ Scenario: Convention Search Page BreadCrumb
 @Smoke
 Scenario: Convention Search Page Results
 	Given I Navigate To The Search Venue Page '/Search-venue'
-	When I Enter '10000' in Min Field
+	When I Enter '1000' in Min Field
 	And I Enter '30000' in Max Field
 	When I Click Search Button
-	Then i Should See 'Olympia London' and 'RS Alexandra Palace' in Search Reuslt
+	Then i Should See 'InterContinental London' and 'RS Hampton Court Palace' in Search Reuslt
 
 @SmokeTest
 Scenario: Convention Search Page Pagination

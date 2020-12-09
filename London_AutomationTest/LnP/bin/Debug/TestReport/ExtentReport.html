@@ -43,7 +43,7 @@
         <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 
             <a>
-                <span class='suite-start-time label blue darken-3'>12/2/2020 10:38:11 AM GMT Standard Time</span>
+                <span class='suite-start-time label blue darken-3'>12/9/2020 9:49:05 AM GMT Standard Time</span>
             </a>
             <a>
                 <span class="label blue darken-3">3.1.0</span>
@@ -153,7 +153,7 @@
                         <canvas id='grandchild-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>3</span> step(s) passed</span>
+                        <span><span class='strong'>5</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
                         <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
@@ -172,31 +172,39 @@
 
                     <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='1'>
                         <div class='test-heading'>
-                            <span class='test-name'>AreaBrowsePage</span>
-                            <span class='test-time'>12/2/2020 10:38:11 AM</span>
+                            <span class='test-name'>ConventionVenueSearchPage</span>
+                            <span class='test-time'>12/9/2020 9:49:05 AM</span>
                             <span class='test-status right pass'>Pass</span>
                         </div>
                         <div class='test-content hide'>
                                     <div class='scenario node' test-id='2' status='pass'>
-                                        <span class='scenario-duration right label'>00:00:10.0393653</span>
+                                        <span class='scenario-duration right label'>00:00:32.5854883</span>
                                         <div class='scenario-desc'>
                                             <b>Scenario</b>
-                                            Preview Area Browse page is up
+                                            Convention Search Page Results
 
                                             
                                         </div>
                                             <ul class='steps'>
                                                     <li test-id='3' class='node given pass' status='given pass'>
                                                         <b>Given</b>
-                                                        I navigate to the Preview Area Browse Page '/area/london-bridge'
+                                                        I Navigate To The Search Venue Page '/Search-venue'
                                                                                                                                                                     </li>
-                                                    <li test-id='4' class='node given pass' status='given pass'>
-                                                        <b>Given</b>
-                                                        I don't see an error code
+                                                    <li test-id='4' class='node when pass' status='when pass'>
+                                                        <b>When</b>
+                                                        I Enter '1000' in Min Field
                                                                                                                                                                     </li>
-                                                    <li test-id='5' class='node then pass' status='then pass'>
+                                                    <li test-id='5' class='node when pass' status='when pass'>
+                                                        <b>When</b>
+                                                        I Enter '30000' in Max Field
+                                                                                                                                                                    </li>
+                                                    <li test-id='6' class='node when pass' status='when pass'>
+                                                        <b>When</b>
+                                                        I Click Search Button
+                                                                                                                                                                    </li>
+                                                    <li test-id='7' class='node then pass' status='then pass'>
                                                         <b>Then</b>
-                                                        I should be shown the area browse search grid
+                                                        i Should See 'InterContinental London' and 'RS Hampton Court Palace' in Search Reuslt
                                                                                                                                                                     </li>
                                             </ul>
                                     </div>
@@ -278,25 +286,25 @@
                 <div class='col s2'>
                     <div class='card-panel r'>
                         Steps
-                        <div class='panel-lead'>3</div>
+                        <div class='panel-lead'>5</div>
                     </div>
                 </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Start
-                    <div class='panel-lead'>12/2/2020 10:38:11 AM</div>
+                    <div class='panel-lead'>12/9/2020 9:49:05 AM</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     End
-                    <div class='panel-lead'>12/2/2020 10:38:30 AM</div>
+                    <div class='panel-lead'>12/9/2020 9:49:42 AM</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Time Taken
-                    <div class='panel-lead'>00:00:19.1852734</div>
+                    <div class='panel-lead'>00:00:36.5543536</div>
                 </div>
             </div>
 
@@ -330,7 +338,7 @@
 			    skipChild: 0,
 			    infoChild: 0,
 				
-			    passGrandChild: 3,
+			    passGrandChild: 5,
 			    failGrandChild: 0,
 			    fatalGrandChild: 0,
 			    errorGrandChild: 0,

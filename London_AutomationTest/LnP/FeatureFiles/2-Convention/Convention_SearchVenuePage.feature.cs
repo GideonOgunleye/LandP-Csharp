@@ -163,13 +163,14 @@ this.ScenarioInitialize(scenarioInfo);
 #line 27
  testRunner.Given("I Navigate To The Search Venue Page \'/Search-venue\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 28
- testRunner.When("I Enter \'10000\' in Min Field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I Enter \'1000\' in Min Field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 29
  testRunner.And("I Enter \'30000\' in Max Field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 30
  testRunner.When("I Click Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 31
- testRunner.Then("i Should See \'Olympia London\' and \'RS Alexandra Palace\' in Search Reuslt", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("i Should See \'InterContinental London\' and \'RS Hampton Court Palace\' in Search Re" +
+                    "uslt", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
