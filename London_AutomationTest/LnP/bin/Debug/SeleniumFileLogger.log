@@ -628,3 +628,51 @@
 08-Feb-2021-14:59:53 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-accommodation
 08-Feb-2021-15:00:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[4]/div/h3/a
 08-Feb-2021-15:00:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[4]/div/h3/a
+08-Feb-2021-15:20:23 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Feb-2021-15:20:36 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
+08-Feb-2021-15:20:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+08-Feb-2021-15:20:43 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Premier Inn
+08-Feb-2021-15:20:51 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+08-Feb-2021-15:20:54 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 62
+08-Feb-2021-15:20:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
+08-Feb-2021-15:20:56 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - Exception: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <button title="Search" class="header-search-submit" type="submit">...</button> is not clickable at point (1518, 70). Other element would receive the click: <div id="CybotCookiebotDialogBodyUnderlay" style="display: block; width: 2048px; height: 5266px; opacity: 0.75;"></div>
+  (Session info: chrome=88.0.4324.150)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 19
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 77
+08-Feb-2021-15:21:02 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Preview The Premier Inn Keyword Search.jpeg
+08-Feb-2021-15:28:05 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Feb-2021-15:28:21 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
+08-Feb-2021-15:28:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
+08-Feb-2021-15:28:29 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
+08-Feb-2021-15:28:37 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+08-Feb-2021-15:28:37 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Premier Inn
+08-Feb-2021-15:28:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+08-Feb-2021-15:28:47 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
+08-Feb-2021-15:28:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
+08-Feb-2021-15:29:32 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
+08-Feb-2021-15:29:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
+08-Feb-2021-15:29:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
+08-Feb-2021-15:31:44 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Feb-2021-15:31:53 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
+08-Feb-2021-15:32:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
+08-Feb-2021-15:32:01 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
+08-Feb-2021-15:32:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+08-Feb-2021-15:32:09 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Natural History Museum
+08-Feb-2021-15:32:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+08-Feb-2021-15:32:20 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
+08-Feb-2021-15:32:20 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
+08-Feb-2021-15:32:28 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
+08-Feb-2021-15:32:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
+08-Feb-2021-15:32:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span

@@ -33,6 +33,20 @@ namespace LnP.StepDefinition
                 Assert.Fail("Exception" + e);
                 throw;
             }
+
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']"));
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("No Pop-Up: " + e);
+
+                //throw;
+            }
         }
 
         [When(@"I Enter '(.*)' Keyword")]
