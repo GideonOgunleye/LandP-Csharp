@@ -1,0 +1,7 @@
+19-May-2020-09:22:22 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-May-2020-09:22:43 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
+19-May-2020-09:22:53 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/div[1]/a
+19-May-2020-09:22:56 [LnP.StepDefination_CVB.VenueSearchPageSteps] [ERROR] [ThenIShouldSeeTheHomeLinkInBreadCrumb] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div/div[1]/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.StepDefination_CVB.VenueSearchPageSteps.ThenIShouldSeeTheHomeLinkInBreadCrumb() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_VenueSearchPageSteps.cs:line 70
+19-May-2020-09:22:57 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Search Page Home Link.jpeg
