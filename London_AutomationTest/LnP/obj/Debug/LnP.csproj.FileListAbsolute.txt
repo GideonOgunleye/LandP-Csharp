@@ -1,6 +1,3 @@
-C:\Workspace\London_AutomationTest\LnP\bin\Debug\Resources\phantomjs.exe
-C:\Workspace\London_AutomationTest\LnP\bin\Debug\System.Web.Razor.xml
-C:\Workspace\London_AutomationTest\LnP\bin\Debug\WebDriver.Support.xml
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
@@ -13,6 +10,7 @@ C:\Workspace\London_AutomationTest\LnP\bin\Debug\DataDriven\TestDataFiles\TestDa
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\Resources\chromedriver.exe
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\Resources\FileUpload.exe
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\Resources\IEDriverServer.exe
+C:\Workspace\London_AutomationTest\LnP\bin\Debug\Resources\phantomjs.exe
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\DataDriven\TestDataFiles\CreateData.csv
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\DataDriven\TestDataFiles\ExcelData.xlsx
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\OrderedTest.orderedtest
@@ -66,10 +64,12 @@ C:\Workspace\London_AutomationTest\LnP\bin\Debug\Protractor.xml
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\RazorEngine.xml
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\System.ValueTuple.xml
+C:\Workspace\London_AutomationTest\LnP\bin\Debug\System.Web.Razor.xml
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\TechTalk.SpecFlow.pdb
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.pdb
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\Utf8Json.xml
 C:\Workspace\London_AutomationTest\LnP\bin\Debug\WebDriver.xml
+C:\Workspace\London_AutomationTest\LnP\bin\Debug\WebDriver.Support.xml
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csprojAssemblyReference.cache
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csproj.CoreCompileInputs.cache
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csproj.CopyComplete

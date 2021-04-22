@@ -9,7 +9,7 @@ Scenario: Convention Search Page is Up
 	Given I Navigate To The Search Venue Page '/search-venue'
 	Then I Should See Venue Search Results
 
-@Smoke
+#@Smoke
 Scenario: Convention Search Page Home Link
 	Given I Navigate To The Search Venue Page '/search-venue'
 	Then I should See the Home Link in BreadCrumb
