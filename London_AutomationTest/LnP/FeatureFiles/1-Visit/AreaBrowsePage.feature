@@ -10,7 +10,7 @@ Scenario: Area Browse page is up
 	And I don't see an error code
 	Then I should be shown the area browse search grid
 
-@Preview-Smoke
+#@Preview-Smoke
 Scenario: Preview Area Browse page is up
 	#Given I navigate to the Area Browser page '/area/london-bridge'
 	#Given I navigate to the Area Browser page '/area/london-bridge'
