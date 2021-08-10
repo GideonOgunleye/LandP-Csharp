@@ -102,7 +102,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
  testRunner.Given("I Navigate To The Home Page \'\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.Then("I Should Be Shown The Main Title \'Welcome to london\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I Should Be Shown The Main Title \'Welcome to Lagos\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

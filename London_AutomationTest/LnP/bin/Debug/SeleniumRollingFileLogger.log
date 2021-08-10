@@ -1,7 +1,88 @@
-03-Aug-2021-10:30:58 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-03-Aug-2021-10:31:02 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
-03-Aug-2021-10:31:12 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='content']/div[1]/div/div/h1
-03-Aug-2021-11:23:31 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-03-Aug-2021-11:23:34 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-services
-03-Aug-2021-11:23:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[5]/div/h3/a
-03-Aug-2021-11:23:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[5]/div/h3/a
+10-Aug-2021-10:54:15 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-10:54:17 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-10:54:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-10:54:26 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 51
+10-Aug-2021-10:54:26 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Home Page Is Up.jpeg
+10-Aug-2021-11:00:54 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:00:55 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:01:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:01:01 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 51
+10-Aug-2021-11:03:23 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:03:26 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:03:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:03:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:03:35 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 52
+10-Aug-2021-11:04:16 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:04:23 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:04:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:04:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:04:31 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 53
+10-Aug-2021-11:05:07 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:05:09 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:05:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:05:22 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:05:22 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 53
+10-Aug-2021-11:05:23 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Home Page Is Up.jpeg
+10-Aug-2021-11:09:04 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:09:05 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:09:12 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:09:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:09:13 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 53
+10-Aug-2021-11:31:04 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:31:05 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:31:10 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:31:10 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+10-Aug-2021-11:31:30 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:31:31 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:31:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:31:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+10-Aug-2021-11:32:45 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:32:48 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:33:02 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:33:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+10-Aug-2021-11:34:47 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:35:00 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:35:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:35:12 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to Libya')]
+10-Aug-2021-11:35:14 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to Libya')]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 54
+10-Aug-2021-11:35:15 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Home Page Is Up.jpeg
+10-Aug-2021-11:37:26 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:37:28 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:37:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:37:41 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+10-Aug-2021-11:39:22 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:39:25 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:39:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:39:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h2[contains(text(), 'Welcome to London')]
+10-Aug-2021-11:39:42 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h2[contains(text(), 'Welcome to London')]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 54
+10-Aug-2021-11:39:46 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Home Page Is Up.jpeg
+10-Aug-2021-11:40:50 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:40:52 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+10-Aug-2021-11:40:57 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+10-Aug-2021-11:40:57 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+10-Aug-2021-11:55:31 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+10-Aug-2021-11:55:34 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-services
+10-Aug-2021-11:55:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[5]/div/h3/a
+10-Aug-2021-11:55:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[5]/div/h3/a
