@@ -5,7 +5,11 @@
 
 @SmokeTest
 Scenario: Convention Search Services Is Up
-	Given I have entered 50 into the calculator
-	And I have entered 70 into the calculator
-	When I press add
-	Then the result should be 120 on the screen
+	Given I Navigate To Search Services Page'/search-services'
+	#Then I Should See Search Services Page Results
+	Then I Should See 'Qa' Search Services Page Results
+
+@SmokeTest
+Scenario: Convention Preview Search Services Page Is Up
+	Given I Navigate To Preview Search Services Page '/search-services'
+	Then I Should See 'Preview' Search Services Page Results
