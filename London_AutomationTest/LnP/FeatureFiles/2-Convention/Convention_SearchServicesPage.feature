@@ -9,7 +9,7 @@ Scenario: Convention Search Services Is Up
 	#Then I Should See Search Services Page Results
 	Then I Should See 'Qa' Search Services Page Results
 
-@Smoke
+@Preview-Smoke
 Scenario: Convention Preview Search Services Page Is Up
 	Given I Navigate To Preview Search Services Page '/search-services'
 	Then I Should See 'Preview' Search Services Page Results
