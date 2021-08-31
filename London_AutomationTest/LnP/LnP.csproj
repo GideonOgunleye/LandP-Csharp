@@ -180,6 +180,7 @@
     <Compile Include="StepDefinition\2-Convention\Convention_AccommodationSearchPageSteps.cs" />
     <Compile Include="StepDefinition\2-Convention\Convention_HomePageSteps.cs" />
     <Compile Include="StepDefinition\2-Convention\Convention_SearchServicesPageSteps.cs" />
+    <Compile Include="StepDefinition\5-LnP\LnP_HomePageSteps.cs" />
     <Compile Include="StepDefinition\TestFeatures\FeatureStepDef.cs" />
     <Compile Include="GeneralHook\GeneralHook.cs" />
     <Compile Include="Interfaces\IConfig.cs" />
@@ -331,6 +332,8 @@
     <None Include="FeatureFiles\3-Business\Business_MenuNavigation.feature" />
     <None Include="FeatureFiles\3-Business\Business_SlideInPanel.feature" />
     <None Include="FeatureFiles\4-Study\Study_HomePage.feature" />
+    <None Include="FeatureFiles\5-LnP\LnP_Homepage.feature" />
+    <None Include="FeatureFiles\5-LnP\LnP_TourismPartnerspage.feature" />
     <None Include="FeatureFiles\Test Features\SpecFlowFeature2.feature" />
     <None Include="FeatureFiles\Test Features\Hooks.feature" />
     <None Include="FeatureFiles\Test Features\SpecFlowFeature1.feature" />
