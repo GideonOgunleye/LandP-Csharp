@@ -838,3 +838,10 @@
 11-Aug-2021-08:43:00 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-services
 11-Aug-2021-08:43:10 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[5]/div/h3/a
 11-Aug-2021-08:43:15 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[5]/div/h3/a
+07-Sep-2021-10:57:30 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+07-Sep-2021-10:59:58 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+07-Sep-2021-11:00:03 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+07-Sep-2021-11:00:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+07-Sep-2021-11:00:06 [SeleniumWebdriver.StepDefinition._5_LnP.LnP_HomePageSteps] [ERROR] [ThenIShouldSeeTheMainTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at SeleniumWebdriver.StepDefinition._5_LnP.LnP_HomePageSteps.ThenIShouldSeeTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\5-LnP\LnP_HomePageSteps.cs:line 45
