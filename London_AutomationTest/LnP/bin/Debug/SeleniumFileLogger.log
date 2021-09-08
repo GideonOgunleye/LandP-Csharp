@@ -845,3 +845,24 @@
 07-Sep-2021-11:00:06 [SeleniumWebdriver.StepDefinition._5_LnP.LnP_HomePageSteps] [ERROR] [ThenIShouldSeeTheMainTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
    at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
    at SeleniumWebdriver.StepDefinition._5_LnP.LnP_HomePageSteps.ThenIShouldSeeTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\5-LnP\LnP_HomePageSteps.cs:line 45
+08-Sep-2021-13:55:41 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Sep-2021-13:55:50 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.conventionbureau.london/search-services
+08-Sep-2021-13:55:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
+08-Sep-2021-13:56:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .///*[@id='list']/ul/li[7]/div/h3/a
+08-Sep-2021-13:56:05 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_SearchServicesPageSteps] [ERROR] [ThenIShouldSeeSearchServicesPageResults] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .///*[@id='list']/ul/li[7]/div/h3/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_SearchServicesPageSteps.ThenIShouldSeeSearchServicesPageResults(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_SearchServicesPageSteps.cs:line 89
+08-Sep-2021-13:56:05 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Preview Search Services Page Is Up.jpeg
+08-Sep-2021-14:30:22 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Sep-2021-14:30:25 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.conventionbureau.london/search-services
+08-Sep-2021-14:30:34 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
+08-Sep-2021-14:30:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .///*[@id='list']/ul/li[7]/div/h3/a
+08-Sep-2021-14:30:39 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_SearchServicesPageSteps] [ERROR] [ThenIShouldSeeSearchServicesPageResults] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .///*[@id='list']/ul/li[7]/div/h3/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_SearchServicesPageSteps.ThenIShouldSeeSearchServicesPageResults(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_SearchServicesPageSteps.cs:line 91
+08-Sep-2021-14:30:40 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Preview Search Services Page Is Up.jpeg
+08-Sep-2021-14:32:26 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Sep-2021-14:32:28 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.conventionbureau.london/search-services
+08-Sep-2021-14:32:34 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
+08-Sep-2021-14:32:37 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
+08-Sep-2021-14:32:37 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
