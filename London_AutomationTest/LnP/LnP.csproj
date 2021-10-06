@@ -180,6 +180,7 @@
     <Compile Include="StepDefinition\2-Convention\Convention_AccommodationSearchPageSteps.cs" />
     <Compile Include="StepDefinition\2-Convention\Convention_HomePageSteps.cs" />
     <Compile Include="StepDefinition\2-Convention\Convention_SearchServicesPageSteps.cs" />
+    <Compile Include="StepDefinition\3-Business\Business_HomePageSteps.cs" />
     <Compile Include="StepDefinition\5-LnP\LnP_HomePageSteps.cs" />
     <Compile Include="StepDefinition\TestFeatures\FeatureStepDef.cs" />
     <Compile Include="GeneralHook\GeneralHook.cs" />
@@ -387,7 +388,6 @@
   <ItemGroup>
     <Folder Include="bin\Debug\TestReport\" />
     <Folder Include="DataDriven\Script\" />
-    <Folder Include="StepDefinition\3-Business\" />
     <Folder Include="StepDefinition\4-Study\" />
   </ItemGroup>
   <Choose>

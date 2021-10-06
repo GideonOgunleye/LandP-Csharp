@@ -1,7 +1,12 @@
-29-Sep-2021-14:05:31 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-29-Sep-2021-14:05:37 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
-29-Sep-2021-14:05:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
-29-Sep-2021-14:05:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
-29-Sep-2021-14:05:45 [SeleniumWebdriver.StepDefinition._5_LnP.LnP_HomePageSteps] [ERROR] [ThenIShouldSeeTheMainTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+06-Oct-2021-15:32:53 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+06-Oct-2021-15:33:00 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+06-Oct-2021-15:33:10 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+06-Oct-2021-15:33:12 [SeleniumWebdriver.StepDefinition._3_Business.Business_HomePageSteps] [ERROR] [ThenTheShouldSeePageTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h1
    at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at SeleniumWebdriver.StepDefinition._5_LnP.LnP_HomePageSteps.ThenIShouldSeeTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\5-LnP\LnP_HomePageSteps.cs:line 45
+   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToView(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 62
+   at SeleniumWebdriver.StepDefinition._3_Business.Business_HomePageSteps.ThenTheShouldSeePageTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\3-Business\Business_HomePageSteps.cs:line 53
+06-Oct-2021-15:33:13 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : BusinessHomePageIsUp.jpeg
+06-Oct-2021-15:35:49 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+06-Oct-2021-15:35:53 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.business.london
+06-Oct-2021-15:36:03 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+06-Oct-2021-15:36:03 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1

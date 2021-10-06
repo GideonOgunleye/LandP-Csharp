@@ -1,0 +1,7 @@
+29-Sep-2021-14:05:31 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+29-Sep-2021-14:05:37 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+29-Sep-2021-14:05:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+29-Sep-2021-14:05:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+29-Sep-2021-14:05:45 [SeleniumWebdriver.StepDefinition._5_LnP.LnP_HomePageSteps] [ERROR] [ThenIShouldSeeTheMainTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at SeleniumWebdriver.StepDefinition._5_LnP.LnP_HomePageSteps.ThenIShouldSeeTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\5-LnP\LnP_HomePageSteps.cs:line 45
