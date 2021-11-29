@@ -61,5 +61,26 @@ namespace SeleniumWebdriver.StepDefinition._3_Business
             }
         }
 
+        [Then(@"I Should See Feature Call Out Component")]
+        public void ThenIShouldSeeFeatureCallOutComponent()
+        {
+            
+            try
+               // Boolean ImagePresent = (Boolean)((JavaScriptExecutor)driver).executeScript();
+            {
+                Thread.Sleep(5000);
+                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='content']/div[2]/div[1]/div[2]/div/div[1]"));
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[2]/div[1]/div[2]/div/div[1]/div[1]")).Displayed);
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+
     }
 }

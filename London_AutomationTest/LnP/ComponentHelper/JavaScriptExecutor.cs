@@ -66,5 +66,23 @@ namespace LnP.ComponentHelper
                 ScrollTo(0, element.Location.Y - 100);
             }
         }
+
+        public bool IsTestElementPresnt(By Xpath)
+        {
+            //IWebElement ImageFile = GenericHelper.GetElement(Xpath);
+            //Boolean ImagePresent = ImageFile.Displayed();
+
+            try
+            {
+                GenericHelper.GetElement(Xpath);
+                return true;
+
+            }catch (NoSuchElementException)
+
+            {
+                return false;
+            }
+
+        }
     }
 }

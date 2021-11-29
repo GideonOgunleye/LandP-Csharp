@@ -1,0 +1,48 @@
+15-Oct-2021-10:41:03 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-10:41:41 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.business.london
+15-Oct-2021-10:41:51 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div[1]/div[2]/div/div[1]
+15-Oct-2021-10:41:52 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div[1]/div[2]/div/div[1]/div[1]
+15-Oct-2021-11:09:30 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-11:09:31 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-11:09:41 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-11:09:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-11:10:32 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-11:10:33 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-11:10:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-11:10:48 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-11:13:50 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-11:13:51 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-11:14:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[2]/div/a/img
+15-Oct-2021-11:14:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[2]/div/a/img
+15-Oct-2021-11:27:25 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-11:27:27 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-11:27:37 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-11:27:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-11:30:25 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-11:30:26 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-11:30:37 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[2]/div/a/img
+15-Oct-2021-11:30:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[2]/div/a/img
+15-Oct-2021-14:59:01 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-14:59:11 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-14:59:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[2]/div/a/img
+15-Oct-2021-14:59:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[2]/div/a/img
+15-Oct-2021-15:00:24 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-15:00:25 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-15:00:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-15:00:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-15:10:14 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-15:10:15 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-15:10:24 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-15:10:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.CssSelector: img[src=/ -/ media / images / london / visit / whats - on / special - events / chinese - new- year / new- images - 2017 / chinatown_on_yee_jon_mo1920x1080.jpg ? mw = 200 & hash = 832DC84FF33B1625C41A8F26C80A0EF717F2F035]
+15-Oct-2021-15:16:33 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-15:16:34 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-15:16:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-15:16:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[contains@src,'chinatown_on_yee_jon_mo1920x1080.jpg']
+15-Oct-2021-15:23:52 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-15:23:53 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-15:24:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-15:24:06 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-15:29:36 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+15-Oct-2021-15:29:38 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/offers-and-competitions/competitions
+15-Oct-2021-15:29:52 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
+15-Oct-2021-15:29:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[2]/div/section[1]/div/a/img
