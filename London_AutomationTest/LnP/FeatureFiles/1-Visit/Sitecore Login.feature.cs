@@ -18,7 +18,7 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class SitecoreLoginFeature
+    public partial class SitecoreCMSFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -44,7 +44,7 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Sitecore Login", "\tAs a CMS User\r\n\tI Want To Be Able to Login To The Content Editor CMS\r\n\tSo That I" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Sitecore CMS", "\tAs a CMS User\r\n\tI Want To Be Able to Login To The Content Editor CMS\r\n\tSo That I" +
                     " Can Create And Edit Content", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
@@ -60,9 +60,9 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "Sitecore Login")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "Sitecore CMS")))
             {
-                global::SeleniumWebdriver.FeatureFiles._1_Visit.SitecoreLoginFeature.FeatureSetup(null);
+                global::SeleniumWebdriver.FeatureFiles._1_Visit.SitecoreCMSFeature.FeatureSetup(null);
             }
         }
         
@@ -90,12 +90,10 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Login With Valid Credentials")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Sitecore Login")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Smoke")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Sitecore CMS")]
         public virtual void LoginWithValidCredentials()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login With Valid Credentials", null, new string[] {
-                        "Smoke"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login With Valid Credentials", null, ((string[])(null)));
 #line 7
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
@@ -106,8 +104,8 @@ this.ScenarioInitialize(scenarioInfo);
                         "Username",
                         "Password"});
             table1.AddRow(new string[] {
-                        "gogunleye",
-                        "P@rtner$L0nd0n"});
+                        "QA_User",
+                        "Test1234"});
 #line 9
  testRunner.When("User Enters Valid Credebtials", ((string)(null)), table1, "When ");
 #line 12
@@ -118,6 +116,46 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("User Clicks on Content Editor Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 15
  testRunner.Then("Content Editor Page Should Be Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Edit Visit Venue Product")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Sitecore CMS")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("SanityTest")]
+        public virtual void EditVisitVenueProduct()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit Visit Venue Product", null, new string[] {
+                        "SanityTest"});
+#line 18
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 19
+ testRunner.Given("User is On CMS Login Page \'http://qa.cms.londonandpartners.com/sitecore/login\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Username",
+                        "Password"});
+            table2.AddRow(new string[] {
+                        "QA_User",
+                        "Test1234"});
+#line 20
+ testRunner.When("User Enters Valid Credebtials", ((string)(null)), table2, "When ");
+#line 23
+ testRunner.And("Clicks Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 24
+ testRunner.Then("Sitecore Experience Platform Page Should Be Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 25
+ testRunner.When("User Clicks on Content Editor Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 26
+ testRunner.Then("Content Editor Page Should Be Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 27
+ testRunner.When("User Searches For Event \'27016170\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 28
+ testRunner.Then("User Should Be Able To Lock and Edit Venue", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 29
+ testRunner.And("User Should Be Able To Publish Event", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

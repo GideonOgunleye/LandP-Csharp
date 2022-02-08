@@ -3,7 +3,7 @@
 	As a visitor
 	I want to check the an tag browser page is up and running:
 
-@Smoke
+@Qa-Smoke
 Scenario: Tag Browse page is up
 	Given I navigate to the Tag Browser page 'tag/five-star-hotels'
 	#And I don't see an error code

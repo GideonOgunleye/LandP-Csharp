@@ -3,7 +3,7 @@
 	As a math idiot
 	I want to be told the sum of two numbers
 
-@Smoke
+@Qa-Smoke
 Scenario: Convention Search Accommodation Page Is Up
 	Given I Navigate to Accommodation Search Page '/search-accommodation'
 	Then I Should See 'Qa' Search Results

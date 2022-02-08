@@ -3,7 +3,7 @@
 	As a math idiot
 	I want to be told the sum of two numbers
 
-@Smoke
+@Qa-Smoke
 Scenario: Convention Search Services Is Up
 	Given I Navigate To Search Services Page'/search-services'
 	#Then I Should See Search Services Page Results

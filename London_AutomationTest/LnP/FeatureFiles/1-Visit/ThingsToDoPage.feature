@@ -8,7 +8,7 @@
 		- Things to do
 		- London tube
 
-@Smoke
+@Qa-Smoke
 Scenario: Things to do hub is up
 	Given I navigate to the thing to do hub page '/things-to-do'
 	#And I don't see an error code

@@ -113,8 +113,8 @@ namespace LnP.StepDefinition
             {
                 AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]")).Text, "Home");
                 GenericHelper.TakeScreenShot();
-                ButtonHelper.ClickButton(By.XPath(".//*[@class='sc-accountInformation']/li[1]/span"));
-                Thread.Sleep(1000);
+                //ButtonHelper.ClickButton(By.XPath(".//*[@class='sc-accountInformation']/li[1]/span"));
+                //Thread.Sleep(1000);
 
             }
             catch (Exception e)
@@ -124,6 +124,114 @@ namespace LnP.StepDefinition
                 throw;
             }
         }
+
+        [When(@"User Navigates to Venue CMS Url '(.*)'")]
+        public void WhenUserNavigatesToVenueCMSUrl(string url)
+        {
+            NavigationHelper.NavigateToUrl(url);
+            Thread.Sleep(1000);
+        }
+
+        [When(@"User Searches For Event '(.*)'")]
+        public void WhenUserSearchesForEvent(string p0)
+        {
+            try
+            {
+                //NavigationHelper.NavigateToUrl(p0);
+                TextBoxHelper.TypeInTextBox(By.XPath(".//*[@id='TreeSearch']"), p0);
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+
+            // User Clicks on Search Button
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a"));
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+
+            //User Clicks on Event
+            try
+            {
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[2]"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a"));
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+        [Then(@"User Should Be Able To Lock and Edit Venue")]
+        public void ThenUserShouldBeAbleToLockAndEditVenue()
+        {
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a"));
+                Thread.Sleep(1000);
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath("//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]")).Text.Contains("If you publish now, the selected version will not be visible on the Web site because it has been replaced by an older version."));
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+        [Then(@"User Should Be Able To Publish Event")]
+        public void ThenUserShouldBeAbleToPublishEvent()
+        {
+            //Click Review Navigation Tab
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']"));
+                Thread.Sleep(1000);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+            //Click Publish 
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span"));
+                Thread.Sleep(1000);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+
+
+
 
 
     }

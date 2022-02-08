@@ -3,7 +3,7 @@
 	As a visitor
 	I want to check the Event calendar is and running
 
-@Smoke
+@Qa-Smoke
 Scenario: Event calendar page is up
 	Given I navigate to event calendar page '/things-to-do/whats-on/special-events/london-events-calendar'
 	And I don't see an error code on Calender
