@@ -1295,3 +1295,790 @@
 08-Feb-2022-09:49:00 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
 08-Feb-2022-09:49:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
 08-Feb-2022-09:49:02 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-12:11:56 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-12:12:00 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-12:12:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-12:12:01 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-12:12:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-12:12:01 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-12:12:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:12:04 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:12:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:12:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:12:16 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:12:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-12:12:21 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-12-21.jpeg
+16-Feb-2022-12:12:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-12:12:22 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-12:12:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:12:27 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:12:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-12:12:33 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-12:12:38 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-12:12:39 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-12:12:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-12:12:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-12:12:40 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-12:12:41 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-12:12:42 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-12:18:26 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-12:18:28 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-12:18:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-12:18:29 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-12:18:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-12:18:29 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-12:18:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:18:31 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:18:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:18:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:18:42 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:18:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-12:18:47 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-18-47.jpeg
+16-Feb-2022-12:18:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-12:18:48 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-12:18:53 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:18:53 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:18:58 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-12:18:59 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-12:19:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-12:19:06 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-12:19:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-12:19:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-12:19:07 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-12:19:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-12:19:08 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-12:19:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='FooterRow']/div/input[1]
+16-Feb-2022-12:19:11 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='FooterRow']/div/input[1]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 223
+16-Feb-2022-12:19:12 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-12:20:10 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-12:20:12 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-12:20:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-12:20:13 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-12:20:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-12:20:14 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-12:20:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:20:17 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:20:22 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:20:23 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:20:30 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:20:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-12:20:35 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-20-35.jpeg
+16-Feb-2022-12:20:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-12:20:36 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-12:20:41 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:20:42 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:26:05 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-12:26:07 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-12:26:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-12:26:08 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-12:26:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-12:26:09 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-12:26:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:26:12 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:26:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:26:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:26:22 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:26:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-12:26:27 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-26-27.jpeg
+16-Feb-2022-12:26:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-12:26:27 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-12:26:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:26:33 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:26:38 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-12:26:39 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-12:26:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-12:26:46 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToLockAndEditVenue] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToLockAndEditVenue() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 190
+16-Feb-2022-12:26:46 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-12:27:43 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-12:27:45 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-12:27:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-12:27:46 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-12:27:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-12:27:46 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-12:27:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:27:49 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:27:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:27:56 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 81
+16-Feb-2022-12:27:57 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-12:28:24 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-12:28:25 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-12:28:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-12:28:26 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-12:28:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-12:28:26 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-12:28:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:28:29 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-12:28:34 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:28:34 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:28:39 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-12:28:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-12:28:44 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-28-44.jpeg
+16-Feb-2022-12:28:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-12:28:45 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-12:28:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:28:50 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-12:28:55 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-12:28:57 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-12:29:02 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-12:29:03 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-12:29:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-12:29:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-12:29:04 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-12:29:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-12:29:06 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-12:29:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='FooterRow']/div/input[1]
+16-Feb-2022-12:29:13 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='FooterRow']/div/input[1]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 223
+16-Feb-2022-12:29:13 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-13:25:05 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-13:25:07 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-13:25:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-13:25:08 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-13:25:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-13:25:08 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-13:25:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-13:25:11 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-13:25:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:25:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:25:25 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:25:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-13:25:30 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-25-30.jpeg
+16-Feb-2022-13:25:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-13:25:31 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-13:25:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-13:25:37 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-13:25:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-13:25:43 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-13:25:48 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-13:25:49 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-13:25:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-13:25:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-13:25:50 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-13:25:51 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-13:25:51 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-13:33:21 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-13:33:23 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-13:33:24 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-13:33:24 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-13:33:24 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-13:33:25 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-13:33:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-13:33:26 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-13:33:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:33:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:33:39 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:33:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-13:33:44 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-33-44.jpeg
+16-Feb-2022-13:33:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-13:33:45 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-13:33:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-13:33:51 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-13:33:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-13:33:56 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-13:34:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-13:34:03 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-13:34:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-13:34:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-13:34:04 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-13:34:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-13:34:05 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-13:34:10 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Alert()
+   at LnP.ComponentHelper.JavaScriptPopHelper.ClickOkOnPopup() in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptPopHelper.cs:line 39
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 224
+16-Feb-2022-13:34:11 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-13:48:04 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-13:48:06 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-13:48:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-13:48:07 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-13:48:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-13:48:07 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-13:48:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-13:48:09 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-13:48:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:48:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:48:21 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-13:48:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-13:48:27 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-48-27.jpeg
+16-Feb-2022-13:48:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-13:48:27 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-13:48:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-13:48:33 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-13:48:38 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-13:48:39 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-13:48:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-13:48:45 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-13:48:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-13:48:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-13:48:46 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-13:48:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-13:48:47 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-13:48:52 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scStretch scFlexColumnContainer']div[3]/div/input[1]]
+16-Feb-2022-13:48:52 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='scStretch scFlexColumnContainer']div[3]/div/input[1]]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 225
+16-Feb-2022-13:48:53 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-14:08:53 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:08:55 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:08:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:08:56 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:08:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:08:56 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:08:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:09:00 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:09:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:09:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:09:16 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:09:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-14:09:21 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-09-21.jpeg
+16-Feb-2022-14:09:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-14:09:22 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-14:09:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-14:09:28 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-14:09:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-14:09:34 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-14:09:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-14:09:39 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-14:09:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-14:09:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-14:09:41 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-14:09:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-14:09:42 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-14:09:51 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.NoSuchFrameException: No frame element found with name or id scContentIframeId0
+   at OpenQA.Selenium.Remote.RemoteTargetLocator.Frame(String frameName)
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 225
+16-Feb-2022-14:09:51 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-14:22:32 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:22:34 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:22:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:22:35 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:22:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:22:35 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:22:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:22:38 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:22:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:22:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:22:54 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:22:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-14:22:59 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-22-59.jpeg
+16-Feb-2022-14:22:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-14:22:59 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-14:23:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-14:23:05 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-14:23:10 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-14:23:11 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-14:23:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-14:23:16 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-14:23:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-14:23:18 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-14:23:18 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-14:23:19 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-14:23:19 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-14:23:26 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='scContentIframeId0']"}
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 226
+16-Feb-2022-14:23:27 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-14:34:28 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:34:30 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:34:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:34:31 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:34:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:34:32 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:34:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:34:37 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:34:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:34:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:34:49 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:34:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-14:34:54 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-34-54.jpeg
+16-Feb-2022-14:34:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-14:34:54 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-14:34:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-14:35:00 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-14:35:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-14:35:06 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-14:35:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-14:35:12 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-14:35:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-14:35:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-14:35:13 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-14:35:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-14:35:14 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-14:35:19 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .//*[@class='ui - dialog ui - widget ui - widget - content ui - corner - all ui - front ui - draggable ui - resizable']/iframe] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/*[@class='ui - dialog ui - widget ui - widget - content ui - corner - all ui - front ui - draggable ui - resizable']/iframe]' is not a valid XPath expression.
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 226
+16-Feb-2022-14:35:20 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-14:37:12 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:37:16 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:37:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:37:17 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:37:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:37:17 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:37:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:37:21 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:45:32 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:45:35 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:45:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:45:36 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:45:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:45:36 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:45:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:45:38 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:45:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:45:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:45:51 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:45:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-14:45:56 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-45-56.jpeg
+16-Feb-2022-14:45:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-14:45:57 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-14:46:02 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-14:46:03 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-14:46:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-14:46:09 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-14:46:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-14:46:14 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-14:46:15 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-14:46:15 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-14:46:16 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-14:46:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-14:46:17 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-14:46:22 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression . //*[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable']/iframe] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '. //*[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable']/iframe]' is not a valid XPath expression.
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 226
+16-Feb-2022-14:46:22 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-14:48:04 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:48:06 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:48:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:48:08 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:48:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:48:08 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:48:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:48:11 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:48:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:48:18 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 81
+16-Feb-2022-14:48:19 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-14:49:04 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:49:08 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:49:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:49:09 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:49:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:49:09 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:49:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:49:13 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:49:18 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:49:20 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 81
+16-Feb-2022-14:49:20 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-14:58:54 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:58:57 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:58:58 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:58:58 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:58:58 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:58:59 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:58:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:59:02 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:59:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:59:09 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenSitecoreExperiencePlatformPageShouldBeDisplayed] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenSitecoreExperiencePlatformPageShouldBeDisplayed() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 81
+16-Feb-2022-14:59:10 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-14:59:42 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-14:59:43 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-14:59:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-14:59:45 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-14:59:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-14:59:45 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-14:59:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:59:47 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-14:59:52 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:59:52 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-14:59:58 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-15:00:03 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-15:00:03 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-00-03.jpeg
+16-Feb-2022-15:00:03 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-15:00:04 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-15:00:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-15:00:09 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-15:00:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-15:00:15 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-15:00:20 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-15:00:21 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-15:00:22 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-15:00:22 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-15:00:22 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-15:00:23 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-15:00:24 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-15:00:29 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .//*[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable']/iframe] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/*[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable']/iframe]' is not a valid XPath expression.
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 226
+16-Feb-2022-15:00:29 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-16:13:43 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-16:13:45 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-16:13:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-16:13:47 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-16:13:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-16:13:47 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-16:13:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:13:50 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:13:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:13:55 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:14:01 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:14:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-16:14:07 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-14-07.jpeg
+16-Feb-2022-16:14:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-16:14:07 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-16:14:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:14:14 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:17:13 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-16:17:15 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-16:17:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-16:17:16 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-16:17:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-16:17:17 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-16:17:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:17:19 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:17:24 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:17:24 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:17:30 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:17:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-16:17:36 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-17-36.jpeg
+16-Feb-2022-16:17:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-16:17:36 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-16:17:41 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:17:42 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:17:48 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:17:48 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:17:53 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:17:54 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:17:55 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-16:17:55 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-16:17:56 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-16:17:57 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-16:17:57 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-16:18:04 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable']/iframe"}
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 225
+16-Feb-2022-16:18:05 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-16:19:22 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-16:19:24 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-16:19:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-16:19:25 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-16:19:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-16:19:25 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-16:19:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:19:28 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:19:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:19:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:19:41 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:19:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-16:19:46 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-19-46.jpeg
+16-Feb-2022-16:19:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-16:19:46 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-16:19:51 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:19:52 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:21:12 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-16:21:15 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-16:21:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-16:21:16 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-16:21:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-16:21:16 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-16:21:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:21:18 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:21:23 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:21:23 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:21:31 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:21:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-16:21:37 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-21-37.jpeg
+16-Feb-2022-16:21:37 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-16:21:37 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-16:21:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:21:43 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:21:48 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:21:49 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:21:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:21:55 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:21:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-16:21:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-16:21:56 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-16:21:57 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-16:21:57 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-16:34:37 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-16:34:38 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-16:34:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-16:34:40 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-16:34:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-16:34:40 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-16:34:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:34:44 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:34:49 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:34:49 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:35:07 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:35:12 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-16:35:12 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-35-12.jpeg
+16-Feb-2022-16:35:12 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-16:35:12 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-16:35:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:35:18 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:35:23 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:35:24 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:35:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:35:30 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:35:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-16:35:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-16:35:31 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-16:35:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-16:35:33 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-16:35:40 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable']/iframe"}
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 226
+16-Feb-2022-16:35:40 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-16:41:36 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-16:41:37 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-16:41:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-16:41:39 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-16:41:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-16:41:39 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-16:41:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:41:41 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:41:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:41:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:41:53 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:41:58 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-16:41:58 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-41-58.jpeg
+16-Feb-2022-16:41:58 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-16:41:58 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-16:42:03 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:42:04 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:42:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:42:10 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:42:15 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:42:16 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:42:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-16:42:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-16:42:17 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-16:42:18 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-16:42:18 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-16:57:11 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-16:57:13 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-16:57:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-16:57:14 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-16:57:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-16:57:14 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-16:57:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:57:16 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:57:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:57:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:57:28 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:57:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-16:57:33 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-57-33.jpeg
+16-Feb-2022-16:57:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-16:57:33 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-16:57:38 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:57:39 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:57:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:57:45 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:57:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:57:52 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToLockAndEditVenue] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToLockAndEditVenue() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 190
+16-Feb-2022-16:57:53 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-16:59:10 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-16:59:12 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-16:59:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-16:59:13 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-16:59:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-16:59:13 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-16:59:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:59:15 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-16:59:20 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:59:20 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:59:26 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-16:59:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-16:59:31 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-59-31.jpeg
+16-Feb-2022-16:59:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-16:59:32 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-16:59:37 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:59:38 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-16:59:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:59:43 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-16:59:48 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-16:59:50 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToLockAndEditVenue] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToLockAndEditVenue() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 190
+16-Feb-2022-16:59:51 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-17:01:04 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-17:01:06 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-17:01:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-17:01:07 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-17:01:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-17:01:07 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-17:01:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-17:01:09 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-17:01:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-17:01:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-17:01:21 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-17:01:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-17:01:27 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-01-26.jpeg
+16-Feb-2022-17:01:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-17:01:27 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-17:01:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-17:01:33 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-17:01:38 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-17:01:38 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-17:01:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-17:01:44 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-17:01:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-17:01:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-17:01:45 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-17:01:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-17:01:47 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span
+16-Feb-2022-17:01:52 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]
+16-Feb-2022-17:01:53 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToPublishEvent] - Exception: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="scRibbonToolbarSmallButton" title="Check this item in." onclick="javascript:return scForm.postEvent(this,event,'item:checkin')">...</a> is not clickable at point (923, 122). Other element would receive the click: <iframe frameborder="0" allowtransparency="true" id="jqueryModalDialogsFrame" src="/sitecore/shell/Controls/JqueryModalDialogs.html" style="position: fixed; inset: 0px; width: 100%; height: 100%; z-index: 10000; margin: 0px; padding: 0px; border-width: 0px; overflow: hidden;"></iframe>
+  (Session info: chrome=98.0.4758.82)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 19
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToPublishEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 228
+16-Feb-2022-17:01:53 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+16-Feb-2022-17:03:07 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+16-Feb-2022-17:03:08 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+16-Feb-2022-17:03:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+16-Feb-2022-17:03:10 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+16-Feb-2022-17:03:10 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+16-Feb-2022-17:03:10 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+16-Feb-2022-17:03:10 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-17:03:12 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+16-Feb-2022-17:03:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-17:03:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-17:03:24 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+16-Feb-2022-17:03:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+16-Feb-2022-17:03:29 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-16-03-29.jpeg
+16-Feb-2022-17:03:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+16-Feb-2022-17:03:29 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+16-Feb-2022-17:03:34 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-17:03:36 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+16-Feb-2022-17:03:41 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-17:03:42 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+16-Feb-2022-17:03:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-17:03:47 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+16-Feb-2022-17:03:48 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+16-Feb-2022-17:03:49 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-17:03:49 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+16-Feb-2022-17:03:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]
+16-Feb-2022-17:03:51 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]
+23-Feb-2022-12:05:01 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Feb-2022-12:05:04 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Feb-2022-12:05:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Feb-2022-12:05:05 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+23-Feb-2022-12:05:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Feb-2022-12:05:05 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+23-Feb-2022-12:05:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+23-Feb-2022-12:05:11 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+23-Feb-2022-12:05:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Feb-2022-12:05:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Feb-2022-12:05:23 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Feb-2022-12:05:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+23-Feb-2022-12:05:29 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-23-05-29.jpeg
+23-Feb-2022-12:05:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+23-Feb-2022-12:05:29 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+23-Feb-2022-12:05:34 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+23-Feb-2022-12:05:35 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+23-Feb-2022-12:05:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+23-Feb-2022-12:05:41 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+23-Feb-2022-12:05:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+23-Feb-2022-12:05:48 [LnP.StepDefinition.SitecoreValidLoginSteps] [ERROR] [ThenUserShouldBeAbleToLockAndEditVenue] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.SitecoreValidLoginSteps.ThenUserShouldBeAbleToLockAndEditVenue() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\SitecoreValidLoginSteps.cs:line 190
+23-Feb-2022-12:05:49 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Edit Visit Venue Product.jpeg
+23-Feb-2022-12:06:44 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+23-Feb-2022-12:06:46 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+23-Feb-2022-12:06:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+23-Feb-2022-12:06:47 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+23-Feb-2022-12:06:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+23-Feb-2022-12:06:48 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+23-Feb-2022-12:06:48 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+23-Feb-2022-12:06:51 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+23-Feb-2022-12:06:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Feb-2022-12:06:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Feb-2022-12:07:06 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+23-Feb-2022-12:07:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+23-Feb-2022-12:07:11 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-02-23-07-11.jpeg
+23-Feb-2022-12:07:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+23-Feb-2022-12:07:11 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : 27016170
+23-Feb-2022-12:07:16 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+23-Feb-2022-12:07:18 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+23-Feb-2022-12:07:23 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+23-Feb-2022-12:07:24 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a
+23-Feb-2022-12:07:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+23-Feb-2022-12:07:29 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a
+23-Feb-2022-12:07:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]
+23-Feb-2022-12:07:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+23-Feb-2022-12:07:31 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']
+23-Feb-2022-12:07:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]
+23-Feb-2022-12:07:33 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]

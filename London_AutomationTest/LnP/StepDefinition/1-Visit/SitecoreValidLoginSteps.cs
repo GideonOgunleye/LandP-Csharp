@@ -218,7 +218,14 @@ namespace LnP.StepDefinition
             //Click Publish 
             try
             {
-                ButtonHelper.ClickButton(By.XPath(".//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span"));
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[3]/a[2]/span"));
+                //Thread.Sleep(5000);
+                //JavaScriptPopHelper.ClickOkOnPopup();
+                //ObjectRepository.Driver.SwitchTo().Frame("scContentIframeId0"); //*[@id="scContentIframeId0"]
+                //ObjectRepository.Driver.SwitchTo().ParentFrame();
+                //Console.WriteLine("Parent Frame is: " + ObjectRepository.Driver.SwitchTo().ParentFrame());
+                //ObjectRepository.Driver.SwitchTo().Frame(ObjectRepository.Driver.FindElement(By.XPath(".//*[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable']/iframe")));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]"));
                 Thread.Sleep(1000);
             }
             catch (Exception e)

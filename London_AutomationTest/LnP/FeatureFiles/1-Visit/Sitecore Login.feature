@@ -29,4 +29,3 @@ Scenario: Edit Visit Venue Product
 	And User Should Be Able To Publish Event
 	#When User Navigates to Venue CMS Url 'http://qa.cms.londonandpartners.com/?sc_mode=edit&sc_itemid=%7b41A042FA-1633-49FA-BB04-C0831883AF6F%7d&sc_version=2&sc_lang=en&sc_site=Visit_CA'
 	
-

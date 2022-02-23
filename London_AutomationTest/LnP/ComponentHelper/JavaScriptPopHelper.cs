@@ -32,9 +32,15 @@ namespace LnP.ComponentHelper
 
         public static void ClickOkOnPopup()
         {
-            if (!IsPopupPresent())
-                return;
-            ObjectRepository.Driver.SwitchTo().Alert().Accept();
+            //if (!IsPopupPresent())
+            //return;
+            //ObjectRepository.Driver.SwitchTo().Alert().Accept();
+
+            IAlert PopUP = ObjectRepository.Driver.SwitchTo().Alert();
+            String PopUpText = PopUP.Text;
+            Console.WriteLine("Pop up text is" + PopUpText);
+            PopUP.Accept();
+
         }
 
         public static void ClickCancelOnPopup()
