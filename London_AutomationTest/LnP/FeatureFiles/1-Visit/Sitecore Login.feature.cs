@@ -121,12 +121,12 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Edit Visit Venue Product")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Edit Visit Event Product")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Sitecore CMS")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("SanityTest")]
-        public virtual void EditVisitVenueProduct()
+        public virtual void EditVisitEventProduct()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit Visit Venue Product", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit Visit Event Product", null, new string[] {
                         "SanityTest"});
 #line 18
 this.ScenarioInitialize(scenarioInfo);
