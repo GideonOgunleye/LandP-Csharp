@@ -182,8 +182,77 @@ namespace LnP.StepDefinition
             }
         }
 
+        [When(@"User Searches For Venue '(.*)'")]
+        public void WhenUserSearchesForVenue(string p0)
+        {
+            try
+            {
+                //NavigationHelper.NavigateToUrl(p0);
+                TextBoxHelper.TypeInTextBox(By.XPath(".//*[@id='TreeSearch']"), p0);
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+
+            // User Clicks on Search Button
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a"));
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+
+            //User Clicks on Venue
+            try
+            {
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[2]"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a"));
+                Thread.Sleep(5000);
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+
         [Then(@"User Should Be Able To Lock and Edit Venue")]
         public void ThenUserShouldBeAbleToLockAndEditVenue()
+        {
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='EditorPanelA49449A5C1AF4DBD9E200BD17A202551']/div[2]/div[2]/ul/li/a"));
+                Thread.Sleep(1000);
+                //Assert.IsTrue(GenericHelper.GetElement(By.XPath("//*[@id='EditorPanelA49449A5C1AF4DBD9E200BD17A202551']/div[2]/div[2]/div[1]")).Text.Contains("If you publish now, the selected version will not be visible on the Web site because it has been replaced by an older version."));
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
+        [Then(@"User Should Be Able To Lock and Edit Event")]
+        public void ThenUserShouldBeAbleToLockAndEditEvent()
         {
             try
             {
@@ -199,6 +268,7 @@ namespace LnP.StepDefinition
                 throw;
             }
         }
+
 
         [Then(@"User Should Be Able To Publish Event")]
         public void ThenUserShouldBeAbleToPublishEvent()
@@ -235,6 +305,36 @@ namespace LnP.StepDefinition
                 throw;
             }
         }
+
+        [Then(@"User Should Be Able To Check In Venue")]
+        public void ThenUserShouldBeAbleToCheckInVenue()
+        {
+            //Click Review Navigation Tab
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='RibbonA49449A5C1AF4DBD9E200BD17A202551_Nav_ReviewStrip']"));
+                Thread.Sleep(1000);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+            //Click Publish 
+            try
+            {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]"));
+                Thread.Sleep(1000);
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                Assert.Fail("Exception" + e);
+                throw;
+            }
+        }
+
 
 
 

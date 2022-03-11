@@ -153,9 +153,49 @@ this.ScenarioInitialize(scenarioInfo);
 #line 27
  testRunner.When("User Searches For Event \'27016170\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 28
- testRunner.Then("User Should Be Able To Lock and Edit Venue", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("User Should Be Able To Lock and Edit Event", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 29
  testRunner.And("User Should Be Able To Publish Event", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Edit Visit Venue Product")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Sitecore CMS")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("SanityTest")]
+        public virtual void EditVisitVenueProduct()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Edit Visit Venue Product", null, new string[] {
+                        "SanityTest"});
+#line 32
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 33
+ testRunner.Given("User is On CMS Login Page \'http://qa.cms.londonandpartners.com/sitecore/login\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+            TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Username",
+                        "Password"});
+            table3.AddRow(new string[] {
+                        "QA_User",
+                        "Test1234"});
+#line 34
+ testRunner.When("User Enters Valid Credebtials", ((string)(null)), table3, "When ");
+#line 37
+ testRunner.And("Clicks Login Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 38
+ testRunner.Then("Sitecore Experience Platform Page Should Be Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 39
+ testRunner.When("User Clicks on Content Editor Tab", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 40
+ testRunner.Then("Content Editor Page Should Be Displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 41
+ testRunner.When("User Searches For Venue \'27634780\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 42
+ testRunner.Then("User Should Be Able To Lock and Edit Venue", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 43
+ testRunner.And("User Should Be Able To Check In Venue", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
