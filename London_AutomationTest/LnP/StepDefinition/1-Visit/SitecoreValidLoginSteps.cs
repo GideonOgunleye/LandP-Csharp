@@ -168,8 +168,8 @@ namespace LnP.StepDefinition
             //User Clicks on Event
             try
             {
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a"));
                 //ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[2]"));
-                ButtonHelper.ClickButton(By.XPath(".//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[2]"));
                 Thread.Sleep(5000);
 
 
@@ -256,9 +256,10 @@ namespace LnP.StepDefinition
         {
             try
             {
-                ButtonHelper.ClickButton(By.XPath(".//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a"));
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/ul/li/a"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='EditorPanelEEBA956E0FFB48B885CF37CA3216D400']/div[2]/div[2]/ul/li/a"));
                 Thread.Sleep(1000);
-                Assert.IsTrue(GenericHelper.GetElement(By.XPath("//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]")).Text.Contains("If you publish now, the selected version will not be visible on the Web site because it has been replaced by an older version."));
+                //Assert.IsTrue(GenericHelper.GetElement(By.XPath("//*[@id='EditorPanel41A042FA163349FABB04C0831883AF6F']/div[2]/div[2]/div[1]")).Text.Contains("If you publish now, the selected version will not be visible on the Web site because it has been replaced by an older version."));
 
             }
             catch (Exception e)
@@ -276,7 +277,8 @@ namespace LnP.StepDefinition
             //Click Review Navigation Tab
             try
             {
-                ButtonHelper.ClickButton(By.XPath(".//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']"));
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='Ribbon41A042FA163349FABB04C0831883AF6F_Nav_ReviewStrip']"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='RibbonEEBA956E0FFB48B885CF37CA3216D400_Nav_ReviewStrip']"));
                 Thread.Sleep(1000);
             }
             catch (Exception e)
@@ -296,6 +298,7 @@ namespace LnP.StepDefinition
                 //Console.WriteLine("Parent Frame is: " + ObjectRepository.Driver.SwitchTo().ParentFrame());
                 //ObjectRepository.Driver.SwitchTo().Frame(ObjectRepository.Driver.FindElement(By.XPath(".//*[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable']/iframe")));
                 ButtonHelper.ClickButton(By.XPath(".//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]"));
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]/span"));
                 Thread.Sleep(1000);
             }
             catch (Exception e)
