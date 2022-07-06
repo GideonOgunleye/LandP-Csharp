@@ -3,7 +3,7 @@
 	I Want To Be Able to Login To The Content Editor CMS
 	So That I Can Create And Edit Content
 
-#@Qa-Smoke
+@SmokeTest
 Scenario: Login With Valid Credentials
 	Given User is On CMS Login Page 'http://qa.cms.londonandpartners.com/sitecore/login'
 	When User Enters Valid Credebtials
@@ -13,6 +13,7 @@ Scenario: Login With Valid Credentials
 	Then Sitecore Experience Platform Page Should Be Displayed
 	When User Clicks on Content Editor Tab
 	Then Content Editor Page Should Be Displayed
+	Then User is Able To Log Out
 
 @SanityTest
 Scenario: Edit Visit Event Product
@@ -27,6 +28,7 @@ Scenario: Edit Visit Event Product
 	When User Searches For Event '27016170'
 	Then User Should Be Able To Lock and Edit Event
 	And User Should Be Able To Publish Event
+	Then User is Able To Log Out
 	#When User Navigates to Venue CMS Url 'http://qa.cms.londonandpartners.com/?sc_mode=edit&sc_itemid=%7b41A042FA-1633-49FA-BB04-C0831883AF6F%7d&sc_version=2&sc_lang=en&sc_site=Visit_CA'
 @SanityTest
 Scenario: Edit Visit Venue Product
@@ -41,4 +43,5 @@ Scenario: Edit Visit Venue Product
 	When User Searches For Venue '27634780'
 	Then User Should Be Able To Lock and Edit Venue
 	And  User Should Be Able To Check In Venue
+	Then User is Able To Log Out
 	

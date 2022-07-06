@@ -15,7 +15,7 @@ Scenario: About Us Page Redirects
 	Then User should be navigated to the "About Us" Page and See Text "About visitlondon.com" On Page
 
 
-@Preview-Smoke
+@SmokeTest
 Scenario: Preview About Us Page Redirects
 	Given User Enters Url 'http://preview-sc.visitlondon.com/about-us'
 	Then User should be navigated to the "About Us" Page and See Text "About visitlondon.com" On Page

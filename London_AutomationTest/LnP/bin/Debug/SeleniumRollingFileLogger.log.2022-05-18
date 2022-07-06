@@ -1,0 +1,107 @@
+18-May-2022-09:54:36 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-May-2022-09:54:52 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+18-May-2022-09:54:53 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+18-May-2022-09:54:54 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+18-May-2022-09:54:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+18-May-2022-09:54:55 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+18-May-2022-09:54:55 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+18-May-2022-09:55:03 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+18-May-2022-09:55:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-09:55:08 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-09:55:28 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-09:55:31 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+18-May-2022-09:55:31 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-05-18-55-31.jpeg
+18-May-2022-09:55:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+18-May-2022-09:55:33 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : test-landing-page
+18-May-2022-09:55:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+18-May-2022-09:55:37 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+18-May-2022-09:55:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[4]
+18-May-2022-09:55:40 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[4]
+18-May-2022-09:55:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel7868EA52BEB84600A1F56F8C6C3B6571']/div[2]/div[2]/div[1]
+18-May-2022-09:57:03 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/?sc_mode=edit&sc_itemid=%7b7868EA52-BEB8-4600-A1F5-6F8C6C3B6571%7d&sc_version=10&sc_lang=en&sc_site=Visit_CA
+18-May-2022-09:57:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='container-narrow']/div[1]/nav/a[4]
+18-May-2022-09:57:53 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Insert Visit Mosiac Tile of 4.jpeg
+18-May-2022-10:03:54 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-May-2022-10:03:56 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+18-May-2022-10:03:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+18-May-2022-10:04:00 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+18-May-2022-10:04:00 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+18-May-2022-10:04:05 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+18-May-2022-10:04:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+18-May-2022-10:04:11 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+18-May-2022-10:04:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-10:04:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-10:04:22 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-10:04:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+18-May-2022-10:04:26 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-05-18-04-26.jpeg
+18-May-2022-10:04:28 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+18-May-2022-10:04:30 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : test-landing-page
+18-May-2022-10:04:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+18-May-2022-10:06:14 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+18-May-2022-10:06:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[4]
+18-May-2022-10:07:17 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[4]
+18-May-2022-10:07:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel7868EA52BEB84600A1F56F8C6C3B6571']/div[2]/div[2]/div[1]
+18-May-2022-10:08:16 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/?sc_mode=edit&sc_itemid=%7b7868EA52-BEB8-4600-A1F5-6F8C6C3B6571%7d&sc_version=10&sc_lang=en&sc_site=Visit_CA
+18-May-2022-10:08:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='container-narrow']/div[1]/nav/a[4]
+18-May-2022-10:08:29 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='container-narrow']/div[1]/nav/a[4]
+18-May-2022-10:08:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-messageBar-head alert']/div[2]/span[2]/i
+18-May-2022-10:08:33 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-messageBar-head alert']/div[2]/span[2]/i
+18-May-2022-10:08:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-messageBar-messages-wrap data-sc-registered sc-messageBar-messages-nested-children']/div[2]/div[1]/div[2]/span/a
+18-May-2022-10:08:39 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-messageBar-messages-wrap data-sc-registered sc-messageBar-messages-nested-children']/div[2]/div[1]/div[2]/span/a
+18-May-2022-10:08:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='container-narrow']/div[1]/nav[1]/a[3]
+18-May-2022-10:08:49 [LnP.StepDefinition.VisitLandingPageSteps] [ERROR] [ThenInsertComponentOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='container-narrow']/div[1]/nav[1]/a[3]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.VisitLandingPageSteps.ThenInsertComponentOnPage() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\VisitLandingPageSteps.cs:line 148
+18-May-2022-10:09:00 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='logout']
+18-May-2022-10:09:03 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Insert Visit Mosiac Tile of 4.jpeg
+18-May-2022-10:10:54 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-May-2022-10:10:57 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/sitecore/login
+18-May-2022-10:10:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: UserName
+18-May-2022-10:10:59 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: UserName : value : QA_User
+18-May-2022-10:10:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.Id: Password
+18-May-2022-10:10:59 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.Id: Password : value : Test1234
+18-May-2022-10:10:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //input[@id='LogInBtn']
+18-May-2022-10:11:02 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: //input[@id='LogInBtn']
+18-May-2022-10:11:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-10:11:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-10:11:15 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-launchpad-item']/span[contains(text(), 'Content Editor')]
+18-May-2022-10:11:22 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='scEditorHeaderTitlePanel']/a[contains(text(), 'Home')]
+18-May-2022-10:11:23 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-05-18-11-22.jpeg
+18-May-2022-10:11:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='TreeSearch']
+18-May-2022-10:11:27 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='TreeSearch'] : value : test-landing-page
+18-May-2022-10:11:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+18-May-2022-10:11:34 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchPanel']/table[1]/tbody/tr/td[2]/div/div/a
+18-May-2022-10:11:39 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[4]
+18-May-2022-10:11:40 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='SearchResult']/table/tbody/tr[1]/td[2]/a[4]
+18-May-2022-10:11:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='EditorPanel7868EA52BEB84600A1F56F8C6C3B6571']/div[2]/div[2]/div[1]
+18-May-2022-10:11:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='Ribbon7868EA52BEB84600A1F56F8C6C3B6571_Nav_ReviewStrip']
+18-May-2022-10:11:45 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='Ribbon7868EA52BEB84600A1F56F8C6C3B6571_Nav_ReviewStrip']
+18-May-2022-10:11:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]
+18-May-2022-10:11:47 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='C22AEF88C58BC4BFD8F34299782312338']/div[1]/div[2]/a[1]
+18-May-2022-10:11:56 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.cms.londonandpartners.com/?sc_mode=edit&sc_itemid=%7b7868EA52-BEB8-4600-A1F5-6F8C6C3B6571%7d&sc_version=10&sc_lang=en&sc_site=Visit_CA
+18-May-2022-10:12:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='container-narrow']/div[1]/nav/a[4]
+18-May-2022-10:12:04 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='container-narrow']/div[1]/nav/a[4]
+18-May-2022-10:12:06 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-messageBar-head alert']/div[2]/span[2]/i
+18-May-2022-10:12:06 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-messageBar-head alert']/div[2]/span[2]/i
+18-May-2022-10:12:10 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='sc-messageBar-messages-wrap data-sc-registered sc-messageBar-messages-nested-children']/div[2]/div[1]/div[2]/span/a
+18-May-2022-10:12:10 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='sc-messageBar-messages-wrap data-sc-registered sc-messageBar-messages-nested-children']/div[2]/div[1]/div[2]/span/a
+18-May-2022-10:12:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='container-narrow']/div[1]/nav[1]/a[3]
+18-May-2022-10:12:17 [LnP.StepDefinition.VisitLandingPageSteps] [ERROR] [ThenInsertComponentOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='container-narrow']/div[1]/nav[1]/a[3]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.VisitLandingPageSteps.ThenInsertComponentOnPage() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\VisitLandingPageSteps.cs:line 148
+18-May-2022-10:12:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='logout']
+18-May-2022-10:12:26 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Insert Visit Mosiac Tile of 4.jpeg
+18-May-2022-11:28:03 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-May-2022-11:28:15 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/about-us
+18-May-2022-11:28:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
+18-May-2022-11:28:30 [LnP.StepDefinition.PageRedirectSteps] [ERROR] [ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='cf']/h1
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.StepDefinition.PageRedirectSteps.ThenUserShouldBeNavigatedToThePageAndSeeTextOnPage(String p0, String p1) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\PageRedirectSteps.cs:line 54
+18-May-2022-11:28:31 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Preview About Us Page Redirects.jpeg
+18-May-2022-11:41:18 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-May-2022-11:41:30 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/about-us
+18-May-2022-11:45:00 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-May-2022-11:45:05 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/about-us
+18-May-2022-11:45:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='cf']/h1
