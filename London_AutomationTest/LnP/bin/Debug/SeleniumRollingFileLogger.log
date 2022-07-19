@@ -1,284 +1,80 @@
-06-Jul-2022-10:08:35 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-06-Jul-2022-10:09:17 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/things-to-do/whats-on/special-events/london-events-calendar
-06-Jul-2022-10:09:17 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-07-06-09-17.jpeg
-06-Jul-2022-10:09:18 [LnP.StepDefinition.EventCalenderPageSteps] [ERROR] [ThenIShouldBeAtLeastOneEvent] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToElement(IWebElement element) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 32
-   at LnP.PageObject.EventCalenderPage.HasEvents() in C:\Workspace\London_AutomationTest\LnP\PageObject\EventCalenderPage.cs:line 30
-   at LnP.StepDefinition.EventCalenderPageSteps.ThenIShouldBeAtLeastOneEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\EventCalenderPageSteps.cs:line 51
-06-Jul-2022-10:09:26 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-10:09:26 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-10:09:26 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-10:09:26 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-06-Jul-2022-10:09:26 [LnP.StepDefinition.HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+19-Jul-2022-09:05:48 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Jul-2022-09:05:49 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
+19-Jul-2022-09:05:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='register']/form/fieldset/input
+19-Jul-2022-09:06:01 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+19-Jul-2022-09:06:06 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+19-Jul-2022-09:06:09 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+19-Jul-2022-09:06:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+19-Jul-2022-09:06:16 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 81
+19-Jul-2022-09:06:16 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Preview The Holiday Inn Keyword Search.jpeg
+19-Jul-2022-09:06:58 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Jul-2022-09:07:10 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
+19-Jul-2022-09:07:20 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='register']/form/fieldset/input
+19-Jul-2022-09:07:20 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+19-Jul-2022-09:07:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+19-Jul-2022-09:07:25 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+19-Jul-2022-09:07:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+19-Jul-2022-09:07:30 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 81
+19-Jul-2022-09:07:32 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Preview The Holiday Inn Keyword Search.jpeg
+19-Jul-2022-09:07:58 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Jul-2022-09:08:04 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
+19-Jul-2022-09:08:14 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='register']/form/fieldset/input
+19-Jul-2022-09:08:14 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+19-Jul-2022-09:08:19 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+19-Jul-2022-09:08:19 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+19-Jul-2022-09:08:24 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+19-Jul-2022-09:08:24 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 81
+19-Jul-2022-09:08:27 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Preview The Holiday Inn Keyword Search.jpeg
+19-Jul-2022-10:02:45 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Jul-2022-10:02:49 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
+19-Jul-2022-10:02:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='register']/form/fieldset/input
+19-Jul-2022-10:02:59 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+19-Jul-2022-10:03:04 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+19-Jul-2022-10:03:04 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+19-Jul-2022-10:03:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+19-Jul-2022-10:03:09 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 81
+19-Jul-2022-10:03:11 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Preview The Harry Potter Keyword Search.jpeg
+19-Jul-2022-10:07:21 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+19-Jul-2022-10:07:57 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
+19-Jul-2022-10:07:57 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+19-Jul-2022-10:07:57 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+19-Jul-2022-10:07:57 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+19-Jul-2022-10:07:57 [LnP.StepDefinition.HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
    at LnP.PageObject.HomePage.HTitle() in C:\Workspace\London_AutomationTest\LnP\PageObject\HomePage.cs:line 29
    at LnP.StepDefinition.HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\HomePageSteps.cs:line 61
-06-Jul-2022-10:09:36 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-10:09:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-10:09:44 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-10:09:49 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-10:09:51 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Harry Potter
-06-Jul-2022-10:09:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-10:09:59 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-10:09:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:10:13 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:10:33 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-10:10:38 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-10:10:40 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 39
-06-Jul-2022-10:10:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-10:10:40 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Holiday Inn
-06-Jul-2022-10:10:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-10:10:47 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-10:10:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:10:57 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:11:06 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-10:11:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-10:11:13 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 39
-06-Jul-2022-10:11:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-10:11:14 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Natural History Museum
-06-Jul-2022-10:11:19 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-10:11:21 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-10:11:21 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:11:23 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:11:34 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-10:11:52 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-10:11:55 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-10:12:00 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-10:12:02 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 39
-06-Jul-2022-10:12:02 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-10:12:02 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Premier Inn
-06-Jul-2022-10:12:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-10:12:09 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-10:12:09 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:12:17 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:12:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-10:12:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-10:12:29 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-10:12:34 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-10:12:36 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 39
-06-Jul-2022-10:12:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-10:12:36 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Science Museum
-06-Jul-2022-10:12:41 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-10:12:43 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-10:12:43 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:12:46 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-10:12:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-10:12:56 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-10:12:58 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/traveller-information/getting-around-london/london-tube
-06-Jul-2022-10:12:58 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-10:12:59 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-10:13:00 [LnP.StepDefinition.LondonTubePageSteps] [ERROR] [ThenIShouldBeShownTheTitle] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
-   at LnP.ComponentHelper.GenericHelper.WaitForWebElementInPage(By locator, TimeSpan timeout) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 138
-   at LnP.PageObject.LondonTubePage.title() in C:\Workspace\London_AutomationTest\LnP\PageObject\LondonTubePage.cs:line 29
-   at LnP.StepDefinition.LondonTubePageSteps.ThenIShouldBeShownTheTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\LondonTubePageSteps.cs:line 57
-06-Jul-2022-10:13:04 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/things-to-do/place/403052-radisson-blu-edwardian-grafton-hotel
-06-Jul-2022-10:13:04 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-10:13:04 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-10:13:05 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-06-Jul-2022-10:13:05 [LnP.StepDefinition.ProductPageSteps] [ERROR] [ThenIShouldBeShownTheMainImage] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at LnP.PageObject.ProductPage.MainImage() in C:\Workspace\London_AutomationTest\LnP\PageObject\ProductPage.cs:line 29
-   at LnP.StepDefinition.ProductPageSteps.ThenIShouldBeShownTheMainImage() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ProductPageSteps.cs:line 57
-06-Jul-2022-10:13:07 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/tag/christmas-lights
-06-Jul-2022-10:13:07 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-10:13:07 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-10:13:08 [LnP.ComponentHelper.GenericHelper+<>c__DisplayClass1_0] [INFO] [<WaitForWebElementFunc>b__0] -  Waiting for Element : By.ClassName[Contains]: search-grid-results
-06-Jul-2022-10:13:08 [LnP.StepDefinition.TagBrowsePageSteps] [ERROR] [ThenIShouldBeShownTheTagBrowseSearchGrid] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
-   at LnP.ComponentHelper.GenericHelper.WaitForWebElement(By locator, TimeSpan timeout) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 116
-   at LnP.StepDefinition.TagBrowsePageSteps.ThenIShouldBeShownTheTagBrowseSearchGrid() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\TagBrowsePageSteps.cs:line 60
-06-Jul-2022-10:13:10 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/things-to-do
-06-Jul-2022-10:13:10 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-10:13:10 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-10:13:10 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-06-Jul-2022-10:13:10 [LnP.StepDefinition.ThingsToDoPageSteps] [ERROR] [ThenIShouldBeShownTheTitle] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at LnP.PageObject.ThingsToDoPage.title() in C:\Workspace\London_AutomationTest\LnP\PageObject\ThingsToDoPage.cs:line 32
-   at LnP.StepDefinition.ThingsToDoPageSteps.ThenIShouldBeShownTheTitle() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ThingsToDoPageSteps.cs:line 57
-06-Jul-2022-10:13:10 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-10:13:10 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-10:13:10 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-06-Jul-2022-10:13:10 [LnP.StepDefinition.ThingsToDoPageSteps] [ERROR] [ThenIShouldBeShownTheIntroCopy] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at LnP.PageObject.ThingsToDoPage.Copy() in C:\Workspace\London_AutomationTest\LnP\PageObject\ThingsToDoPage.cs:line 39
-   at LnP.StepDefinition.ThingsToDoPageSteps.ThenIShouldBeShownTheIntroCopy() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ThingsToDoPageSteps.cs:line 72
-06-Jul-2022-10:13:15 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.conventionbureau.london/search-accommodation
-06-Jul-2022-10:13:25 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
-06-Jul-2022-10:13:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
-06-Jul-2022-10:13:31 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.conventionbureau.london/search-services
-06-Jul-2022-10:13:41 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
-06-Jul-2022-10:13:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
-06-Jul-2022-10:13:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
-06-Jul-2022-12:10:07 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
-06-Jul-2022-12:10:11 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/things-to-do/whats-on/special-events/london-events-calendar
-06-Jul-2022-12:10:13 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2022-07-06-10-13.jpeg
-06-Jul-2022-12:10:13 [LnP.StepDefinition.EventCalenderPageSteps] [ERROR] [ThenIShouldBeAtLeastOneEvent] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToElement(IWebElement element) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 32
-   at LnP.PageObject.EventCalenderPage.HasEvents() in C:\Workspace\London_AutomationTest\LnP\PageObject\EventCalenderPage.cs:line 30
-   at LnP.StepDefinition.EventCalenderPageSteps.ThenIShouldBeAtLeastOneEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\EventCalenderPageSteps.cs:line 51
-06-Jul-2022-12:10:16 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-12:10:17 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-12:10:17 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-12:10:17 [LnP.StepDefinition.HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: System.InvalidOperationException: unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.66)
-   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
-   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
-   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(String mechanism, String value)
-   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementsByClassName(String className)
-   at OpenQA.Selenium.By.<>c__DisplayClass20_0.<ClassName>b__1(ISearchContext context)
-   at OpenQA.Selenium.By.FindElements(ISearchContext context)
-   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(By by)
-   at LnP.ComponentHelper.GenericHelper.<>c__DisplayClass1_0.<WaitForWebElementFunc>b__0(IWebDriver x) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 26
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
-   at LnP.ComponentHelper.GenericHelper.WaitForWebElement(By locator, TimeSpan timeout) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 116
-   at LnP.PageObject.HomePage.HTitle() in C:\Workspace\London_AutomationTest\LnP\PageObject\HomePage.cs:line 28
-   at LnP.StepDefinition.HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\HomePageSteps.cs:line 61
-06-Jul-2022-12:10:17 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-12:10:22 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-12:10:24 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-12:10:29 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-12:10:30 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Harry Potter
-06-Jul-2022-12:10:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-12:10:36 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-12:10:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:11:00 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:11:06 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-12:11:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-12:11:11 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 39
-06-Jul-2022-12:11:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-12:11:12 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Holiday Inn
-06-Jul-2022-12:11:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-12:11:18 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-12:11:18 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:11:20 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:11:27 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-12:11:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-12:11:32 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 39
-06-Jul-2022-12:11:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-12:11:32 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Natural History Museum
-06-Jul-2022-12:11:37 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-12:11:38 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-12:11:38 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:11:40 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:11:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-12:11:50 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-12:11:53 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-12:11:58 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-12:11:59 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 39
-06-Jul-2022-12:11:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-12:12:00 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Premier Inn
-06-Jul-2022-12:12:05 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-12:12:06 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-12:12:06 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:12:08 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:12:18 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-12:12:18 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-12:12:21 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com
-06-Jul-2022-12:12:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-06-Jul-2022-12:12:27 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 39
-06-Jul-2022-12:12:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
-06-Jul-2022-12:12:27 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@class='header-search cf']/input : value : Science Museum
-06-Jul-2022-12:12:32 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-06-Jul-2022-12:12:33 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
-   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
-   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
-   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 76
-06-Jul-2022-12:12:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:12:35 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='header-search cf']/button
-06-Jul-2022-12:12:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-12:12:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: //*[@id='list']/ul/li[1]/a/span
-06-Jul-2022-12:12:46 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/traveller-information/getting-around-london/london-tube
-06-Jul-2022-12:12:46 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-12:12:46 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-12:12:47 [LnP.StepDefinition.LondonTubePageSteps] [ERROR] [ThenIShouldBeShownTheTitle] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
-   at LnP.ComponentHelper.GenericHelper.WaitForWebElementInPage(By locator, TimeSpan timeout) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 138
-   at LnP.PageObject.LondonTubePage.title() in C:\Workspace\London_AutomationTest\LnP\PageObject\LondonTubePage.cs:line 29
-   at LnP.StepDefinition.LondonTubePageSteps.ThenIShouldBeShownTheTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\LondonTubePageSteps.cs:line 57
-06-Jul-2022-12:12:49 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/things-to-do/place/403052-radisson-blu-edwardian-grafton-hotel
-06-Jul-2022-12:12:49 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-12:12:49 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-12:12:49 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-06-Jul-2022-12:12:49 [LnP.StepDefinition.ProductPageSteps] [ERROR] [ThenIShouldBeShownTheMainImage] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at LnP.PageObject.ProductPage.MainImage() in C:\Workspace\London_AutomationTest\LnP\PageObject\ProductPage.cs:line 29
-   at LnP.StepDefinition.ProductPageSteps.ThenIShouldBeShownTheMainImage() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ProductPageSteps.cs:line 57
-06-Jul-2022-12:12:51 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/tag/christmas-lights
-06-Jul-2022-12:12:51 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-12:12:51 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-12:12:52 [LnP.ComponentHelper.GenericHelper+<>c__DisplayClass1_0] [INFO] [<WaitForWebElementFunc>b__0] -  Waiting for Element : By.ClassName[Contains]: search-grid-results
-06-Jul-2022-12:12:52 [LnP.StepDefinition.TagBrowsePageSteps] [ERROR] [ThenIShouldBeShownTheTagBrowseSearchGrid] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
-   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
-   at LnP.ComponentHelper.GenericHelper.WaitForWebElement(By locator, TimeSpan timeout) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 116
-   at LnP.StepDefinition.TagBrowsePageSteps.ThenIShouldBeShownTheTagBrowseSearchGrid() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\TagBrowsePageSteps.cs:line 60
-06-Jul-2022-12:12:54 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.visitlondon.com/things-to-do
-06-Jul-2022-12:12:54 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-12:12:54 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-12:12:54 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-06-Jul-2022-12:12:54 [LnP.StepDefinition.ThingsToDoPageSteps] [ERROR] [ThenIShouldBeShownTheTitle] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at LnP.PageObject.ThingsToDoPage.title() in C:\Workspace\London_AutomationTest\LnP\PageObject\ThingsToDoPage.cs:line 32
-   at LnP.StepDefinition.ThingsToDoPageSteps.ThenIShouldBeShownTheTitle() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ThingsToDoPageSteps.cs:line 57
-06-Jul-2022-12:12:54 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
-06-Jul-2022-12:12:54 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
-06-Jul-2022-12:12:54 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
-06-Jul-2022-12:12:54 [LnP.StepDefinition.ThingsToDoPageSteps] [ERROR] [ThenIShouldBeShownTheIntroCopy] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-   at LnP.PageObject.ThingsToDoPage.Copy() in C:\Workspace\London_AutomationTest\LnP\PageObject\ThingsToDoPage.cs:line 39
-   at LnP.StepDefinition.ThingsToDoPageSteps.ThenIShouldBeShownTheIntroCopy() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ThingsToDoPageSteps.cs:line 72
-06-Jul-2022-12:12:56 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.conventionbureau.london/search-accommodation
-06-Jul-2022-12:13:06 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
-06-Jul-2022-12:13:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
-06-Jul-2022-12:13:12 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://preview-sc.conventionbureau.london/search-services
-06-Jul-2022-12:13:22 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
-06-Jul-2022-12:13:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a
-06-Jul-2022-12:13:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[7]/div/h3/a

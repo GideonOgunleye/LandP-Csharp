@@ -1,0 +1,18 @@
+18-Jul-2022-10:04:03 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-Jul-2022-10:04:07 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+18-Jul-2022-10:04:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='register']/form/fieldset/input
+18-Jul-2022-10:04:17 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+18-Jul-2022-10:04:22 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+18-Jul-2022-10:04:22 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+18-Jul-2022-10:04:27 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='header-search cf']/input
+18-Jul-2022-10:04:27 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 81
+18-Jul-2022-10:04:28 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : The Holiday Inn Keyword Search.jpeg

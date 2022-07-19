@@ -1,0 +1,40 @@
+-> Loading plugin C:\Workspace\London_AutomationTest\LnP\bin\Debug\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Using default config
+Given User is on Home Page 'http://preview-sc.visitlondon.com'
+15-Jul-2022-15:53:01 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+Advert Bot Not Clicked:OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+15-Jul-2022-15:53:06 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+Cookie Bot Not Clicked:OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+-> done: KeywordSearchSteps.GivenUserIsOnHomePage("http://preview-sc...") (19.1s)
+When I Enter 'Premier Inn' Keyword
+-> done: KeywordSearchSteps.WhenIEnterKeyword("Premier Inn") (10.1s)
+And I Hit The Search Button
+15-Jul-2022-15:53:18 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIHitTheSearchButton] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='close-overlay-3 TT-feedback-popup-close']
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIHitTheSearchButton() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 99
+-> done: KeywordSearchSteps.WhenIHitTheSearchButton() (9.8s)
+Then I Should See Search Results for 'Premier Inn' Containing The Keyword 'Premier'
+15-Jul-2022-15:53:33 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [ThenIShouldSeeSearchResultsForContainingTheKeyword] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.ThenIShouldSeeSearchResultsForContainingTheKeyword(String p0, String p1) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 136
+Advert Bot Not Clicked:OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.ThenIShouldSeeSearchResultsForContainingTheKeyword(String p0, String p1) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 136
+Cookie Bot Clicked
+-> done: KeywordSearchSteps.ThenIShouldSeeSearchResultsForContainingTheKeyword("Premier Inn", "Premier") (22.3s)
+AfterScenario Hook

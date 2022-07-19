@@ -1,0 +1,49 @@
+-> Loading plugin C:\Workspace\London_AutomationTest\LnP\bin\Debug\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Using default config
+Given User is on Home Page 'http://qa.visitlondon.com'
+18-Jul-2022-10:04:17 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+Advert Bot Not Clicked:OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='register']/form/fieldset/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+18-Jul-2022-10:04:22 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+Cookie Bot Not Clicked:OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 59
+-> done: KeywordSearchSteps.GivenUserIsOnHomePage("http://qa.visitlo...") (18.6s)
+When I Enter 'Holiday Inn' Keyword
+18-Jul-2022-10:04:27 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 81
+-> error: Assert.Fail failed. ExceptionOpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 81
+And I Hit The Search Button
+-> skipped because of previous errors
+Then I Should See Search Results for 'Holiday Inn' Containing The Keyword 'Holiday'
+-> skipped because of previous errors
+AfterScenario Hook
+Assert.Fail failed. ExceptionOpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 81
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message)
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 89
+   at lambda_method(Closure , IContextManager , String )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 411
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 316
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 132
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at SeleniumWebdriver.FeatureFiles._1_Visit.KeywordSearchFeature.ScenarioCleanup()
+   at SeleniumWebdriver.FeatureFiles._1_Visit.KeywordSearchFeature.TheHolidayInnKeywordSearch() in C:\Workspace\London_AutomationTest\LnP\FeatureFiles\1-Visit\KeywordSearch.feature:line 32

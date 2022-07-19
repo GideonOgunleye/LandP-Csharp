@@ -9,7 +9,7 @@ Scenario: Whats On Page Redirects
 	Then User should be navigated to the "Whats On" Page and See Text "What's on in London" On Page
 	
 
-@Qa-Smoke
+#@Qa-Smoke
 Scenario: About Us Page Redirects
 	Given User Enters Url 'http://qa.visitlondon.com/about-us'
 	Then User should be navigated to the "About Us" Page and See Text "About visitlondon.com" On Page

@@ -41,35 +41,35 @@ Scenario: The Harry Potter Keyword Search
 
 #Preview Site Scenarios
 
-@Preview-Smoke
+#@Preview-Smoke
 Scenario: Preview The Natural History Museum Keyword Search
 	Given User is on Home Page 'http://preview-sc.visitlondon.com'
 	When I Enter 'Natural History Museum' Keyword
 	And I Hit The Search Button
 	Then I Should See Search Results for 'Natural Museum' Containing The Keyword 'Natural'
 
-@Preview-Smoke
+#@Preview-Smoke
 Scenario: Preview The Science Museum Keyword Search
 	Given User is on Home Page 'http://preview-sc.visitlondon.com'
 	When I Enter 'Science Museum' Keyword
 	And I Hit The Search Button
 	Then I Should See Search Results for 'Science Museum' Containing The Keyword 'Science'
 
-@Preview-Smoke
+#@Preview-Smoke
 Scenario: Preview The Premier Inn Keyword Search
 	Given User is on Home Page 'http://preview-sc.visitlondon.com'
 	When I Enter 'Premier Inn' Keyword
 	And I Hit The Search Button
 	Then I Should See Search Results for 'Premier Inn' Containing The Keyword 'Premier'
 
-@Preview-Smoke
+#@Preview-Smoke
 Scenario: Preview The Holiday Inn Keyword Search
 	Given User is on Home Page 'http://preview-sc.visitlondon.com'
 	When I Enter 'Holiday Inn' Keyword
 	And I Hit The Search Button
 	Then I Should See Search Results for 'Holiday Inn' Containing The Keyword 'Holiday'
 
-@Preview-Smoke
+#@Preview-Smoke
 Scenario: Preview The Harry Potter Keyword Search
 	Given User is on Home Page 'http://preview-sc.visitlondon.com'
 	When I Enter 'Harry Potter' Keyword

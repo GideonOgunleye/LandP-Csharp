@@ -1,0 +1,32 @@
+-> warning: The previous ScenarioContext was not disposed.
+Given User is on Home Page 'http://preview-sc.visitlondon.com'
+15-Jul-2022-10:35:44 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [GivenUserIsOnHomePage] - No Pop-Up: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+Cookie Bot Not Clicked:OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.ButtonHelper.ClickButton(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\ButtonHelper.cs:line 18
+   at LnP.StepDefinition.KeywordSearchSteps.GivenUserIsOnHomePage(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 41
+-> done: KeywordSearchSteps.GivenUserIsOnHomePage("http://preview-sc...") (12.3s)
+When I Enter 'Natural History Museum' Keyword
+15-Jul-2022-10:35:49 [LnP.StepDefinition.KeywordSearchSteps] [ERROR] [WhenIEnterKeyword] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 63
+-> error: Assert.Fail failed. ExceptionOpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 63
+AfterScenario Hook
+Assert.Fail failed. ExceptionOpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@class='header-search cf']/input
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.TextBoxHelper.TypeInTextBox(By locator, String text) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\TextBoxHelper.cs:line 17
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 63
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message)
+   at LnP.StepDefinition.KeywordSearchSteps.WhenIEnterKeyword(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\KeywordSearchSteps.cs:line 71
+   at lambda_method(Closure , IContextManager , String )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 411
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 316

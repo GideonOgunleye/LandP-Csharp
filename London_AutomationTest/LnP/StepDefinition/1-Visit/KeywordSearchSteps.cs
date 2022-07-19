@@ -33,17 +33,39 @@ namespace LnP.StepDefinition
                 Assert.Fail("Exception" + e);
                 throw;
             }
-
+            //Form
             try
             {
-                ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']"));
                 Thread.Sleep(5000);
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='register']/form/fieldset/input"));
+                Thread.Sleep(5000);
+                Console.WriteLine("Advert Bot Clicked");
 
 
             }
             catch (Exception e)
             {
                 Logger.Error("No Pop-Up: " + e);
+                Console.WriteLine("Advert Bot Not Clicked:" + e);
+
+                //throw;
+            }
+            //CookieBot
+            try
+            {
+                Thread.Sleep(5000);
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]"));
+                Thread.Sleep(5000);
+                Console.WriteLine("Cookie Bot Clicked");
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("No Pop-Up: " + e);
+                Console.WriteLine("Cookie Bot Not Clicked:" + e);
 
                 //throw;
             }
@@ -55,6 +77,7 @@ namespace LnP.StepDefinition
             try
             {
                 //NavigationHelper.NavigateToUrl(p0);
+                Thread.Sleep(5000);
                 TextBoxHelper.TypeInTextBox(By.XPath(".//*[@class='header-search cf']/input"), p0);
                 Thread.Sleep(5000);
 
@@ -104,6 +127,46 @@ namespace LnP.StepDefinition
         [Then(@"I Should See Search Results for '(.*)' Containing The Keyword '(.*)'")]
         public void ThenIShouldSeeSearchResultsForContainingTheKeyword(string p0, string p1)
         {
+
+            //Form
+            try
+            {
+                Thread.Sleep(5000);
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='register']/form/fieldset/input"));
+                Thread.Sleep(5000);
+                Console.WriteLine("Advert Bot Clicked");
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("No Pop-Up: " + e);
+                Console.WriteLine("Advert Bot Not Clicked:" + e);
+
+                //throw;
+            }
+            //CookieBot
+            try
+            {
+                Thread.Sleep(5000);
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']"));
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]"));
+                Thread.Sleep(5000);
+                Console.WriteLine("Cookie Bot Clicked");
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("No Pop-Up: " + e);
+                Console.WriteLine("Cookie Bot Not Clicked:" + e);
+
+                //throw;
+            }
+
+
+
             try
             {
 
