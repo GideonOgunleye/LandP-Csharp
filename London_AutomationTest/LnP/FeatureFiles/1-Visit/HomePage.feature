@@ -13,3 +13,8 @@ Scenario: Preview Home page is up
 	#Given I visit the Homepage
 	Given I Navigate To PreviewHomePage
 	Then I should be shown the main title 'OFFICIAL VISITOR GUIDE'
+
+@Qa-DailyStart
+Scenario: Qa Home page is up
+	Given I visit the Homepage
+	Then I should be shown the main title 'OFFICIAL VISITOR GUIDE'

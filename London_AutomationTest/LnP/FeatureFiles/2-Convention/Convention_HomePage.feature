@@ -7,3 +7,8 @@
 Scenario: Convention Home Page Is Up
 	Given I Navigate To The Home Page ''
 	Then I Should Be Shown The Main Title 'Welcome to Lagos'
+
+@Qa-DailyStart
+Scenario: Qa Convention Home Page Is Up
+	Given I Navigate To The Home Page ''
+	Then I Should Be Shown The Main Title 'Welcome to Lagos'

@@ -8,6 +8,11 @@ Scenario: BusinessHomePageIsUp
 	Given I Am On Business Landing Page
 	Then the Should See 'Welcome to London' Page Title 
 
+@Qa-DailyStart
+Scenario: QaBusinessHomePageIsUp
+	Given I Am On Business Landing Page
+	Then the Should See 'Welcome to London' Page Title 
+
 @SmokeTest
 Scenario: BusinessHomePageFeatureCallOut
 	Given I Am On Business Landing Page
