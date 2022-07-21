@@ -32,7 +32,7 @@ namespace SeleniumWebdriver.StepDefinition._2_Convention
             try
             {
                 NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetConventionWebsite() + p0);
-                Thread.Sleep(5000);
+                Thread.Sleep(10000);
             }
             catch (Exception e)
             {

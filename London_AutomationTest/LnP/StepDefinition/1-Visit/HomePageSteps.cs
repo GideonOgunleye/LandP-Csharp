@@ -11,6 +11,7 @@ using LnP.Settings;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using LnP.PageObject;
 using NLog;
+using System.Threading;
 
 namespace LnP.StepDefinition
 {
@@ -26,6 +27,7 @@ namespace LnP.StepDefinition
             try
             {
                 NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetWebsite());
+                Thread.Sleep(10000);
             }
             catch (Exception e)
             {

@@ -33,7 +33,7 @@ namespace SeleniumWebdriver.StepDefinition._3_Business
             try
             {
                 NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetBusinessWebsite());
-                Thread.Sleep(5000);
+                Thread.Sleep(10000);
             }
             catch (Exception e)
             {
