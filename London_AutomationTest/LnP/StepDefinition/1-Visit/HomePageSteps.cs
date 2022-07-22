@@ -27,7 +27,7 @@ namespace LnP.StepDefinition
             try
             {
                 NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetWebsite());
-                Thread.Sleep(10000);
+                Thread.Sleep(20000);
             }
             catch (Exception e)
             {
