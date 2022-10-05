@@ -1,0 +1,5 @@
+11-Aug-2022-12:23:06 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+11-Aug-2022-12:42:02 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+11-Aug-2022-12:42:05 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.business.london
+11-Aug-2022-12:42:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+11-Aug-2022-12:42:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
