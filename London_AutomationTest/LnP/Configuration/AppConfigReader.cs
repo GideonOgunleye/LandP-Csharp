@@ -66,9 +66,9 @@ namespace LnP.Configuration
             return ConfigurationManager.AppSettings.Get(AppConfigKeys.BusinessWebsite);
         }
 
-        public string GetStudyWebsite()
+        public string GetLnPWebsite()
         {
-            return ConfigurationManager.AppSettings.Get(AppConfigKeys.StudyWebsite);
+            return ConfigurationManager.AppSettings.Get(AppConfigKeys.LondonAndPartnersWebsite);
         }
 
         public string GetPreviewWebsite()

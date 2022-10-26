@@ -32,6 +32,21 @@ namespace SeleniumWebdriver.StepDefinition._5_LnP
             }
         }
 
+        [Given(@"I am On London And Partners Home Page")]
+        public void GivenIAmOnLondonAndPartnersHomePage()
+        {
+            try
+            {
+                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetLnPWebsite());
+            }
+            catch (Exception e)
+            {
+                Logger.Error("Exception: " + e);
+                //throw;
+            }
+        }
+
+
 
         [Then(@"I Should See The Main Title '(.*)'")]
         public void ThenIShouldSeeTheMainTitle(string p0)

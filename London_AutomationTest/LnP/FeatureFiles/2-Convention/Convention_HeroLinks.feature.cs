@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SeleniumWebdriver.FeatureFiles._1_Visit
+namespace SeleniumWebdriver.FeatureFiles._2_Convention
 {
     using TechTalk.SpecFlow;
     
@@ -18,14 +18,14 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class HomePageFeature
+    public partial class Convention_HeroLinksFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
         private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext _testContext;
         
-#line 1 "HomePage.feature"
+#line 1 "Convention_HeroLinks.feature"
 #line hidden
         
         public virtual Microsoft.VisualStudio.TestTools.UnitTesting.TestContext TestContext
@@ -44,8 +44,7 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "HomePage", "\tIn order to test a deploy\r\n\tAs a visitor\r\n\tI want to check the homepage is up an" +
-                    "d running:", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Convention_HeroLinks", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -60,9 +59,9 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "HomePage")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "Convention_HeroLinks")))
             {
-                global::SeleniumWebdriver.FeatureFiles._1_Visit.HomePageFeature.FeatureSetup(null);
+                global::SeleniumWebdriver.FeatureFiles._2_Convention.Convention_HeroLinksFeature.FeatureSetup(null);
             }
         }
         
@@ -89,58 +88,39 @@ namespace SeleniumWebdriver.FeatureFiles._1_Visit
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Home page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "HomePage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convention Hero Link Is Up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convention_HeroLinks")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Qa-Smoke")]
-        public virtual void HomePageIsUp()
+        public virtual void ConventionHeroLinkIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Home page is up", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Hero Link Is Up", null, new string[] {
                         "Qa-Smoke"});
+#line 5
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 6
+ testRunner.Given("I Navigate To Convention Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 7
-this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
-#line 8
- testRunner.Given("I visit the Homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
- testRunner.Then("I should be shown the main title \'OFFICIAL VISITOR GUIDE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I Should See Hero Links Displayed On Convention Bureau Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Preview Home page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "HomePage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Preview-Smoke")]
-        public virtual void PreviewHomePageIsUp()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Preview Home page is up", null, new string[] {
-                        "Preview-Smoke"});
-#line 12
-this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
-#line 14
- testRunner.Given("I Navigate To PreviewHomePage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 15
- testRunner.Then("I should be shown the main title \'OFFICIAL VISITOR GUIDE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Qa Visit Home page is up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "HomePage")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Qa Convention Hero Link Is Up")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Convention_HeroLinks")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Qa-DailyStart")]
-        public virtual void QaVisitHomePageIsUp()
+        public virtual void QaConventionHeroLinkIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Qa Visit Home page is up", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Qa Convention Hero Link Is Up", null, new string[] {
                         "Qa-DailyStart"});
-#line 18
+#line 10
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 19
- testRunner.Given("I visit the Homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 20
- testRunner.Then("I should be shown the main title \'OFFICIAL VISITOR GUIDE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 11
+ testRunner.Given("I Navigate To Convention Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 12
+ testRunner.Then("I Should See Hero Links Displayed On Convention Bureau Home Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
