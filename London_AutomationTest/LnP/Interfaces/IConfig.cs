@@ -15,7 +15,7 @@ namespace LnP.Interfaces
         string GetWebsite();
         string GetConventionWebsite();
         string GetBusinessWebsite();
-        string GetStudyWebsite();
+        string GetLnPWebsite();
         string GetPreviewWebsite();
         string GetConventionPreviewWebsite();
         string GetStudyPreviewWebsite();

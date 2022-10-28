@@ -13,7 +13,7 @@ namespace LnP.Settings
         public const string Password = "Password";
         public const string Website = "Website";
         public const string ConventionWebsite = "ConventionWebsite";
-        public const string StudyWebsite = "StudyWebsite";
+        public const string LondonAndPartnersWebsite = "LondonAndPartnersWebsite";
         public const string BusinessWebsite = "BusinessWebsite";
         public const string PreviewWebsite = "PreviewWebsite";
         public const string ConventionPreviewWebsite = "ConventionPreviewWebsite";

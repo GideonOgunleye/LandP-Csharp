@@ -178,11 +178,15 @@
     <Compile Include="CustomException\NoSutiableDriverFound.cs" />
     <Compile Include="ExcelReader\ExcelReader.cs" />
     <Compile Include="ExcelReader\TestExcelData.cs" />
+    <Compile Include="StepDefinition\1-Visit\VisitHeroLinkSteps.cs" />
     <Compile Include="StepDefinition\1-Visit\VisitLandingPageSteps.cs" />
     <Compile Include="StepDefinition\2-Convention\Convention_AccommodationSearchPageSteps.cs" />
+    <Compile Include="StepDefinition\2-Convention\Convention_HeroLinkSteps.cs" />
     <Compile Include="StepDefinition\2-Convention\Convention_HomePageSteps.cs" />
     <Compile Include="StepDefinition\2-Convention\Convention_SearchServicesPageSteps.cs" />
+    <Compile Include="StepDefinition\3-Business\BusinessHeroLinkSteps.cs" />
     <Compile Include="StepDefinition\3-Business\Business_HomePageSteps.cs" />
+    <Compile Include="StepDefinition\5-LnP\LnP_HeroLinkSteps.cs" />
     <Compile Include="StepDefinition\5-LnP\LnP_HomePageSteps.cs" />
     <Compile Include="StepDefinition\TestFeatures\FeatureStepDef.cs" />
     <Compile Include="GeneralHook\GeneralHook.cs" />
@@ -324,20 +328,24 @@
     <None Include="FeatureFiles\1-Visit\TopTenAttractionsPage.feature">
       <LastGenOutput>TopTenAttractionsPage.feature.cs</LastGenOutput>
     </None>
+    <None Include="FeatureFiles\1-Visit\VisitHeroLinks.feature" />
     <None Include="FeatureFiles\1-Visit\VisitLandingPage.feature" />
     <None Include="FeatureFiles\2-Convention\Convention_AccommodationPage.feature" />
+    <None Include="FeatureFiles\2-Convention\Convention_HeroLinks.feature" />
     <None Include="FeatureFiles\2-Convention\Convention_HomePage.feature" />
     <None Include="FeatureFiles\2-Convention\Convention_SearchServicesPage.feature" />
     <None Include="FeatureFiles\2-Convention\Convention_SearchVenuePage.feature">
       <LastGenOutput>Convention_SearchVenuePage.feature.cs</LastGenOutput>
     </None>
     <None Include="FeatureFiles\2-Convention\Convention_ToursAndServicesPage.feature" />
+    <None Include="FeatureFiles\3-Business\BusinessHeroLinks.feature" />
     <None Include="FeatureFiles\3-Business\Business_ArticlePage.feature" />
     <None Include="FeatureFiles\3-Business\Business_HomePage.feature" />
     <None Include="FeatureFiles\3-Business\Business_LandingPage.feature" />
     <None Include="FeatureFiles\3-Business\Business_MenuNavigation.feature" />
     <None Include="FeatureFiles\3-Business\Business_SlideInPanel.feature" />
     <None Include="FeatureFiles\4-Study\Study_HomePage.feature" />
+    <None Include="FeatureFiles\5-LnP\LnP_HeroLinks.feature" />
     <None Include="FeatureFiles\5-LnP\LnP_Homepage.feature" />
     <None Include="FeatureFiles\5-LnP\LnP_TourismPartnerspage.feature" />
     <None Include="FeatureFiles\Test Features\SpecFlowFeature2.feature" />
