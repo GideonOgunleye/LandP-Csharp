@@ -43,7 +43,7 @@
         <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 
             <a>
-                <span class='suite-start-time label blue darken-3'>3/20/2023 1:32:41 PM GMT Standard Time</span>
+                <span class='suite-start-time label blue darken-3'>7/26/2023 2:52:38 PM GMT Standard Time</span>
             </a>
             <a>
                 <span class="label blue darken-3">3.1.0</span>
@@ -123,10 +123,10 @@
                     <canvas id='parent-analysis' width='100' height='80'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span><span class='strong'>0</span> test(s) passed</span>
+                    <span><span class='strong'>1</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong'>1</span> test(s) failed, <span class='strong'>0</span> others
+                    <span class='strong'>0</span> test(s) failed, <span class='strong'>0</span> others
                 </div>
             </div>
         </div>
@@ -138,10 +138,10 @@
                         <canvas id='child-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>0</span> step(s) passed</span>
+                        <span><span class='strong'>1</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
-                        <span class='strong'>1</span> step(s) failed, <span class='strong'>0</span> others
+                        <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
                     </div>
                 </div>
             </div>
@@ -153,10 +153,10 @@
                         <canvas id='grandchild-analysis' width='100' height='80'></canvas>
                     </div>
                     <div class='block text-small'>
-                        <span><span class='strong'>1</span> step(s) passed</span>
+                        <span><span class='strong'>2</span> step(s) passed</span>
                     </div>
                     <div class='block text-small'>
-                        <span class='strong'>1</span> step(s) failed, <span class='strong'>0</span> others
+                        <span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
                     </div>
                 </div>
             </div>
@@ -170,34 +170,30 @@
             <ul id='test-collection' class='test-collection'>
 
 
-                    <li class='test displayed active has-leaf fail' status='fail' bdd='bdd' test-id='1'>
+                    <li class='test displayed active has-leaf pass' status='pass' bdd='bdd' test-id='1'>
                         <div class='test-heading'>
-                            <span class='test-name'>LnP_HeroLinks</span>
-                            <span class='test-time'>3/20/2023 1:32:41 PM</span>
-                            <span class='test-status right fail'>Fail</span>
+                            <span class='test-name'>HomePage</span>
+                            <span class='test-time'>7/26/2023 2:52:38 PM</span>
+                            <span class='test-status right pass'>Pass</span>
                         </div>
                         <div class='test-content hide'>
-                                    <div class='scenario node' test-id='2' status='fail'>
-                                        <span class='scenario-duration right label'>00:00:07.9659498</span>
+                                    <div class='scenario node' test-id='2' status='pass'>
+                                        <span class='scenario-duration right label'>00:00:22.4359037</span>
                                         <div class='scenario-desc'>
                                             <b>Scenario</b>
-                                            LnP Hero Link Is Up
+                                            Home page is up
 
                                             
                                         </div>
                                             <ul class='steps'>
                                                     <li test-id='3' class='node given pass' status='given pass'>
                                                         <b>Given</b>
-                                                        I am On London And Partners Home Page
+                                                        I visit the Homepage
                                                                                                                                                                     </li>
-                                                    <li test-id='4' class='node then fail' status='then fail'>
+                                                    <li test-id='4' class='node then pass' status='then pass'>
                                                         <b>Then</b>
-                                                        I Should See Hero Links Displayed On LnP Home Page
-                                                            <ul class='screenshots right'>
-                                                                    <li><a data-featherlight="image" href="C:\Workspace\London_AutomationTest\LnP\bin\Debug\TestReport\ScreenshotName2023-03-20-32-49.Png"><i class='material-icons'>panorama</i></a></li>
-                                                            </ul>
-                                                                                                                                                                            <div class='pre'>Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/ul</div>
-                                                    </li>
+                                                        I should be shown the main title 'OFFICIAL VISITOR GUIDE'
+                                                                                                                                                                    </li>
                                             </ul>
                                     </div>
 
@@ -284,19 +280,19 @@
             <div class='col s2'>
                 <div class='card-panel r'>
                     Start
-                    <div class='panel-lead'>3/20/2023 1:32:41 PM</div>
+                    <div class='panel-lead'>7/26/2023 2:52:38 PM</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     End
-                    <div class='panel-lead'>3/20/2023 1:33:05 PM</div>
+                    <div class='panel-lead'>7/26/2023 2:53:09 PM</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Time Taken
-                    <div class='panel-lead'>00:00:24.0256061</div>
+                    <div class='panel-lead'>00:00:31.0819909</div>
                 </div>
             </div>
 
@@ -315,23 +311,23 @@
 
 		<script>
 			var statusGroup = {
-			    passParent: 0,
-			    failParent: 1,
+			    passParent: 1,
+			    failParent: 0,
 			    fatalParent: 0,
 			    errorParent: 0,
 			    warningParent: 0,
 			    skipParent: 0,
 				
-			    passChild: 0,
-			    failChild: 1,
+			    passChild: 1,
+			    failChild: 0,
 			    fatalChild: 0,
 			    errorChild: 0,
 			    warningChild: 0,
 			    skipChild: 0,
 			    infoChild: 0,
 				
-			    passGrandChild: 1,
-			    failGrandChild: 1,
+			    passGrandChild: 2,
+			    failGrandChild: 0,
 			    fatalGrandChild: 0,
 			    errorGrandChild: 0,
 			    warningGrandChild: 0,
