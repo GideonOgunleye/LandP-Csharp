@@ -99,3 +99,109 @@
 18-Oct-2023-12:46:06 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[2]/div/h3/a
 18-Oct-2023-12:46:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[8]/div/h3/a
 18-Oct-2023-12:46:11 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[8]/div/h3/a
+18-Oct-2023-15:33:41 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-Oct-2023-15:33:44 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/area/london-bridge
+18-Oct-2023-15:33:44 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2023-10-18-33-44.jpeg
+18-Oct-2023-15:33:45 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/h1[contains(text(), 'London Bridge')]
+18-Oct-2023-15:33:46 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/whats-on/special-events/london-events-calendar
+18-Oct-2023-15:33:47 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Screen2023-10-18-33-47.jpeg
+18-Oct-2023-15:33:47 [LnP.StepDefinition.EventCalenderPageSteps] [ERROR] [ThenIShouldBeAtLeastOneEvent] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToElement(IWebElement element) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 32
+   at LnP.PageObject.EventCalenderPage.HasEvents() in C:\Workspace\London_AutomationTest\LnP\PageObject\EventCalenderPage.cs:line 30
+   at LnP.StepDefinition.EventCalenderPageSteps.ThenIShouldBeAtLeastOneEvent() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\EventCalenderPageSteps.cs:line 51
+18-Oct-2023-15:33:48 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+18-Oct-2023-15:34:08 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+18-Oct-2023-15:34:08 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+18-Oct-2023-15:34:08 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+18-Oct-2023-15:34:08 [LnP.StepDefinition.HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at LnP.PageObject.HomePage.HTitle() in C:\Workspace\London_AutomationTest\LnP\PageObject\HomePage.cs:line 29
+   at LnP.StepDefinition.HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\HomePageSteps.cs:line 63
+18-Oct-2023-15:34:09 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/traveller-information/getting-around-london/london-tube
+18-Oct-2023-15:34:09 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElementInPage] -  Setting the Explicit wait to 1 sec 
+18-Oct-2023-15:34:09 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+18-Oct-2023-15:34:10 [LnP.StepDefinition.LondonTubePageSteps] [ERROR] [ThenIShouldBeShownTheTitle] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at LnP.ComponentHelper.GenericHelper.WaitForWebElementInPage(By locator, TimeSpan timeout) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 138
+   at LnP.PageObject.LondonTubePage.title() in C:\Workspace\London_AutomationTest\LnP\PageObject\LondonTubePage.cs:line 29
+   at LnP.StepDefinition.LondonTubePageSteps.ThenIShouldBeShownTheTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\LondonTubePageSteps.cs:line 57
+18-Oct-2023-15:34:11 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do/place/403052-radisson-blu-edwardian-grafton-hotel
+18-Oct-2023-15:34:11 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+18-Oct-2023-15:34:11 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+18-Oct-2023-15:34:13 [LnP.ComponentHelper.GenericHelper+<>c__DisplayClass1_0] [INFO] [<WaitForWebElementFunc>b__0] -  Waiting for Element : By.XPath: //*[contains(@class, 'product-info')]/div/figure/img
+18-Oct-2023-15:34:13 [LnP.StepDefinition.ProductPageSteps] [ERROR] [ThenIShouldBeShownTheMainImage] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at LnP.ComponentHelper.GenericHelper.WaitForWebElement(By locator, TimeSpan timeout) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 116
+   at LnP.PageObject.ProductPage.MainImage() in C:\Workspace\London_AutomationTest\LnP\PageObject\ProductPage.cs:line 28
+   at LnP.StepDefinition.ProductPageSteps.ThenIShouldBeShownTheMainImage() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ProductPageSteps.cs:line 57
+18-Oct-2023-15:34:14 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.comtag/five-star-hotels
+18-Oct-2023-15:34:14 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+18-Oct-2023-15:34:14 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+18-Oct-2023-15:34:15 [LnP.ComponentHelper.GenericHelper+<>c__DisplayClass1_0] [INFO] [<WaitForWebElementFunc>b__0] -  Waiting for Element : By.ClassName[Contains]: search-grid-results
+18-Oct-2023-15:34:15 [LnP.StepDefinition.TagBrowsePageSteps] [ERROR] [ThenIShouldBeShownTheTagBrowseSearchGrid] - Exception: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 0.5 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at LnP.ComponentHelper.GenericHelper.WaitForWebElement(By locator, TimeSpan timeout) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 116
+   at LnP.StepDefinition.TagBrowsePageSteps.ThenIShouldBeShownTheTagBrowseSearchGrid() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\TagBrowsePageSteps.cs:line 60
+18-Oct-2023-15:34:16 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com/things-to-do
+18-Oct-2023-15:34:16 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+18-Oct-2023-15:34:16 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+18-Oct-2023-15:34:16 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+18-Oct-2023-15:34:16 [LnP.StepDefinition.ThingsToDoPageSteps] [ERROR] [ThenIShouldBeShownTheTitle] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at LnP.PageObject.ThingsToDoPage.title() in C:\Workspace\London_AutomationTest\LnP\PageObject\ThingsToDoPage.cs:line 32
+   at LnP.StepDefinition.ThingsToDoPageSteps.ThenIShouldBeShownTheTitle() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ThingsToDoPageSteps.cs:line 57
+18-Oct-2023-15:34:16 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait to 1 sec 
+18-Oct-2023-15:34:16 [LnP.ComponentHelper.GenericHelper] [INFO] [GetWebdriverWait] -  Wait Object Created 
+18-Oct-2023-15:34:16 [LnP.ComponentHelper.GenericHelper] [INFO] [WaitForWebElement] -  Setting the Explicit wait Configured value 
+18-Oct-2023-15:34:16 [LnP.StepDefinition.ThingsToDoPageSteps] [ERROR] [ThenIShouldBeShownTheIntroCopy] - Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at LnP.PageObject.ThingsToDoPage.Copy() in C:\Workspace\London_AutomationTest\LnP\PageObject\ThingsToDoPage.cs:line 39
+   at LnP.StepDefinition.ThingsToDoPageSteps.ThenIShouldBeShownTheIntroCopy() in C:\Workspace\London_AutomationTest\LnP\StepDefinition\1-Visit\ThingsToDoPageSteps.cs:line 72
+18-Oct-2023-15:34:17 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.visitlondon.com
+18-Oct-2023-15:34:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/ul
+18-Oct-2023-15:34:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/ul
+18-Oct-2023-15:34:46 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
+18-Oct-2023-15:34:51 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/div[1]/span[1]
+18-Oct-2023-15:34:51 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/div[1]/a
+18-Oct-2023-15:34:51 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div/div[1]/mark
+18-Oct-2023-15:34:52 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-venue
+18-Oct-2023-15:35:02 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='venueSearch']/div/div[1]/div[1]
+18-Oct-2023-15:35:02 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/Search-venue
+18-Oct-2023-15:35:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='total-space-min']
+18-Oct-2023-15:35:07 [LnP.ComponentHelper.TextBoxHelper] [INFO] [ClearTextBox] -  Clear the Textbox @ By.XPath: .//*[@id='total-space-min']
+18-Oct-2023-15:35:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='total-space-min']
+18-Oct-2023-15:35:07 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='total-space-min'] : value : 1000
+18-Oct-2023-15:35:12 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='total-space-max']
+18-Oct-2023-15:35:12 [LnP.ComponentHelper.TextBoxHelper] [INFO] [ClearTextBox] -  Clear the Textbox @ By.XPath: .//*[@id='total-space-max']
+18-Oct-2023-15:35:12 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='total-space-max']
+18-Oct-2023-15:35:12 [LnP.ComponentHelper.TextBoxHelper] [INFO] [TypeInTextBox] -  Type in Textbox @ By.XPath: .//*[@id='total-space-max'] : value : 30000
+18-Oct-2023-15:35:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@class='course-search-submit']
+18-Oct-2023-15:35:18 [LnP.ComponentHelper.ButtonHelper] [INFO] [ClickButton] -  Button Click @ By.XPath: .//*[@class='course-search-submit']
+18-Oct-2023-15:35:28 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[2]/div/h3/a
+18-Oct-2023-15:35:28 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[2]/div/h3/a
+18-Oct-2023-15:35:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[8]/div/h3/a
+18-Oct-2023-15:35:33 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[8]/div/h3/a
+18-Oct-2023-15:35:34 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-accommodation
+18-Oct-2023-15:35:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[3]/div/h3/a
+18-Oct-2023-15:35:49 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[3]/div/h3/a
+18-Oct-2023-15:35:50 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+18-Oct-2023-15:36:15 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/ul
+18-Oct-2023-15:36:17 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/ul
+18-Oct-2023-15:36:17 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+18-Oct-2023-15:36:42 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+18-Oct-2023-15:36:44 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+18-Oct-2023-15:36:44 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-services
+18-Oct-2023-15:36:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[5]/div/h3/a
+18-Oct-2023-15:36:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[5]/div/h3/a
+18-Oct-2023-15:36:59 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_SearchServicesPageSteps] [ERROR] [ThenIShouldSeeSearchServicesPageResults] - Exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_SearchServicesPageSteps.ThenIShouldSeeSearchServicesPageResults(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_SearchServicesPageSteps.cs:line 83
+18-Oct-2023-15:37:00 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Search Services Is Up.jpeg
+18-Oct-2023-15:37:01 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.business.london
+18-Oct-2023-15:37:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+18-Oct-2023-15:37:26 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+18-Oct-2023-15:44:18 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-Oct-2023-15:44:20 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-services
+18-Oct-2023-15:44:30 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+18-Oct-2023-15:44:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a

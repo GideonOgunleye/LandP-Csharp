@@ -78,9 +78,9 @@ namespace SeleniumWebdriver.StepDefinition._2_Convention
                     case "Qa":
 
                         Thread.Sleep(5000);
-                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[5]/div/h3/a"));
+                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[1]/div/h3/a"));
                         Thread.Sleep(5000);
-                        Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[5]/div/h3/a")).Text.Contains("Alicia DMR Service 1"));
+                        Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[1]/div/h3/a")).Text.Contains("2B-UK"));
                         break;
                     case "Preview":
                         Thread.Sleep(5000);
