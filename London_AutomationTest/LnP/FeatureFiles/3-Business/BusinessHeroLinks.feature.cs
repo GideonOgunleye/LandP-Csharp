@@ -90,11 +90,9 @@ namespace SeleniumWebdriver.FeatureFiles._3_Business
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Business Hero Link Is Up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "BusinessHeroLinks")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Qa-Smoke")]
         public virtual void BusinessHeroLinkIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Business Hero Link Is Up", null, new string[] {
-                        "Qa-Smoke"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Business Hero Link Is Up", null, ((string[])(null)));
 #line 5
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
@@ -109,11 +107,9 @@ this.ScenarioInitialize(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Qa Business Hero Link Is Up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "BusinessHeroLinks")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Qa-DailyStart")]
         public virtual void QaBusinessHeroLinkIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Qa Business Hero Link Is Up", null, new string[] {
-                        "Qa-DailyStart"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Qa Business Hero Link Is Up", null, ((string[])(null)));
 #line 10
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();

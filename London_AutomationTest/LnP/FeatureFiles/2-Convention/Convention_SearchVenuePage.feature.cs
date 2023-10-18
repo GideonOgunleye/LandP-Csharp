@@ -167,8 +167,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 30
  testRunner.When("I Click Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 31
- testRunner.Then("i Should See \'InterContinental London\' and \'RS Hampton Court Palace\' in Search Re" +
-                    "uslt", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("i Should See \'Barbican Centre\' and \'ExCeL London\' in Search Reuslt", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

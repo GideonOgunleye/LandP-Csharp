@@ -28,7 +28,7 @@ Scenario: Convention Search Page Results
 	When I Enter '1000' in Min Field
 	And I Enter '30000' in Max Field
 	When I Click Search Button
-	Then i Should See 'InterContinental London' and 'RS Hampton Court Palace' in Search Reuslt
+	Then i Should See 'Barbican Centre' and 'ExCeL London' in Search Reuslt
 
 @SmokeTest
 Scenario: Convention Search Page Pagination

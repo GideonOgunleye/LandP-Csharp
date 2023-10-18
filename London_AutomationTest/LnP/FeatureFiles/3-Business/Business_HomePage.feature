@@ -6,7 +6,7 @@
 @Qa-Smoke
 Scenario: BusinessHomePageIsUp
 	Given I Am On Business Landing Page
-	Then the Should See 'Welcome to London' Page Title 
+	Then the Should See 'Grow your business in London' Page Title 
 
 @Qa-DailyStart
 Scenario: QaBusinessHomePageIsUp

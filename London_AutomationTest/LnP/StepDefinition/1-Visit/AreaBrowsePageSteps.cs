@@ -30,7 +30,7 @@ namespace LnP.StepDefinition
 
             try
             {
-                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetPreviewWebsite() + p0);
+                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetWebsite() + p0);
             }
             catch (Exception e)
             {
@@ -47,7 +47,7 @@ namespace LnP.StepDefinition
 
             try
             {
-                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetWebsite() + p0);
+                NavigationHelper.NavigateToUrl(ObjectRepository.Config.GetPreviewWebsite() + p0);
             }
             catch (Exception e)
             {

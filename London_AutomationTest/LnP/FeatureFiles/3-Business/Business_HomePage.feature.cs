@@ -102,7 +102,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
  testRunner.Given("I Am On Business Landing Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.Then("the Should See \'Welcome to London\' Page Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the Should See \'Grow your business in London\' Page Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
