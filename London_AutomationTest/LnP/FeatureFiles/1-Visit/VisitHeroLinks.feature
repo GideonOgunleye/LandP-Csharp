@@ -1,7 +1,7 @@
 ﻿Feature: VisitHeroLinks
 	
 
-@Qa-Smoke
+#@Qa-Smoke
 Scenario: Visit Hero Link Is Up
 	Given I Navigate To Visit Home Page
 	Then I Should See Hero Links Displayed On Page

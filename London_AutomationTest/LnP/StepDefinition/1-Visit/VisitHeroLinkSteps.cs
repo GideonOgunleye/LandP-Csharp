@@ -39,10 +39,12 @@ namespace SeleniumWebdriver.StepDefinition._1_Visit
         [Then(@"I Should See Hero Links Displayed On Page")]
         public void ThenIShouldSeeHeroLinksDisplayedOnPage()
         {
-            Thread.Sleep(5000);
-            JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='content']/div[1]/div/div/ul"));
-            Thread.Sleep(2000);
-            Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div/ul")).Displayed);
+
+             Thread.Sleep(5000);
+             JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='content']/div[1]/div/div/ul"));
+             Thread.Sleep(2000);
+             Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div/ul")).Displayed);
+
         }
 
 
