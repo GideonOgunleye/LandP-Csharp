@@ -1,0 +1,8 @@
+21-Nov-2023-12:50:42 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+21-Nov-2023-12:50:46 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.business.london
+21-Nov-2023-12:51:13 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div
+21-Nov-2023-12:51:13 [SeleniumWebdriver.StepDefinition._3_Business.Business_HomePageSteps] [ERROR] [ThenTheShouldSeePageTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToView(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 62
+   at SeleniumWebdriver.StepDefinition._3_Business.Business_HomePageSteps.ThenTheShouldSeePageTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\3-Business\Business_HomePageSteps.cs:line 53
+21-Nov-2023-12:51:17 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : BusinessHomePageIsUp.jpeg
