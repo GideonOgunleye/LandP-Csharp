@@ -84,17 +84,17 @@ namespace SeleniumWebdriver.StepDefinition._2_Convention
                         break;
                     case "Preview":
                         Thread.Sleep(5000);
-                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[7]/div/h3/a"));
+                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[1]/div/h3/a"));
                         Thread.Sleep(5000);
                         //Assert.IsTrue(GenericHelper.GetElement(By.XPath(".///*[@id='list']/ul/li[7]/div/h3/a")).Text.Contains("100 Queen's Gate Hotel"));
 
-                        if (GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[7]/div/h3/a")).Text.Contains("100 Queen's Gate Hotel"))
+                        if (GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[1]/div/h3/a")).Text.Contains("2B-UK"))
                         {
-                            Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[7]/div/h3/a")).Text.Contains("100 Queen's Gate Hotel"));
+                            Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[1]/div/h3/a")).Text.Contains("2B-UK"));
 
-                        }else if (GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[7]/div/h3/a")).Text.Contains("Ben Thompson Events Ltd"))
+                        }else if (GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[6]/div/h3/a")).Text.Contains("All In One Tours"))
                         {
-                            Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[7]/div/h3/a")).Text.Contains("Ben Thompson Events Ltd"));
+                            Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[6]/div/h3/a")).Text.Contains("All In One Tours"));
                         }
                         break;
 

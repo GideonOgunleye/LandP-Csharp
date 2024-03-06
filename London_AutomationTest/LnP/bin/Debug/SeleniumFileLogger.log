@@ -7276,3 +7276,20 @@ SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/*[@class
 01-Mar-2024-09:01:36 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-accommodation
 01-Mar-2024-09:01:46 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[4]/div/h3/a
 01-Mar-2024-09:01:51 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[4]/div/h3/a
+06-Mar-2024-10:13:00 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+06-Mar-2024-10:13:04 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page https://lnp-sc-p-aeea-app-cd-staging.azurewebsites.net/?sc_site=ConventionBureau_CD/search-accommodation
+06-Mar-2024-10:13:15 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:13:17 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_AccommodationSearchPageSteps] [ERROR] [ThenIShouldSeeSearchResults] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToView(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 62
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_AccommodationSearchPageSteps.ThenIShouldSeeSearchResults(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_AccommodationSearchPageSteps.cs:line 97
+06-Mar-2024-10:13:18 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Preview Search Accommodation Page Is Up.jpeg
+06-Mar-2024-10:16:17 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+06-Mar-2024-10:16:25 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page https://www.conventionbureau.london/search-accommodation
+06-Mar-2024-10:16:35 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:16:40 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:28:37 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+06-Mar-2024-10:28:39 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page https://www.conventionbureau.london/search-services
+06-Mar-2024-10:28:49 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:28:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:28:55 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
