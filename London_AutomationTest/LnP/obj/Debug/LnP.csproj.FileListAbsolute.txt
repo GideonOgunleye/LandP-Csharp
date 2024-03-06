@@ -75,13 +75,13 @@ C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csproj.CopyComplete
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\SeleniumWebdriver.dll
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\SeleniumWebdriver.pdb
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csprojAssemblyReference.cache
+C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\NLog.config
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\phantomjs.exe
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\phantomjs-license.txt
-C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\Resources\SampleFile.txt
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\DataDriven\TestDataFiles\TestData.xml
 C:\Workspace\Automation Tests\London_AutomationTest\LnP\bin\Debug\Resources\chromedriver.exe

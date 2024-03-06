@@ -15,3 +15,16 @@
 06-Mar-2024-10:28:49 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
 06-Mar-2024-10:28:54 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
 06-Mar-2024-10:28:55 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:38:47 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+06-Mar-2024-10:38:48 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page https://lnp-sc-p-aeea-app-cd-staging.azurewebsites.net/?sc_site=ConventionBureau_CD/search-services
+06-Mar-2024-10:38:59 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:39:01 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_SearchServicesPageSteps] [ERROR] [ThenIShouldSeeSearchServicesPageResults] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\Automation Tests\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToView(By locator) in C:\Workspace\Automation Tests\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 62
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_SearchServicesPageSteps.ThenIShouldSeeSearchServicesPageResults(String p0) in C:\Workspace\Automation Tests\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_SearchServicesPageSteps.cs:line 87
+06-Mar-2024-10:39:01 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : Convention Preview Search Services Page Is Up.jpeg
+06-Mar-2024-10:43:33 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+06-Mar-2024-10:43:37 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page https://www.conventionbureau.london/search-services
+06-Mar-2024-10:43:47 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:43:53 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+06-Mar-2024-10:43:53 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
