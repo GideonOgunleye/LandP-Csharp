@@ -119,7 +119,8 @@ this.ScenarioInitialize(scenarioInfo);
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 13
- testRunner.Given("I Navigate to Preview Accommodation Search Page \'/search-accommodation\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I Navigate to Preview Accommodation Search Page \'/search-accommodation?sc_site=Co" +
+                    "nventionBureau_CD\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 14
  testRunner.Then("I Should See \'Preview\' Search Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

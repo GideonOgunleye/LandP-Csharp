@@ -1,0 +1,4 @@
+08-Mar-2024-16:55:28 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+08-Mar-2024-16:55:38 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page https://www.conventionbureau.london/search-accommodation
+08-Mar-2024-16:55:48 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a
+08-Mar-2024-16:55:53 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[1]/div/h3/a

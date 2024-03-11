@@ -119,7 +119,8 @@ this.ScenarioInitialize(scenarioInfo);
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 14
- testRunner.Given("I Navigate To Preview Search Services Page \'/search-services\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I Navigate To Preview Search Services Page \'/search-services?sc_site=ConventionBu" +
+                    "reau_CD\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 15
  testRunner.Then("I Should See \'Preview\' Search Services Page Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

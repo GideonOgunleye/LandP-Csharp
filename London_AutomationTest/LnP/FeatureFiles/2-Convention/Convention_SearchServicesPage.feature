@@ -11,5 +11,5 @@ Scenario: Convention Search Services Is Up
 
 @Preview-Smoke
 Scenario: Convention Preview Search Services Page Is Up
-	Given I Navigate To Preview Search Services Page '/search-services'
+	Given I Navigate To Preview Search Services Page '/search-services?sc_site=ConventionBureau_CD'
 	Then I Should See 'Preview' Search Services Page Results
