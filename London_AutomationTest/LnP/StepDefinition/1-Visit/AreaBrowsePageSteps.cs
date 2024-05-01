@@ -67,12 +67,32 @@ namespace LnP.StepDefinition
         [Then(@"I should be shown the area browse search grid")]
         public void ThenIShouldBeShownTheAreaBrowseSearchGrid()
         {
-            
+
+            //CookieBot
+            try
+            {
+                Thread.Sleep(5000);
+                ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']"));
+                //ButtonHelper.ClickButton(By.XPath(".//*[@id='CybotCookiebotDialog']/div[2]/div[4]/div[1]/div[2]/button[4]"));
+                Thread.Sleep(5000);
+                Console.WriteLine("Cookie Bot Clicked");
+
+
+            }
+            catch (Exception e)
+            {
+                Logger.Error("No Pop-Up: " + e);
+                Console.WriteLine("Cookie Bot Not Clicked:" + e);
+
+                //throw;
+            }
 
             try
             {
                 ObjectRepository.ABpage = new AreaBrowsePage(ObjectRepository.Driver);
-                AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/h1[contains(text(), 'London Bridge')]")).Text, "Tower Bridge");
+                JavaScriptExecutor.ScrollToView(By.XPath("//*[@id='content']/div[1]/div/div/h1"));
+                Thread.Sleep(5000);
+                AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div/h1")).Text, "London Bridge");
                 //Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
                 //Assert.IsTrue(ObjectRepository.ABpage.HasSearchGrid());
                 //ReportHelper.PassingTestLogger("Test Sucessful");

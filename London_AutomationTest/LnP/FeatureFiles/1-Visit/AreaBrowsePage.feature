@@ -6,7 +6,7 @@
 @Qa-Smoke
 Scenario: Area Browse page is up
 	#Given I navigate to the Area Browser page '/area/london-bridge'
-	Given I navigate to the Area Browser page '/area/london-bridge'
+	Given I navigate to the Area Browser page '/things-to-do/london-areas/london-bridge'
 	And I don't see an error code
 	Then I should be shown the area browse search grid
 
@@ -14,6 +14,6 @@ Scenario: Area Browse page is up
 Scenario: Preview Area Browse page is up
 	#Given I navigate to the Area Browser page '/area/london-bridge'
 	#Given I navigate to the Area Browser page '/area/london-bridge'
-	Given I navigate to the Preview Area Browse Page '/area/london-bridge'
+	Given I navigate to the Preview Area Browse Page '/things-to-do/london-areas/london-bridge'
 	And I don't see an error code
 	Then I should be shown the area browse search grid
