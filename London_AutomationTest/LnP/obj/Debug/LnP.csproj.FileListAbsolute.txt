@@ -151,3 +151,4 @@ C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csproj.CoreCompileInputs.ca
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csproj.CopyComplete
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\SeleniumWebdriver.dll
 C:\Workspace\London_AutomationTest\LnP\obj\Debug\SeleniumWebdriver.pdb
+C:\Workspace\London_AutomationTest\LnP\obj\Debug\LnP.csprojAssemblyReference.cache
