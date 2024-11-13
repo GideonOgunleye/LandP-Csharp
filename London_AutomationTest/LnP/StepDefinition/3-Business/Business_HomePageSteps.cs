@@ -50,8 +50,9 @@ namespace SeleniumWebdriver.StepDefinition._3_Business
             try
             {
                 Thread.Sleep(5000);
-                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='content']/div[1]/div/div"));
-                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div")).Text.Contains(p0));
+                JavaScriptExecutor.ScrollToView(By.XPath("//*[@id='content']/div[2]/div[1]/div[2]/div/div[1]/h2"));
+                Thread.Sleep(5000);
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath("//*[@id='content']/div[2]/div[1]/div[2]/div/div[1]/h2")).Text.Contains(p0));
             }
             catch (Exception e)
             {

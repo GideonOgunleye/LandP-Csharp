@@ -131,11 +131,9 @@ this.ScenarioInitialize(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convention Search Page BreadCrumb")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Qa-Smoke")]
         public virtual void ConventionSearchPageBreadCrumb()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page BreadCrumb", null, new string[] {
-                        "Qa-Smoke"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page BreadCrumb", null, ((string[])(null)));
 #line 20
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
@@ -150,11 +148,9 @@ this.ScenarioInitialize(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Convention Search Page Results")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ConventionVenueSearchPage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Qa-Smoke")]
         public virtual void ConventionSearchPageResults()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page Results", null, new string[] {
-                        "Qa-Smoke"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Convention Search Page Results", null, ((string[])(null)));
 #line 26
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
@@ -167,7 +163,8 @@ this.ScenarioInitialize(scenarioInfo);
 #line 30
  testRunner.When("I Click Search Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 31
- testRunner.Then("i Should See \'Barbican Centre\' and \'ExCeL London\' in Search Reuslt", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("i Should See \'Arsenal Emirates Stadium tours\' and \'Barbican Centre\' in Search Reu" +
+                    "slt", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

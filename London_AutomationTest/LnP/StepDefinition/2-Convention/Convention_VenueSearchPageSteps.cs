@@ -48,9 +48,10 @@ namespace LnP.StepDefination_CVB
             try
             {
 
-                Thread.Sleep(5000);
-                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='venueSearch']/div/div[1]/div[1]")).Text.Contains("Delegates"));
-
+                Thread.Sleep(10000);
+                JavaScriptExecutor.ScrollToView(By.XPath("//*[@id='list']/ul/li[1]/div/p"));
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath("//*[@id='list']/ul/li[1]/div/p")).Text.Contains("Delegates"));
+                
 
             }
             catch (Exception e)
@@ -219,7 +220,7 @@ namespace LnP.StepDefination_CVB
             try
             {
                 Thread.Sleep(5000);
-                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[2]/div/h3/a"));
+                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[1]/div/h3/a"));
                 Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[1]/div/h3/a")).Text.Contains(p0));
       
             }
@@ -233,8 +234,8 @@ namespace LnP.StepDefination_CVB
             try
             {
                 Thread.Sleep(5000);
-                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[4]/div/h3/a"));
-                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[4]/div/h3/a")).Text.Contains(p1));
+                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[2]/div/h3/a"));
+                Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[2]/div/h3/a")).Text.Contains(p1));
             }
             catch (Exception e)
             {

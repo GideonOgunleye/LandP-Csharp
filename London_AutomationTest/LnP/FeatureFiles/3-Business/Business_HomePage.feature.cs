@@ -91,18 +91,16 @@ namespace SeleniumWebdriver.FeatureFiles._3_Business
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("BusinessHomePageIsUp")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Business_HomePage")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Qa-Smoke")]
         public virtual void BusinessHomePageIsUp()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BusinessHomePageIsUp", null, new string[] {
-                        "Qa-Smoke"});
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("BusinessHomePageIsUp", null, ((string[])(null)));
 #line 7
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 8
  testRunner.Given("I Am On Business Landing Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.Then("the Should See \'Grow your business in London\' Page Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the Should See \'Boost your business with our programmes\' Page Title", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

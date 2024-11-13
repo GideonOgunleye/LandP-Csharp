@@ -3,10 +3,10 @@
 	As a math idiot
 	I want to be told the sum of two numbers
 
-@Qa-Smoke
+#@Qa-Smoke
 Scenario: BusinessHomePageIsUp
 	Given I Am On Business Landing Page
-	Then the Should See 'Grow your business in London' Page Title 
+	Then the Should See 'Boost your business with our programmes' Page Title 
 
 @Qa-DailyStart
 Scenario: QaBusinessHomePageIsUp

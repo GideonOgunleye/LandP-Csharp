@@ -15,6 +15,7 @@ using RazorEngine.Compilation.ImpromptuInterface.Dynamic;
 using TechTalk.SpecFlow;
 using LnP.ComponentHelper;
 using LnP.Settings;
+using OpenQA.Selenium;
 
 namespace Visit.Configuration
 {
@@ -190,13 +191,22 @@ namespace Visit.Configuration
         public static void AfterScenario()
         {
             Console.WriteLine("AfterScenario Hook");
+
+            //string fileNameBase = ScenarioContext.Current.ScenarioInfo.Title;
+            //GenericHelper.TakeScreenShot(name);
+            
+
             if (ScenarioContext.Current.TestError != null)
             {
-                string name = ScenarioContext.Current.ScenarioInfo.Title + ".jpeg";
-                GenericHelper.TakeScreenShot(name);
+                string fileNameBase = ScenarioContext.Current.ScenarioInfo.Title;
+                GenericHelper.TakeScreenShot(fileNameBase);
+
                 Console.WriteLine(ScenarioContext.Current.TestError.Message);
                 Console.WriteLine(ScenarioContext.Current.TestError.StackTrace);
-            }
+                //Console.WriteLine("Screenshot: {0}", new Uri(screenshotFilePath));
+
+            } 
+
         }
     }
 }

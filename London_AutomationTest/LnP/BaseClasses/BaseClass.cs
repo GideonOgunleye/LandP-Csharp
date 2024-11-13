@@ -57,6 +57,7 @@ namespace LnP.BaseClasses
             {
 
                 //option.BinaryLocation = @"C:\\Workspace\\London_AutomationTest\\packages\\Selenium.WebDriver.ChromeDriver.2.38.0.1\\driver\\win32\\chromedriver.exe";
+                option.AddArgument("user-agent=LnP auto test/7U4fW16K4W25hg1M7NRKh57S02RnwS - v1");
                 option.AddArgument("no-sandbox");
                 option.AddArgument("--log-level=3");
                 option.AddArgument("start-maximized");
