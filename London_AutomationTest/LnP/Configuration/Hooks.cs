@@ -198,12 +198,13 @@ namespace Visit.Configuration
 
             if (ScenarioContext.Current.TestError != null)
             {
-                string fileNameBase = ScenarioContext.Current.ScenarioInfo.Title;
+                string fileNameBase = @"TestReport\" + ScenarioContext.Current.ScenarioInfo.Title + ".jpeg";
+                string screenshotFilePath = Path.Combine(fileNameBase);
                 GenericHelper.TakeScreenShot(fileNameBase);
 
                 Console.WriteLine(ScenarioContext.Current.TestError.Message);
                 Console.WriteLine(ScenarioContext.Current.TestError.StackTrace);
-                //Console.WriteLine("Screenshot: {0}", new Uri(screenshotFilePath));
+                Console.WriteLine("Screenshot: {0}", new Uri(screenshotFilePath));
 
             } 
 

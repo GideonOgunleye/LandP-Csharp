@@ -88,8 +88,7 @@ namespace SeleniumWebdriver.StepDefinition._2_Convention
                     case "Qa":
 
                         Thread.Sleep(5000);
-                        //JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[2]/div/h3/a"));
-                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[2]/div/h9/b"));
+                        JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='list']/ul/li[2]/div/h3/a"));
                         Thread.Sleep(5000);
                         Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='list']/ul/li[2]/div/h3/a")).Text.Contains("Aloft London Excel"));
                         break;

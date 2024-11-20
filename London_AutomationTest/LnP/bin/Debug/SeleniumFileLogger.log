@@ -8520,3 +8520,27 @@ SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/*[@class
    at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\Automation Tests\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
    at LnP.ComponentHelper.JavaScriptExecutor.ScrollToView(By locator) in C:\Workspace\Automation Tests\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 62
    at SeleniumWebdriver.StepDefinition._2_Convention.Convention_AccommodationSearchPageSteps.ThenIShouldSeeSearchResults(String p0) in C:\Workspace\Automation Tests\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_AccommodationSearchPageSteps.cs:line 92
+18-Nov-2024-13:10:45 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+18-Nov-2024-13:10:49 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london/search-accommodation
+18-Nov-2024-13:11:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[2]/div/h3/a
+18-Nov-2024-13:11:07 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='list']/ul/li[2]/div/h3/a
+20-Nov-2024-11:31:33 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Nov-2024-11:31:35 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+20-Nov-2024-11:32:00 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1
+20-Nov-2024-11:32:01 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]
+20-Nov-2024-11:42:09 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Nov-2024-11:42:11 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+20-Nov-2024-11:42:36 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h2
+20-Nov-2024-11:42:38 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h2
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToView(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 62
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 52
+20-Nov-2024-11:42:39 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : TestReport\Convention Home Page Is Up.jpeg
+20-Nov-2024-11:55:36 [LnP.ComponentHelper.BrowserHelper] [INFO] [BrowserMaximize] -  Browser Maximize 
+20-Nov-2024-11:55:37 [LnP.ComponentHelper.NavigationHelper] [INFO] [NavigateToUrl] -  Navigate To Page http://qa.conventionbureau.london
+20-Nov-2024-11:56:02 [LnP.ComponentHelper.GenericHelper] [INFO] [IsElemetPresent] -  Checking for the element By.XPath: .//*[@id='content']/div[1]/div/div/h2
+20-Nov-2024-11:56:04 [SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps] [ERROR] [ThenIShouldBeShownTheMainTitle] - Exception: OpenQA.Selenium.NoSuchElementException: Element Not Found : By.XPath: .//*[@id='content']/div[1]/div/div/h2
+   at LnP.ComponentHelper.GenericHelper.GetElement(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\GenericHelper.cs:line 95
+   at LnP.ComponentHelper.JavaScriptExecutor.ScrollToView(By locator) in C:\Workspace\London_AutomationTest\LnP\ComponentHelper\JavaScriptExecutor.cs:line 62
+   at SeleniumWebdriver.StepDefinition._2_Convention.Convention_HomePageSteps.ThenIShouldBeShownTheMainTitle(String p0) in C:\Workspace\London_AutomationTest\LnP\StepDefinition\2-Convention\Convention_HomePageSteps.cs:line 52
+20-Nov-2024-11:56:05 [LnP.ComponentHelper.GenericHelper] [INFO] [TakeScreenShot] -  ScreenShot Taken : TestReport\Convention Home Page Is Up.jpeg

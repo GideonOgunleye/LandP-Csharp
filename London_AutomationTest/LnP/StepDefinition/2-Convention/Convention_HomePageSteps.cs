@@ -48,10 +48,11 @@ namespace SeleniumWebdriver.StepDefinition._2_Convention
             try
             {
                 Thread.Sleep(5000);
-                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='content']/div[1]/div/div/h1"));
+                //JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='content']/div[1]/div/div/h1"));
+                JavaScriptExecutor.ScrollToView(By.XPath(".//*[@id='content']/div[1]/div/div/h2"));
                 Thread.Sleep(1000);
                 //AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div/h1[contains(text(), 'London Bridge')]")).Text.Contains(p0));
-                AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div/h1[contains(text(), 'Welcome to London')]")).Text, "Welcome to London");
+                AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div/h2[contains(text(), 'Welcome to London')]")).Text, "Welcome to London");
                 //AssertHelper.AreEqual(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div/h1[contains(text(), 'London Bridge')]")).Text, "Tower Bridge");
                 //Assert.IsTrue(GenericHelper.GetElement(By.XPath(".//*[@id='content']/div[1]/div/div/h1")).Text.Contains(p0));
             }
